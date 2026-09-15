@@ -1,0 +1,9 @@
+{
+  "name": "Premier League Pricing Lab",
+  "short_name": "Pricing Lab",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d2318",
+  "theme_color": "#0d2318",
+  "icons": []
+}

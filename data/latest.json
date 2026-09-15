@@ -1,0 +1,3769 @@
+{
+ "built_at": "2026-09-15T20:50:00Z",
+ "season": "2026-27",
+ "model_version": "ensemble-0.3.2-rebuild-goalsonly",
+ "watch_items": [
+  "draw-heavy",
+  "big-six-sceptical",
+  "short-price-away-friendly: all three MW4 qualifying edges were away sides; test home_adv against the market's implied value before changing anything"
+ ],
+ "reference_fit": {
+  "source": "docs/BUILD_STATUS_2026-09-11.md",
+  "fit_date": "2026-09-11",
+  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
+  "epl_windowed": {
+   "scope": "openfootball en.1 to en.4 (E0 to E3), windowed 2500 days, with shrinkage",
+   "rows": {
+    "E0": 2690,
+    "E1": 3949,
+    "E2": 1860,
+    "E3": 1820
+   },
+   "home_adv": 0.169,
+   "rho": -0.084
+  },
+  "all_division": {
+   "scope": "openfootball en.1 to en.4, all divisions, used for cup pricing",
+   "rows": 9509
+  },
+  "match_counts": {
+   "Coventry": 3,
+   "Hull": 3,
+   "Sunderland": 41,
+   "Ipswich": 41
+  },
+  "on_promoted_prior": [
+   "Coventry",
+   "Hull"
+  ],
+  "calibration": {
+   "method": "walk-forward",
+   "refit_window_days": 150,
+   "rows": 2187,
+   "logloss_ensemble": 0.992,
+   "logloss_dc": 0.996
+  },
+  "elo": {
+   "k": 20,
+   "home_advantage": 60
+  },
+  "note": "Targets for scripts/reproduce_fit.py. Per-team parameters were never recorded; the live fits below are the reimplementation (build step 2)."
+ },
+ "competitions": {
+  "EPL": {
+   "key": "EPL",
+   "name": "Premier League",
+   "page": "index.html",
+   "blend_lambda": 0.0,
+   "fixtures": [
+    {
+     "fixture_id": "2026-09-12-AVL-NFO-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T14:00:00Z",
+     "kickoff_local": "2026-09-12T15:00:00+01:00",
+     "home": "Aston Villa",
+     "away": "Forest",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "no qualifying edge recorded in the 11 Sep build status",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": null
+     },
+     "value": {
+      "selection": null
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-12-BOU-BRE-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T14:00:00Z",
+     "kickoff_local": "2026-09-12T15:00:00+01:00",
+     "home": "Bournemouth",
+     "away": "Brentford",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "no qualifying edge recorded in the 11 Sep build status",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": null
+     },
+     "value": {
+      "selection": null
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-12-CHE-HUL-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T14:00:00Z",
+     "kickoff_local": "2026-09-12T15:00:00+01:00",
+     "home": "Chelsea",
+     "away": "Hull",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "no qualifying edge recorded in the 11 Sep build status",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": null
+     },
+     "value": {
+      "selection": null
+     },
+     "shrinkage": {
+      "away": "promoted_prior",
+      "away_n": 3
+     }
+    },
+    {
+     "fixture_id": "2026-09-12-CRY-IPS-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T14:00:00Z",
+     "kickoff_local": "2026-09-12T15:00:00+01:00",
+     "home": "Crystal Palace",
+     "away": "Ipswich",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "cap kill: edge 11.0pp exceeds max_edge_pp 8.0",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-12-CRY-IPS-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": "home",
+      "edge_pp": 11.0,
+      "odds": 1.87,
+      "ev": null
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-12-LIV-FUL-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T14:00:00Z",
+     "kickoff_local": "2026-09-12T15:00:00+01:00",
+     "home": "Liverpool",
+     "away": "Fulham",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "near-miss: edge below 6.0pp and odds above 4.0",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-12-LIV-FUL-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": null,
+      "near_misses": [
+       {
+        "selection": "away",
+        "edge_pp": 4.2,
+        "odds": 6.31
+       },
+       {
+        "selection": "draw",
+        "edge_pp": 3.4,
+        "odds": 4.95
+       }
+      ]
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-12-TOT-EVE-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T16:30:00Z",
+     "kickoff_local": "2026-09-12T17:30:00+01:00",
+     "home": "Spurs",
+     "away": "Everton",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": 0.334
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "STRICT_BET",
+      "lane": "strict",
+      "stake_gbp": 2.5,
+      "bookmaker": "skybet",
+      "odds_recommended": 3.58,
+      "skip_if_sky_below": 3.0,
+      "returns_gbp": 8.95,
+      "placement": "manual by Rogan, conditional on live Sky price",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": {
+      "summary": "Spurs goalless in 3; Maddison doubt; Kulusevski, Odobert, Simons, Mudryk out",
+      "source": "Sports Mole",
+      "published": "2026-09-10",
+      "confidence": null,
+      "direction": "supports"
+     },
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-12-TOT-EVE-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": "away",
+      "edge_pp": 6.9,
+      "odds": 3.58,
+      "ev": 0.195
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-12-SUN-ARS-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-12T19:00:00Z",
+     "kickoff_local": "2026-09-12T20:00:00+01:00",
+     "home": "Sunderland",
+     "away": "Arsenal",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "near-miss: edge below 6.0pp and odds above 4.0",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-12-SUN-ARS-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": null,
+      "near_misses": [
+       {
+        "selection": "home",
+        "edge_pp": 3.7,
+        "odds": 7.13
+       },
+       {
+        "selection": "draw",
+        "edge_pp": 3.1,
+        "odds": 4.2
+       }
+      ]
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-13-COV-BHA-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-13T13:00:00Z",
+     "kickoff_local": "2026-09-13T14:00:00+01:00",
+     "home": "Coventry",
+     "away": "Brighton",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "NO_BET",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "cap kill: edge 14.1pp exceeds max_edge_pp 8.0; Coventry rated on the promoted prior (n=3), the cap's textbook case",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-13-COV-BHA-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": "away",
+      "edge_pp": 14.1,
+      "odds": 1.87,
+      "ev": null
+     },
+     "shrinkage": {
+      "home": "promoted_prior",
+      "home_n": 3
+     }
+    },
+    {
+     "fixture_id": "2026-09-13-MUN-MCI-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-13T15:30:00Z",
+     "kickoff_local": "2026-09-13T16:30:00+01:00",
+     "home": "Man Utd",
+     "away": "Man City",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": 0.515
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "STRICT_BET",
+      "lane": "strict",
+      "stake_gbp": 2.5,
+      "bookmaker": "skybet",
+      "odds_recommended": 2.13,
+      "skip_if_sky_below": 1.95,
+      "returns_gbp": 5.33,
+      "placement": "manual by Rogan, conditional on live Sky price",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": {
+      "summary": "Utd missing de Ligt, Amad, Ugarte, Heaton, Baleba; Shaw doubt. City near-full (Doku doubt), 3/3 wins",
+      "source": null,
+      "published": null,
+      "confidence": null,
+      "direction": "supports"
+     },
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-13-MUN-MCI-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": "away",
+      "edge_pp": 6.8,
+      "odds": 2.13,
+      "ev": 0.096
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-14-LEE-NEW-EPL",
+     "matchweek": "MW4",
+     "kickoff_utc": "2026-09-14T19:00:00Z",
+     "kickoff_local": "2026-09-14T20:00:00+01:00",
+     "home": "Leeds",
+     "away": "Newcastle",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "verdict": "CHALLENGE_KILL",
+      "lane": "strict",
+      "stake_gbp": 0.0,
+      "reason": "Newcastle: Joelinton, Burn, Osula, Jaouen out; Dedic hamstring doubt. Leeds rotated 8 in the 6-3 Carabao loss at Chelsea, so first XI rested.",
+      "shadow": false,
+      "run_label": "MW4 - 11 Sep 2026"
+     },
+     "news": {
+      "summary": "Joelinton, Burn, Osula, Jaouen out; Dedic hamstring doubt",
+      "source": "Newcastle World",
+      "published": "2026-09-11T08:30:00+01:00",
+      "confidence": null,
+      "direction": "against"
+     },
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-14-LEE-NEW-EPL-20260911T081000Z.json"
+     },
+     "value": {
+      "selection": "away",
+      "edge_pp": 7.5,
+      "odds": 2.84,
+      "ev": null
+     },
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-18-BRE-CHE-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-18T19:00:00Z",
+     "kickoff_local": "2026-09-18T20:00:00+01:00",
+     "home": "Brentford",
+     "away": "Chelsea",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.3987,
+      "draw": 0.2653,
+      "away": 0.3361
+     },
+     "sky_odds": {
+      "home": 2.88,
+      "draw": 3.6,
+      "away": 2.25,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.3246753246753247,
+      "draw": 0.25974025974025977,
+      "away": 0.41558441558441556
+     },
+     "market_devigged": {
+      "home": 0.32823169746721925,
+      "draw": 0.25087979200131416,
+      "away": 0.42088851053146664
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-18-BRE-CHE-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "kickoff_utc": "2026-09-18T19:00:00Z",
+      "verdict": "STRICT_BET",
+      "lane": "strict",
+      "selection": "home",
+      "kind": "strict_bet",
+      "reason": "edge 7.4pp at Sky Bet 2.88, EV +0.148",
+      "stake_gbp": 2.5,
+      "odds_recommended": 2.88,
+      "edge_pp": 7.4,
+      "ev": 0.1483,
+      "checks": {
+       "edge_min": true,
+       "edge_max": true,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-18-BRE-CHE-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-19-TOT-AVL-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-19T11:30:00Z",
+     "kickoff_local": "2026-09-19T12:30:00+01:00",
+     "home": "Spurs",
+     "away": "Aston Villa",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.3549,
+      "draw": 0.2718,
+      "away": 0.3733
+     },
+     "sky_odds": {
+      "home": 2.0,
+      "draw": 3.5,
+      "away": 3.6,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.4701492537313433,
+      "draw": 0.26865671641791045,
+      "away": 0.2611940298507463
+     },
+     "market_devigged": {
+      "home": 0.4752873860113355,
+      "draw": 0.2633151206703333,
+      "away": 0.26139749331833123
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-19-TOT-AVL-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Spurs",
+      "away": "Aston Villa",
+      "kickoff_utc": "2026-09-19T11:30:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "away",
+      "kind": "cap_kill",
+      "reason": "edge 11.2pp exceeds max_edge_pp 8.0",
+      "stake_gbp": 0.0,
+      "odds_recommended": 3.6,
+      "edge_pp": 11.21,
+      "ev": 0.3439,
+      "checks": {
+       "edge_min": true,
+       "edge_max": false,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-19-TOT-AVL-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-19-BHA-ARS-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-19T14:00:00Z",
+     "kickoff_local": "2026-09-19T15:00:00+01:00",
+     "home": "Brighton",
+     "away": "Arsenal",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.2023,
+      "draw": 0.2711,
+      "away": 0.5267
+     },
+     "sky_odds": {
+      "home": 4.5,
+      "draw": 3.8,
+      "away": 1.7,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.20698494072412688,
+      "draw": 0.24511374559436078,
+      "away": 0.5479013136815124
+     },
+     "market_devigged": {
+      "home": 0.20438338834829206,
+      "draw": 0.243968486859456,
+      "away": 0.5516481247922519
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-19-BHA-ARS-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "draw",
+      "kind": "no_edge",
+      "reason": "best edge 2.6pp on draw",
+      "stake_gbp": 0.0,
+      "odds_recommended": 3.8,
+      "edge_pp": 2.6,
+      "ev": 0.0302,
+      "checks": {
+       "edge_min": false,
+       "edge_max": true,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-19-BHA-ARS-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-19-EVE-IPS-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-19T14:00:00Z",
+     "kickoff_local": "2026-09-19T15:00:00+01:00",
+     "home": "Everton",
+     "away": "Ipswich",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.6418,
+      "draw": 0.2258,
+      "away": 0.1323
+     },
+     "sky_odds": {
+      "home": 1.75,
+      "draw": 3.75,
+      "away": 4.33,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.5345239074973253,
+      "draw": 0.24944449016541848,
+      "away": 0.21603160233725618
+     },
+     "market_devigged": {
+      "home": 0.5346248271266678,
+      "draw": 0.25030491600776755,
+      "away": 0.21507025686556475
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-19-EVE-IPS-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Everton",
+      "away": "Ipswich",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "home",
+      "kind": "cap_kill",
+      "reason": "edge 10.7pp exceeds max_edge_pp 8.0",
+      "stake_gbp": 0.0,
+      "odds_recommended": 1.75,
+      "edge_pp": 10.73,
+      "ev": 0.1232,
+      "checks": {
+       "edge_min": true,
+       "edge_max": false,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-19-EVE-IPS-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-19-NEW-HUL-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-19T14:00:00Z",
+     "kickoff_local": "2026-09-19T15:00:00+01:00",
+     "home": "Newcastle",
+     "away": "Hull",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.7781,
+      "draw": 0.1513,
+      "away": 0.0707
+     },
+     "sky_odds": {
+      "home": 1.57,
+      "draw": 4.2,
+      "away": 5.0,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.5924839182936463,
+      "draw": 0.22147613136214875,
+      "away": 0.18603995034420498
+     },
+     "market_devigged": {
+      "home": 0.5946169086158034,
+      "draw": 0.22235804518427707,
+      "away": 0.18302504619991952
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-19-NEW-HUL-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Newcastle",
+      "away": "Hull",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "home",
+      "kind": "cap_kill",
+      "reason": "edge 18.6pp exceeds max_edge_pp 8.0",
+      "stake_gbp": 0.0,
+      "odds_recommended": 1.57,
+      "edge_pp": 18.56,
+      "ev": 0.2216,
+      "checks": {
+       "edge_min": true,
+       "edge_max": false,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-19-NEW-HUL-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-19-NFO-COV-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-19T16:30:00Z",
+     "kickoff_local": "2026-09-19T17:30:00+01:00",
+     "home": "Forest",
+     "away": "Coventry",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.6922,
+      "draw": 0.2058,
+      "away": 0.102
+     },
+     "sky_odds": {
+      "home": 1.62,
+      "draw": 3.8,
+      "away": 5.0,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.5713254751022372,
+      "draw": 0.24356507096463795,
+      "away": 0.18510945393312486
+     },
+     "market_devigged": {
+      "home": 0.5732701775684153,
+      "draw": 0.23918136566522868,
+      "away": 0.18754845676635595
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-19-NFO-COV-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Forest",
+      "away": "Coventry",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "home",
+      "kind": "cap_kill",
+      "reason": "edge 12.1pp exceeds max_edge_pp 8.0",
+      "stake_gbp": 0.0,
+      "odds_recommended": 1.62,
+      "edge_pp": 12.09,
+      "ev": 0.1214,
+      "checks": {
+       "edge_min": true,
+       "edge_max": false,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-19-NFO-COV-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-20-BOU-LIV-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-20T13:00:00Z",
+     "kickoff_local": "2026-09-20T14:00:00+01:00",
+     "home": "Bournemouth",
+     "away": "Liverpool",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.3081,
+      "draw": 0.2594,
+      "away": 0.4324
+     },
+     "sky_odds": {
+      "home": 3.1,
+      "draw": 3.6,
+      "away": 2.1,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.29964328180737215,
+      "draw": 0.25802615933412604,
+      "away": 0.4423305588585017
+     },
+     "market_devigged": {
+      "home": 0.30352310860443943,
+      "draw": 0.25177455951367017,
+      "away": 0.4447023318818904
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-20-BOU-LIV-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "kickoff_utc": "2026-09-20T13:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "home",
+      "kind": "no_edge",
+      "reason": "best edge 0.8pp on home",
+      "stake_gbp": 0.0,
+      "odds_recommended": 3.1,
+      "edge_pp": 0.85,
+      "ev": -0.0449,
+      "checks": {
+       "edge_min": false,
+       "edge_max": true,
+       "odds_max": true,
+       "ev_positive": false,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-20-BOU-LIV-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-20-LEE-CRY-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-20T13:00:00Z",
+     "kickoff_local": "2026-09-20T14:00:00+01:00",
+     "home": "Leeds",
+     "away": "Crystal Palace",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.42,
+      "draw": 0.2916,
+      "away": 0.2883
+     },
+     "sky_odds": {
+      "home": 1.75,
+      "draw": 3.6,
+      "away": 4.33,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.5290254704654596,
+      "draw": 0.2571651592540429,
+      "away": 0.21380937028049754
+     },
+     "market_devigged": {
+      "home": 0.5299731421913616,
+      "draw": 0.2519273629646151,
+      "away": 0.2180994948440233
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-20-LEE-CRY-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "kickoff_utc": "2026-09-20T13:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "away",
+      "kind": "near_miss",
+      "reason": "edge 7.5pp; failed odds_max",
+      "stake_gbp": 0.0,
+      "odds_recommended": 4.33,
+      "edge_pp": 7.45,
+      "ev": 0.2483,
+      "checks": {
+       "edge_min": true,
+       "edge_max": true,
+       "odds_max": false,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-20-LEE-CRY-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-20-MCI-SUN-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-20T13:00:00Z",
+     "kickoff_local": "2026-09-20T14:00:00+01:00",
+     "home": "Man City",
+     "away": "Sunderland",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.6701,
+      "draw": 0.2226,
+      "away": 0.1073
+     },
+     "sky_odds": {
+      "home": 1.29,
+      "draw": 5.5,
+      "away": 9.5,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.7297486033519555,
+      "draw": 0.171159217877095,
+      "away": 0.09909217877094974
+     },
+     "market_devigged": {
+      "home": 0.7335449072986362,
+      "draw": 0.16923702093585757,
+      "away": 0.09721807176550626
+     },
+     "n_bookmakers": 21,
+     "verdict": {
+      "fixture_id": "2026-09-20-MCI-SUN-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Man City",
+      "away": "Sunderland",
+      "kickoff_utc": "2026-09-20T13:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "draw",
+      "kind": "near_miss",
+      "reason": "edge 5.1pp; failed edge_min, odds_max",
+      "stake_gbp": 0.0,
+      "odds_recommended": 5.5,
+      "edge_pp": 5.14,
+      "ev": 0.2243,
+      "checks": {
+       "edge_min": false,
+       "edge_max": true,
+       "odds_max": false,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-20-MCI-SUN-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    },
+    {
+     "fixture_id": "2026-09-20-FUL-MUN-EPL",
+     "matchweek": "MW5",
+     "kickoff_utc": "2026-09-20T15:30:00Z",
+     "kickoff_local": "2026-09-20T16:30:00+01:00",
+     "home": "Fulham",
+     "away": "Man Utd",
+     "run": {
+      "number": 1,
+      "stage": "shadow",
+      "label": "MW5 shadow run 1",
+      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+     },
+     "model": {
+      "home": 0.3376,
+      "draw": 0.2757,
+      "away": 0.3867
+     },
+     "sky_odds": {
+      "home": 3.4,
+      "draw": 3.6,
+      "away": 1.95,
+      "last_update": "2026-09-15T20:21:33Z"
+     },
+     "sky_devigged": {
+      "home": 0.27114716106604864,
+      "draw": 0.2560834298957126,
+      "away": 0.4727694090382387
+     },
+     "market_devigged": {
+      "home": 0.2749171849789336,
+      "draw": 0.2506435606195896,
+      "away": 0.4744392544014769
+     },
+     "n_bookmakers": 20,
+     "verdict": {
+      "fixture_id": "2026-09-20-FUL-MUN-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Fulham",
+      "away": "Man Utd",
+      "kickoff_utc": "2026-09-20T15:30:00Z",
+      "verdict": "STRICT_BET",
+      "lane": "strict",
+      "selection": "home",
+      "kind": "strict_bet",
+      "reason": "edge 6.7pp at Sky Bet 3.4, EV +0.148",
+      "stake_gbp": 2.5,
+      "odds_recommended": 3.4,
+      "edge_pp": 6.65,
+      "ev": 0.1478,
+      "checks": {
+       "edge_min": true,
+       "edge_max": true,
+       "odds_max": true,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-15T20:20:10Z",
+      "first_odds_contact": "2026-09-15T20:22:07Z",
+      "snapshot": "2026-09-20-FUL-MUN-EPL-20260915T202207Z.json"
+     },
+     "value": null,
+     "shrinkage": null
+    }
+   ],
+   "matchweeks": [
+    "MW4",
+    "MW5"
+   ],
+   "ratings": [
+    {
+     "team": "Arsenal",
+     "attack": 0.557251,
+     "defence": -0.473755,
+     "strength": 1.031,
+     "elo": 1935.81,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Man City",
+     "attack": 0.659361,
+     "defence": -0.300684,
+     "strength": 0.96,
+     "elo": 1914.17,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Liverpool",
+     "attack": 0.576131,
+     "defence": -0.033379,
+     "strength": 0.61,
+     "elo": 1813.8,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Chelsea",
+     "attack": 0.425599,
+     "defence": 0.04995,
+     "strength": 0.376,
+     "elo": 1754.34,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Newcastle",
+     "attack": 0.42268,
+     "defence": 0.061476,
+     "strength": 0.361,
+     "elo": 1734.99,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Man Utd",
+     "attack": 0.41628,
+     "defence": 0.063493,
+     "strength": 0.353,
+     "elo": 1796.9,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Brighton",
+     "attack": 0.353403,
+     "defence": 0.051858,
+     "strength": 0.302,
+     "elo": 1740.83,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Aston Villa",
+     "attack": 0.325549,
+     "defence": 0.033639,
+     "strength": 0.292,
+     "elo": 1774.4,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Brentford",
+     "attack": 0.347854,
+     "defence": 0.061812,
+     "strength": 0.286,
+     "elo": 1737.47,
+     "n": 193,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bournemouth",
+     "attack": 0.312105,
+     "defence": 0.069155,
+     "strength": 0.243,
+     "elo": 1767.87,
+     "n": 193,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Forest",
+     "attack": 0.192278,
+     "defence": 0.020515,
+     "strength": 0.172,
+     "elo": 1697.75,
+     "n": 155,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Everton",
+     "attack": 0.091571,
+     "defence": -0.029741,
+     "strength": 0.121,
+     "elo": 1714.65,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Fulham",
+     "attack": 0.190121,
+     "defence": 0.090699,
+     "strength": 0.099,
+     "elo": 1681.8,
+     "n": 193,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Spurs",
+     "attack": 0.271368,
+     "defence": 0.183166,
+     "strength": 0.088,
+     "elo": 1636.76,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sunderland",
+     "attack": 0.031683,
+     "defence": -0.056797,
+     "strength": 0.088,
+     "elo": 1676.65,
+     "n": 41,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leeds",
+     "attack": 0.185227,
+     "defence": 0.099767,
+     "strength": 0.085,
+     "elo": 1731.78,
+     "n": 155,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crystal Palace",
+     "attack": 0.147002,
+     "defence": 0.09325,
+     "strength": 0.054,
+     "elo": 1696.31,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "West Ham",
+     "attack": 0.174714,
+     "defence": 0.222927,
+     "strength": -0.048,
+     "elo": 1656.63,
+     "n": 266,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Luton",
+     "attack": 0.231776,
+     "defence": 0.546825,
+     "strength": -0.315,
+     "elo": 1530.58,
+     "n": 38,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wolves",
+     "attack": -0.080367,
+     "defence": 0.241249,
+     "strength": -0.322,
+     "elo": 1585.02,
+     "n": 266,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leicester",
+     "attack": -0.040677,
+     "defence": 0.378173,
+     "strength": -0.419,
+     "elo": 1482.1,
+     "n": 190,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Burnley",
+     "attack": -0.05449,
+     "defence": 0.366165,
+     "strength": -0.421,
+     "elo": 1555.26,
+     "n": 190,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Ipswich",
+     "attack": -0.051726,
+     "defence": 0.534999,
+     "strength": -0.587,
+     "elo": 1619.37,
+     "n": 41,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "West Brom",
+     "attack": -0.194745,
+     "defence": 0.462854,
+     "strength": -0.658,
+     "elo": 1513.24,
+     "n": 38,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Watford",
+     "attack": -0.305099,
+     "defence": 0.426516,
+     "strength": -0.732,
+     "elo": 1467.04,
+     "n": 76,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Coventry",
+     "attack": -0.239986,
+     "defence": 0.492828,
+     "strength": -0.733,
+     "elo": 1626.13,
+     "n": 3,
+     "mode": "promoted_prior"
+    },
+    {
+     "team": "Hull",
+     "attack": -0.239986,
+     "defence": 0.492828,
+     "strength": -0.733,
+     "elo": 1588.07,
+     "n": 3,
+     "mode": "promoted_prior"
+    },
+    {
+     "team": "Southampton",
+     "attack": -0.286453,
+     "defence": 0.471954,
+     "strength": -0.758,
+     "elo": 1606.02,
+     "n": 190,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sheff Utd",
+     "attack": -0.208681,
+     "defence": 0.635176,
+     "strength": -0.844,
+     "elo": 1526.85,
+     "n": 114,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Norwich",
+     "attack": -0.578711,
+     "defence": 0.552131,
+     "strength": -1.131,
+     "elo": 1532.52,
+     "n": 76,
+     "mode": "raw_mle"
+    }
+   ],
+   "fit": {
+    "as_of": "2026-09-11",
+    "fitted_at": "2026-09-15T20:09:30.141297+00:00",
+    "data_hash": "db8e6a63b7dc2f7e113b40d019ad3a0e3c6020683c83f4569dfa0cbf1e804418",
+    "rows": {
+     "en.1": 2690
+    },
+    "home_adv": 0.173781,
+    "rho": -0.085474,
+    "scope": {
+     "dc_divisions": [
+      "en.1"
+     ],
+     "shrinkage_divisions": [
+      "en.1"
+     ],
+     "window_days": 2500,
+     "window_mode": "season",
+     "decay_xi": 0.0018
+    },
+    "calibration": {
+     "rows": 2078,
+     "logloss_ensemble": 0.9822,
+     "logloss_dc": 0.9813,
+     "refit_window_days": 150,
+     "l2": 100.0,
+     "first_row": "2021-02-13",
+     "last_row": "2026-09-06"
+    }
+   },
+   "calibrator": {
+    "as_of": "2026-09-11",
+    "fitted_at": "2026-09-15T20:09:30.141297+00:00",
+    "form": "logit = a*log_p_dc + b*elo_diff_400*(+1 home, 0 draw, -1 away) + c",
+    "features": [
+     "log_p_home_dc",
+     "log_p_draw_dc",
+     "log_p_away_dc",
+     "elo_diff_400"
+    ],
+    "classes": [
+     "home",
+     "draw",
+     "away"
+    ],
+    "a": 1.008569,
+    "b": 0.023873,
+    "c_home": 0.012612,
+    "c_draw": 0.049425,
+    "l2": 100.0,
+    "n_rows": 89,
+    "metrics": {
+     "rows": 2078,
+     "logloss_ensemble": 0.9822,
+     "logloss_dc": 0.9813,
+     "refit_window_days": 150,
+     "l2": 100.0,
+     "first_row": "2021-02-13",
+     "last_row": "2026-09-06"
+    }
+   },
+   "reliability": {
+    "rows": 2078,
+    "table": {
+     "home": [
+      {
+       "bin": "0.0-0.1",
+       "n": 42,
+       "predicted": 0.075,
+       "observed": 0.048
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 194,
+       "predicted": 0.158,
+       "observed": 0.16
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 315,
+       "predicted": 0.254,
+       "observed": 0.257
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 422,
+       "predicted": 0.352,
+       "observed": 0.391
+      },
+      {
+       "bin": "0.4-0.5",
+       "n": 393,
+       "predicted": 0.451,
+       "observed": 0.43
+      },
+      {
+       "bin": "0.5-0.6",
+       "n": 297,
+       "predicted": 0.547,
+       "observed": 0.566
+      },
+      {
+       "bin": "0.6-0.7",
+       "n": 238,
+       "predicted": 0.646,
+       "observed": 0.618
+      },
+      {
+       "bin": "0.7-0.8",
+       "n": 118,
+       "predicted": 0.748,
+       "observed": 0.788
+      },
+      {
+       "bin": "0.8-0.9",
+       "n": 48,
+       "predicted": 0.833,
+       "observed": 0.812
+      }
+     ],
+     "draw": [
+      {
+       "bin": "0.0-0.1",
+       "n": 24,
+       "predicted": 0.078,
+       "observed": 0.042
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 375,
+       "predicted": 0.168,
+       "observed": 0.157
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 1571,
+       "predicted": 0.248,
+       "observed": 0.263
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 108,
+       "predicted": 0.315,
+       "observed": 0.204
+      }
+     ],
+     "away": [
+      {
+       "bin": "0.0-0.1",
+       "n": 136,
+       "predicted": 0.068,
+       "observed": 0.081
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 370,
+       "predicted": 0.154,
+       "observed": 0.143
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 464,
+       "predicted": 0.252,
+       "observed": 0.261
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 444,
+       "predicted": 0.35,
+       "observed": 0.329
+      },
+      {
+       "bin": "0.4-0.5",
+       "n": 293,
+       "predicted": 0.449,
+       "observed": 0.444
+      },
+      {
+       "bin": "0.5-0.6",
+       "n": 199,
+       "predicted": 0.545,
+       "observed": 0.487
+      },
+      {
+       "bin": "0.6-0.7",
+       "n": 112,
+       "predicted": 0.642,
+       "observed": 0.652
+      },
+      {
+       "bin": "0.7-0.8",
+       "n": 48,
+       "predicted": 0.744,
+       "observed": 0.771
+      }
+     ]
+    },
+    "first": "2021-02-13",
+    "last": "2026-09-06"
+   },
+   "diagnostic": [
+    {
+     "week": "MW5",
+     "fixtures": 10,
+     "week_pp": {
+      "home": 2.74,
+      "draw": 0.1,
+      "away": -2.84
+     },
+     "cumulative_pp": {
+      "home": 2.74,
+      "draw": 0.1,
+      "away": -2.84
+     }
+    }
+   ]
+  },
+  "EFLC": {
+   "key": "EFLC",
+   "name": "Carabao Cup",
+   "page": "carabao-cup.html",
+   "blend_lambda": 0.3,
+   "fixtures": [
+    {
+     "fixture_id": "2026-09-15-LIV-TOT-EFLC",
+     "matchweek": "MW4-R3",
+     "kickoff_utc": "2026-09-15T19:00:00Z",
+     "kickoff_local": "2026-09-15T20:00:00+01:00",
+     "home": "Liverpool",
+     "away": "Spurs",
+     "run": {
+      "number": 1,
+      "stage": "legacy-weekly",
+      "label": "MW4 - 11 Sep 2026",
+      "note": "single Friday run under the old fresh-container recipe"
+     },
+     "model": {
+      "home": null,
+      "draw": null,
+      "away": null
+     },
+     "sky_odds": {
+      "home": 1.06,
+      "draw": 11.0,
+      "away": 36.0,
+      "last_update": "2026-09-15T20:22:06Z"
+     },
+     "sky_devigged": {
+      "home": 0.8882508635772285,
+      "draw": 0.08559508321744204,
+      "away": 0.026154053205329507
+     },
+     "market_devigged": {
+      "home": 0.8886143118509493,
+      "draw": 0.08760090924375294,
+      "away": 0.02378477890529767
+     },
+     "n_bookmakers": 17,
+     "verdict": {
+      "fixture_id": "2026-09-15-LIV-TOT-EFLC",
+      "competition": "EFLC",
+      "matchweek": "Round 3",
+      "home": "Liverpool",
+      "away": "Spurs",
+      "kickoff_utc": "2026-09-15T19:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": "away",
+      "kind": "cap_kill",
+      "reason": "edge 9.5pp exceeds max_edge_pp 8.0",
+      "stake_gbp": 0.0,
+      "odds_recommended": 36.0,
+      "edge_pp": 9.47,
+      "ev": 3.3519,
+      "checks": {
+       "edge_min": true,
+       "edge_max": false,
+       "odds_max": false,
+       "ev_positive": true,
+       "not_prohibited": true,
+       "weekly_cap": true
+      },
+      "shadow": true,
+      "run_label": "2026-09-15 shadow r2"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-11T08:06:00Z",
+      "first_odds_contact": "2026-09-11T08:10:00Z",
+      "snapshot": "2026-09-15-LIV-TOT-EFLC-20260915T202207Z.json"
+     },
+     "value": {
+      "selection": null
+     },
+     "shrinkage": null
+    }
+   ],
+   "matchweeks": [
+    "MW4-R3"
+   ],
+   "ratings": [
+    {
+     "team": "Arsenal",
+     "attack": 0.939468,
+     "defence": -1.094527,
+     "strength": 2.034,
+     "elo": 1935.81,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Man City",
+     "attack": 1.037452,
+     "defence": -0.92254,
+     "strength": 1.96,
+     "elo": 1914.17,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Liverpool",
+     "attack": 0.963885,
+     "defence": -0.642878,
+     "strength": 1.607,
+     "elo": 1813.8,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Chelsea",
+     "attack": 0.812844,
+     "defence": -0.560122,
+     "strength": 1.373,
+     "elo": 1754.34,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Newcastle",
+     "attack": 0.81052,
+     "defence": -0.547659,
+     "strength": 1.358,
+     "elo": 1734.99,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Man Utd",
+     "attack": 0.786457,
+     "defence": -0.543374,
+     "strength": 1.33,
+     "elo": 1796.9,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Brighton",
+     "attack": 0.742479,
+     "defence": -0.559312,
+     "strength": 1.302,
+     "elo": 1740.83,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Brentford",
+     "attack": 0.720131,
+     "defence": -0.549304,
+     "strength": 1.269,
+     "elo": 1737.47,
+     "n": 263,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Aston Villa",
+     "attack": 0.693264,
+     "defence": -0.572215,
+     "strength": 1.265,
+     "elo": 1774.4,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bournemouth",
+     "attack": 0.672317,
+     "defence": -0.539073,
+     "strength": 1.211,
+     "elo": 1767.87,
+     "n": 266,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Forest",
+     "attack": 0.547505,
+     "defence": -0.583815,
+     "strength": 1.131,
+     "elo": 1697.75,
+     "n": 274,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leeds",
+     "attack": 0.574322,
+     "defence": -0.551558,
+     "strength": 1.126,
+     "elo": 1731.78,
+     "n": 274,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Everton",
+     "attack": 0.48085,
+     "defence": -0.636495,
+     "strength": 1.117,
+     "elo": 1714.65,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Fulham",
+     "attack": 0.582517,
+     "defence": -0.510717,
+     "strength": 1.093,
+     "elo": 1681.8,
+     "n": 263,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Spurs",
+     "attack": 0.660296,
+     "defence": -0.423622,
+     "strength": 1.084,
+     "elo": 1636.76,
+     "n": 250,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crystal Palace",
+     "attack": 0.531071,
+     "defence": -0.520056,
+     "strength": 1.051,
+     "elo": 1696.31,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "West Ham",
+     "attack": 0.588155,
+     "defence": -0.365103,
+     "strength": 0.953,
+     "elo": 1656.63,
+     "n": 252,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sunderland",
+     "attack": 0.23363,
+     "defence": -0.51322,
+     "strength": 0.747,
+     "elo": 1676.65,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Coventry",
+     "attack": 0.432708,
+     "defence": -0.299806,
+     "strength": 0.733,
+     "elo": 1626.13,
+     "n": 302,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wolves",
+     "attack": 0.411154,
+     "defence": -0.313637,
+     "strength": 0.725,
+     "elo": 1585.02,
+     "n": 253,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Burnley",
+     "attack": 0.34426,
+     "defence": -0.326019,
+     "strength": 0.67,
+     "elo": 1555.26,
+     "n": 269,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Ipswich",
+     "attack": 0.4472,
+     "defence": -0.200338,
+     "strength": 0.648,
+     "elo": 1619.37,
+     "n": 200,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Southampton",
+     "attack": 0.446547,
+     "defence": -0.180768,
+     "strength": 0.627,
+     "elo": 1606.02,
+     "n": 274,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Middlesbrough",
+     "attack": 0.307399,
+     "defence": -0.290759,
+     "strength": 0.598,
+     "elo": 1577.3,
+     "n": 309,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Millwall",
+     "attack": 0.144092,
+     "defence": -0.289198,
+     "strength": 0.433,
+     "elo": 1594.36,
+     "n": 307,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leicester",
+     "attack": 0.276986,
+     "defence": -0.147458,
+     "strength": 0.424,
+     "elo": 1482.1,
+     "n": 263,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sheff Utd",
+     "attack": 0.274592,
+     "defence": -0.147904,
+     "strength": 0.422,
+     "elo": 1526.85,
+     "n": 289,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Norwich",
+     "attack": 0.306264,
+     "defence": -0.108563,
+     "strength": 0.415,
+     "elo": 1532.52,
+     "n": 294,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Hull",
+     "attack": 0.182902,
+     "defence": -0.217365,
+     "strength": 0.4,
+     "elo": 1588.07,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wrexham",
+     "attack": 0.204824,
+     "defence": -0.147692,
+     "strength": 0.353,
+     "elo": 1571.31,
+     "n": 97,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "West Brom",
+     "attack": 0.111448,
+     "defence": -0.239554,
+     "strength": 0.351,
+     "elo": 1513.24,
+     "n": 298,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Swansea",
+     "attack": 0.149153,
+     "defence": -0.189697,
+     "strength": 0.339,
+     "elo": 1557.04,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Birmingham",
+     "attack": 0.13033,
+     "defence": -0.205313,
+     "strength": 0.336,
+     "elo": 1561.36,
+     "n": 304,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Stockport",
+     "attack": 0.034282,
+     "defence": -0.271794,
+     "strength": 0.306,
+     "elo": 1598.53,
+     "n": 77,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bristol City",
+     "attack": 0.167643,
+     "defence": -0.127544,
+     "strength": 0.295,
+     "elo": 1533.38,
+     "n": 306,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Derby",
+     "attack": 0.160524,
+     "defence": -0.120437,
+     "strength": 0.281,
+     "elo": 1509.25,
+     "n": 212,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Cardiff",
+     "attack": 0.129423,
+     "defence": -0.065419,
+     "strength": 0.195,
+     "elo": 1535.13,
+     "n": 289,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Blackburn",
+     "attack": -0.01619,
+     "defence": -0.191818,
+     "strength": 0.176,
+     "elo": 1477.08,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Luton",
+     "attack": 0.068535,
+     "defence": -0.097589,
+     "strength": 0.166,
+     "elo": 1530.58,
+     "n": 280,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "QPR",
+     "attack": 0.129536,
+     "defence": -0.023589,
+     "strength": 0.153,
+     "elo": 1496.28,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Watford",
+     "attack": 0.052574,
+     "defence": -0.098846,
+     "strength": 0.151,
+     "elo": 1467.04,
+     "n": 293,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Stoke",
+     "attack": 0.031528,
+     "defence": -0.113215,
+     "strength": 0.145,
+     "elo": 1447.87,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Charlton",
+     "attack": -0.041906,
+     "defence": -0.136595,
+     "strength": 0.095,
+     "elo": 1507.84,
+     "n": 167,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Portsmouth",
+     "attack": 0.082373,
+     "defence": -0.002954,
+     "strength": 0.085,
+     "elo": 1485.79,
+     "n": 163,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Preston",
+     "attack": 0.044832,
+     "defence": -0.036149,
+     "strength": 0.081,
+     "elo": 1457.31,
+     "n": 304,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Oxford",
+     "attack": -0.05652,
+     "defence": -0.111982,
+     "strength": 0.055,
+     "elo": 1461.84,
+     "n": 157,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wycombe",
+     "attack": -0.048992,
+     "defence": -0.100588,
+     "strength": 0.052,
+     "elo": 1506.56,
+     "n": 140,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Lincoln",
+     "attack": -0.086121,
+     "defence": -0.03714,
+     "strength": -0.049,
+     "elo": 1460.58,
+     "n": 146,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Huddersfield",
+     "attack": -0.051759,
+     "defence": 0.046883,
+     "strength": -0.099,
+     "elo": 1463.56,
+     "n": 286,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bolton",
+     "attack": -0.051708,
+     "defence": 0.129269,
+     "strength": -0.181,
+     "elo": 1507.88,
+     "n": 149,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Reading",
+     "attack": -0.069611,
+     "defence": 0.142729,
+     "strength": -0.212,
+     "elo": 1438.85,
+     "n": 239,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wigan",
+     "attack": -0.310109,
+     "defence": -0.098359,
+     "strength": -0.212,
+     "elo": 1484.6,
+     "n": 192,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Barnsley",
+     "attack": 0.071074,
+     "defence": 0.288743,
+     "strength": -0.218,
+     "elo": 1453.89,
+     "n": 189,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Notts County",
+     "attack": -0.055296,
+     "defence": 0.179014,
+     "strength": -0.234,
+     "elo": 1496.52,
+     "n": 69,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Blackpool",
+     "attack": -0.089377,
+     "defence": 0.177908,
+     "strength": -0.267,
+     "elo": 1415.93,
+     "n": 233,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Plymouth",
+     "attack": -0.055448,
+     "defence": 0.213806,
+     "strength": -0.269,
+     "elo": 1409.11,
+     "n": 189,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bradford",
+     "attack": -0.238615,
+     "defence": 0.0309,
+     "strength": -0.27,
+     "elo": 1502.35,
+     "n": 143,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Peterborough",
+     "attack": 0.129354,
+     "defence": 0.405323,
+     "strength": -0.276,
+     "elo": 1437.47,
+     "n": 186,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leyton Orient",
+     "attack": -0.017613,
+     "defence": 0.270832,
+     "strength": -0.288,
+     "elo": 1400.05,
+     "n": 141,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Rotherham",
+     "attack": -0.188078,
+     "defence": 0.115257,
+     "strength": -0.303,
+     "elo": 1453.11,
+     "n": 232,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sheff Wed",
+     "attack": -0.189534,
+     "defence": 0.142508,
+     "strength": -0.332,
+     "elo": 1337.5,
+     "n": 207,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "AFC Wimbledon",
+     "attack": -0.353542,
+     "defence": -0.01491,
+     "strength": -0.339,
+     "elo": 1458.19,
+     "n": 141,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Salford",
+     "attack": -0.070434,
+     "defence": 0.302957,
+     "strength": -0.373,
+     "elo": 1527.99,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Walsall",
+     "attack": -0.191417,
+     "defence": 0.213069,
+     "strength": -0.404,
+     "elo": 1507.72,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Stevenage",
+     "attack": -0.403521,
+     "defence": 0.074424,
+     "strength": -0.478,
+     "elo": 1426.04,
+     "n": 139,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Gillingham",
+     "attack": -0.488622,
+     "defence": 0.007122,
+     "strength": -0.496,
+     "elo": 1505.49,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "MK Dons",
+     "attack": -0.121743,
+     "defence": 0.386392,
+     "strength": -0.508,
+     "elo": 1478.53,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Mansfield",
+     "attack": -0.167838,
+     "defence": 0.352567,
+     "strength": -0.52,
+     "elo": 1365.86,
+     "n": 140,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Exeter",
+     "attack": -0.336005,
+     "defence": 0.187847,
+     "strength": -0.524,
+     "elo": 1390.53,
+     "n": 142,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Chesterfield",
+     "attack": -0.064614,
+     "defence": 0.475565,
+     "strength": -0.54,
+     "elo": 1471.25,
+     "n": 69,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Rochdale",
+     "attack": -0.104694,
+     "defence": 0.439713,
+     "strength": -0.544,
+     "elo": 1422.02,
+     "n": 63,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crewe",
+     "attack": -0.395842,
+     "defence": 0.168952,
+     "strength": -0.565,
+     "elo": 1472.06,
+     "n": 136,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bromley",
+     "attack": -0.229782,
+     "defence": 0.349576,
+     "strength": -0.579,
+     "elo": 1478.96,
+     "n": 69,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Port Vale",
+     "attack": -0.409858,
+     "defence": 0.179613,
+     "strength": -0.589,
+     "elo": 1387.46,
+     "n": 141,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Doncaster",
+     "attack": -0.25809,
+     "defence": 0.340534,
+     "strength": -0.599,
+     "elo": 1408.38,
+     "n": 142,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Swindon",
+     "attack": -0.15143,
+     "defence": 0.44845,
+     "strength": -0.6,
+     "elo": 1458.54,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Fleetwood",
+     "attack": -0.312387,
+     "defence": 0.362747,
+     "strength": -0.675,
+     "elo": 1449.52,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Barrow",
+     "attack": -0.546998,
+     "defence": 0.133884,
+     "strength": -0.681,
+     "elo": 1439.88,
+     "n": 115,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Burton",
+     "attack": -0.365457,
+     "defence": 0.31621,
+     "strength": -0.682,
+     "elo": 1352.13,
+     "n": 143,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Forest Green",
+     "attack": -0.340043,
+     "defence": 0.367245,
+     "strength": -0.707,
+     "elo": 1443.43,
+     "n": 66,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Northampton",
+     "attack": -0.508574,
+     "defence": 0.203075,
+     "strength": -0.712,
+     "elo": 1344.88,
+     "n": 142,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Cambridge",
+     "attack": -0.424011,
+     "defence": 0.289885,
+     "strength": -0.714,
+     "elo": 1396.18,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bristol Rovers",
+     "attack": -0.332458,
+     "defence": 0.403734,
+     "strength": -0.736,
+     "elo": 1413.52,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Colchester",
+     "attack": -0.407477,
+     "defence": 0.379585,
+     "strength": -0.787,
+     "elo": 1420.39,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Grimsby",
+     "attack": -0.309468,
+     "defence": 0.518788,
+     "strength": -0.828,
+     "elo": 1369.43,
+     "n": 137,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Oldham",
+     "attack": -0.849844,
+     "defence": 0.056879,
+     "strength": -0.907,
+     "elo": 1354.18,
+     "n": 89,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Tranmere",
+     "attack": -0.549817,
+     "defence": 0.407142,
+     "strength": -0.957,
+     "elo": 1370.4,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crawley",
+     "attack": -0.413244,
+     "defence": 0.546874,
+     "strength": -0.96,
+     "elo": 1288.05,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Accrington",
+     "attack": -0.541546,
+     "defence": 0.424703,
+     "strength": -0.966,
+     "elo": 1370.83,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Shrewsbury",
+     "attack": -0.611072,
+     "defence": 0.425284,
+     "strength": -1.036,
+     "elo": 1324.18,
+     "n": 133,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Newport",
+     "attack": -0.487639,
+     "defence": 0.591057,
+     "strength": -1.079,
+     "elo": 1322.06,
+     "n": 135,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Carlisle",
+     "attack": -0.551665,
+     "defence": 0.531109,
+     "strength": -1.083,
+     "elo": 1369.69,
+     "n": 112,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Barnet",
+     "attack": -0.551229,
+     "defence": 0.55509,
+     "strength": -1.106,
+     "elo": 1374.47,
+     "n": 23,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Cheltenham",
+     "attack": -0.595519,
+     "defence": 0.560096,
+     "strength": -1.156,
+     "elo": 1356.83,
+     "n": 136,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Scunthorpe",
+     "attack": -0.643915,
+     "defence": 0.519251,
+     "strength": -1.163,
+     "elo": 1331.4,
+     "n": 66,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Macclesfield",
+     "attack": -0.817816,
+     "defence": 0.388363,
+     "strength": -1.206,
+     "elo": 1343.02,
+     "n": 21,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Harrogate",
+     "attack": -0.653753,
+     "defence": 0.55654,
+     "strength": -1.21,
+     "elo": 1324.78,
+     "n": 115,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Morecambe",
+     "attack": -0.658912,
+     "defence": 0.552998,
+     "strength": -1.212,
+     "elo": 1322.47,
+     "n": 112,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Southend",
+     "attack": -0.861542,
+     "defence": 0.428096,
+     "strength": -1.29,
+     "elo": 1351.02,
+     "n": 64,
+     "mode": "raw_mle"
+    }
+   ],
+   "fit": {
+    "as_of": "2026-09-15",
+    "fitted_at": "2026-09-15T20:40:29.840225+00:00",
+    "data_hash": "885beef97cf4f23ece8fa463ef85736e1a6549817ca63773581e103e4945e341",
+    "rows": {
+     "en.1": 2504,
+     "en.2": 3681,
+     "en.3": 1681,
+     "en.4": 1621
+    },
+    "home_adv": 0.20618,
+    "rho": -0.031197,
+    "scope": {
+     "dc_divisions": [
+      "en.1",
+      "en.2",
+      "en.3",
+      "en.4"
+     ],
+     "shrinkage_divisions": [
+      "en.1",
+      "en.2",
+      "en.3",
+      "en.4"
+     ],
+     "window_days": 2500,
+     "window_mode": "date",
+     "decay_xi": 0.0018
+    },
+    "calibration": {
+     "rows": 7378,
+     "logloss_ensemble": 1.0329,
+     "logloss_dc": 1.0327,
+     "refit_window_days": 150,
+     "l2": 100.0,
+     "first_row": "2021-02-08",
+     "last_row": "2026-09-06"
+    }
+   },
+   "calibrator": {
+    "as_of": "2026-09-15",
+    "fitted_at": "2026-09-15T20:40:29.840225+00:00",
+    "form": "logit = a*log_p_dc + b*elo_diff_400*(+1 home, 0 draw, -1 away) + c",
+    "features": [
+     "log_p_home_dc",
+     "log_p_draw_dc",
+     "log_p_away_dc",
+     "elo_diff_400"
+    ],
+    "classes": [
+     "home",
+     "draw",
+     "away"
+    ],
+    "a": 0.987921,
+    "b": 0.029356,
+    "c_home": 0.00201,
+    "c_draw": 0.06057,
+    "l2": 100.0,
+    "n_rows": 203,
+    "metrics": {
+     "rows": 7378,
+     "logloss_ensemble": 1.0329,
+     "logloss_dc": 1.0327,
+     "refit_window_days": 150,
+     "l2": 100.0,
+     "first_row": "2021-02-08",
+     "last_row": "2026-09-06"
+    }
+   },
+   "reliability": {
+    "rows": 7378,
+    "table": {
+     "home": [
+      {
+       "bin": "0.0-0.1",
+       "n": 30,
+       "predicted": 0.082,
+       "observed": 0.067
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 217,
+       "predicted": 0.163,
+       "observed": 0.175
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 853,
+       "predicted": 0.257,
+       "observed": 0.286
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 2046,
+       "predicted": 0.354,
+       "observed": 0.365
+      },
+      {
+       "bin": "0.4-0.5",
+       "n": 2244,
+       "predicted": 0.448,
+       "observed": 0.45
+      },
+      {
+       "bin": "0.5-0.6",
+       "n": 1235,
+       "predicted": 0.544,
+       "observed": 0.521
+      },
+      {
+       "bin": "0.6-0.7",
+       "n": 514,
+       "predicted": 0.642,
+       "observed": 0.66
+      },
+      {
+       "bin": "0.7-0.8",
+       "n": 175,
+       "predicted": 0.741,
+       "observed": 0.697
+      },
+      {
+       "bin": "0.8-0.9",
+       "n": 60,
+       "predicted": 0.836,
+       "observed": 0.883
+      }
+     ],
+     "draw": [
+      {
+       "bin": "0.0-0.1",
+       "n": 24,
+       "predicted": 0.084,
+       "observed": 0.0
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 530,
+       "predicted": 0.171,
+       "observed": 0.177
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 6354,
+       "predicted": 0.256,
+       "observed": 0.258
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 470,
+       "predicted": 0.313,
+       "observed": 0.266
+      }
+     ],
+     "away": [
+      {
+       "bin": "0.0-0.1",
+       "n": 163,
+       "predicted": 0.074,
+       "observed": 0.104
+      },
+      {
+       "bin": "0.1-0.2",
+       "n": 938,
+       "predicted": 0.161,
+       "observed": 0.159
+      },
+      {
+       "bin": "0.2-0.3",
+       "n": 2418,
+       "predicted": 0.254,
+       "observed": 0.254
+      },
+      {
+       "bin": "0.3-0.4",
+       "n": 2287,
+       "predicted": 0.347,
+       "observed": 0.345
+      },
+      {
+       "bin": "0.4-0.5",
+       "n": 1012,
+       "predicted": 0.442,
+       "observed": 0.437
+      },
+      {
+       "bin": "0.5-0.6",
+       "n": 396,
+       "predicted": 0.541,
+       "observed": 0.5
+      },
+      {
+       "bin": "0.6-0.7",
+       "n": 113,
+       "predicted": 0.643,
+       "observed": 0.681
+      },
+      {
+       "bin": "0.7-0.8",
+       "n": 48,
+       "predicted": 0.747,
+       "observed": 0.688
+      }
+     ]
+    },
+    "first": "2021-02-08",
+    "last": "2026-09-06"
+   },
+   "diagnostic": []
+  }
+ },
+ "latest_run": {
+  "as_of": "2026-09-15",
+  "run": {
+   "number": 2,
+   "stage": "shadow",
+   "shadow": true
+  },
+  "predictions_committed_at": "2026-09-15T20:40:30Z",
+  "first_odds_contact_at": null,
+  "settled": {},
+  "strict_bets": [
+   {
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Brentford",
+    "away": "Chelsea",
+    "kickoff_utc": "2026-09-18T19:00:00Z",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
+    "selection": "home",
+    "kind": "strict_bet",
+    "reason": "edge 7.4pp at Sky Bet 2.88, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 2.88,
+    "edge_pp": 7.4,
+    "ev": 0.1483,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-20-FUL-MUN-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Fulham",
+    "away": "Man Utd",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
+    "selection": "home",
+    "kind": "strict_bet",
+    "reason": "edge 6.7pp at Sky Bet 3.4, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 3.4,
+    "edge_pp": 6.65,
+    "ev": 0.1478,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   }
+  ],
+  "fun_bet": null,
+  "recommendations": [
+   {
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Brentford",
+    "away": "Chelsea",
+    "kickoff_utc": "2026-09-18T19:00:00Z",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
+    "selection": "home",
+    "kind": "strict_bet",
+    "reason": "edge 7.4pp at Sky Bet 2.88, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 2.88,
+    "edge_pp": 7.4,
+    "ev": 0.1483,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-19-BHA-ARS-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Brighton",
+    "away": "Arsenal",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "draw",
+    "kind": "no_edge",
+    "reason": "best edge 2.6pp on draw",
+    "stake_gbp": 0.0,
+    "odds_recommended": 3.8,
+    "edge_pp": 2.6,
+    "ev": 0.0302,
+    "checks": {
+     "edge_min": false,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-19-EVE-IPS-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Everton",
+    "away": "Ipswich",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "home",
+    "kind": "cap_kill",
+    "reason": "edge 10.7pp exceeds max_edge_pp 8.0",
+    "stake_gbp": 0.0,
+    "odds_recommended": 1.75,
+    "edge_pp": 10.73,
+    "ev": 0.1232,
+    "checks": {
+     "edge_min": true,
+     "edge_max": false,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-19-NFO-COV-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Forest",
+    "away": "Coventry",
+    "kickoff_utc": "2026-09-19T16:30:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "home",
+    "kind": "cap_kill",
+    "reason": "edge 12.1pp exceeds max_edge_pp 8.0",
+    "stake_gbp": 0.0,
+    "odds_recommended": 1.62,
+    "edge_pp": 12.09,
+    "ev": 0.1214,
+    "checks": {
+     "edge_min": true,
+     "edge_max": false,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-19-NEW-HUL-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Newcastle",
+    "away": "Hull",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "home",
+    "kind": "cap_kill",
+    "reason": "edge 18.6pp exceeds max_edge_pp 8.0",
+    "stake_gbp": 0.0,
+    "odds_recommended": 1.57,
+    "edge_pp": 18.56,
+    "ev": 0.2216,
+    "checks": {
+     "edge_min": true,
+     "edge_max": false,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-19-TOT-AVL-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Spurs",
+    "away": "Aston Villa",
+    "kickoff_utc": "2026-09-19T11:30:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "away",
+    "kind": "cap_kill",
+    "reason": "edge 11.2pp exceeds max_edge_pp 8.0",
+    "stake_gbp": 0.0,
+    "odds_recommended": 3.6,
+    "edge_pp": 11.21,
+    "ev": 0.3439,
+    "checks": {
+     "edge_min": true,
+     "edge_max": false,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-20-BOU-LIV-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Bournemouth",
+    "away": "Liverpool",
+    "kickoff_utc": "2026-09-20T13:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "home",
+    "kind": "no_edge",
+    "reason": "best edge 0.8pp on home",
+    "stake_gbp": 0.0,
+    "odds_recommended": 3.1,
+    "edge_pp": 0.85,
+    "ev": -0.0449,
+    "checks": {
+     "edge_min": false,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": false,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-20-FUL-MUN-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Fulham",
+    "away": "Man Utd",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
+    "selection": "home",
+    "kind": "strict_bet",
+    "reason": "edge 6.7pp at Sky Bet 3.4, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 3.4,
+    "edge_pp": 6.65,
+    "ev": 0.1478,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-20-LEE-CRY-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Leeds",
+    "away": "Crystal Palace",
+    "kickoff_utc": "2026-09-20T13:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "away",
+    "kind": "near_miss",
+    "reason": "edge 7.5pp; failed odds_max",
+    "stake_gbp": 0.0,
+    "odds_recommended": 4.33,
+    "edge_pp": 7.45,
+    "ev": 0.2483,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": false,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-20-MCI-SUN-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Man City",
+    "away": "Sunderland",
+    "kickoff_utc": "2026-09-20T13:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "draw",
+    "kind": "near_miss",
+    "reason": "edge 5.1pp; failed edge_min, odds_max",
+    "stake_gbp": 0.0,
+    "odds_recommended": 5.5,
+    "edge_pp": 5.14,
+    "ev": 0.2243,
+    "checks": {
+     "edge_min": false,
+     "edge_max": true,
+     "odds_max": false,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   },
+   {
+    "fixture_id": "2026-09-15-LIV-TOT-EFLC",
+    "competition": "EFLC",
+    "matchweek": "Round 3",
+    "home": "Liverpool",
+    "away": "Spurs",
+    "kickoff_utc": "2026-09-15T19:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": "away",
+    "kind": "cap_kill",
+    "reason": "edge 9.5pp exceeds max_edge_pp 8.0",
+    "stake_gbp": 0.0,
+    "odds_recommended": 36.0,
+    "edge_pp": 9.47,
+    "ev": 3.3519,
+    "checks": {
+     "edge_min": true,
+     "edge_max": false,
+     "odds_max": false,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    }
+   }
+  ]
+ },
+ "fetch_log": [
+  {
+   "first_odds_contact_at": "2026-09-15T20:22:07Z",
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 10,
+     "stored": [
+      "2026-09-15-LIV-TOT-EFLC"
+     ],
+     "skipped_unpriced": [
+      "2026-09-15-PET-BNS-EFLC",
+      "2026-09-15-WHU-FUL-EFLC",
+      "2026-09-15-IPS-ARS-EFLC",
+      "2026-09-15-REA-BRE-EFLC",
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 1,
+     "unknown_teams": []
+    }
+   },
+   "quota": {
+    "remaining": "498",
+    "used": "2",
+    "last_cost": "0"
+   },
+   "historical": {
+    "at": "2026-09-11T08:10:00Z",
+    "error": "The Odds API returned 401 for historical/sports/soccer_epl/odds: {\"message\":\"Historical odds are only available on paid usage plans. See usage plans at https://the-odds-api.com\",\"error_code\":\"HISTORIC"
+   },
+   "predictions_committed_at": "2026-09-15T20:20:10Z"
+  }
+ ],
+ "protocol_audit": {
+  "ok": true,
+  "problems": []
+ },
+ "staking": {
+  "caps": {
+   "weekly_total": 10.0,
+   "single_bet": 2.5
+  },
+  "strict": {
+   "edge_min_pp": 6.0,
+   "max_edge_pp": 8.0,
+   "max_odds": 4.0,
+   "min_ev": 0.0,
+   "stake": 2.5,
+   "challenge_threshold_pp": 6.0
+  },
+  "fun_lane": {
+   "enabled": true,
+   "approved_on": "2026-08-28",
+   "style": "balanced",
+   "fires_only_when_zero_strict_bets": true,
+   "bets_per_week": 1,
+   "stake": 5.0,
+   "bet_type": "single",
+   "blend": {
+    "model_weight": 0.5,
+    "market_weight": 0.5
+   },
+   "p_blend_min": 0.2,
+   "max_odds": 8.0,
+   "pick_rule": "max_ev_over_sigma",
+   "entertainment_label_required": true
+  }
+ },
+ "bets": {
+  "summary": {
+   "staked_settled": 10.0,
+   "pnl_settled": -10.0,
+   "pending_stake": 5.0,
+   "pending": 2,
+   "fun_record": {
+    "bets": 2,
+    "won": 0,
+    "pnl": -10.0
+   },
+   "week": "2026-W38",
+   "cap": 10.0,
+   "committed_this_week": 0,
+   "discipline_counts": {
+    "cap_kill:pending": 2,
+    "cap_kill:save": 1,
+    "cap_kill:would_have_won": 2,
+    "challenge_kill:pending": 1,
+    "ev_reject:correct": 1,
+    "informational:pending": 1,
+    "near_miss:pending": 4,
+    "near_miss:save": 3,
+    "near_miss:would_have_won": 1
+   },
+   "carry_in": {
+    "through": "MW3",
+    "as_of": "2026-09-11",
+    "saves": 11,
+    "misses": 4,
+    "cap_scorecard": {
+     "kills_lost_or_drew": 8,
+     "kills_would_have_won": 2,
+     "would_have_won_items": [
+      "MW2 Liverpool v Forest draw",
+      "MW3 Liverpool away at Ipswich"
+     ]
+    },
+    "note": "Authoritative MW1 to MW3 totals from the 11 Sep build status. discipline.csv itemises only the MW2 and MW3 rows the build status named; MW1 and the rest of MW2 were never itemised, so do not recount these totals from the CSV."
+   }
+  },
+  "ledger": [
+   {
+    "bet_id": "2026-MW2-FUN-1",
+    "matchweek": "MW2",
+    "competition": "EPL",
+    "lane": "fun",
+    "fixture_id": "",
+    "kickoff_utc": "",
+    "selection": "",
+    "bookmaker": "skybet",
+    "odds_recommended": "",
+    "stake_recommended_gbp": "5.00",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "lost",
+    "pnl_gbp": "-5.00",
+    "settled_at": "",
+    "settlement_source": "legacy run",
+    "notes": "fun bet 1 of 2 this season; fixture, selection and odds not recorded in the 11 Sep build status; matchweek inferred from the 28 Aug lane approval"
+   },
+   {
+    "bet_id": "2026-MW3-FUN-1",
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "fun",
+    "fixture_id": "2026-09-05-BRE-SUN-EPL",
+    "kickoff_utc": "2026-09-05T14:00:00Z",
+    "selection": "away",
+    "bookmaker": "skybet",
+    "odds_recommended": "5.53",
+    "stake_recommended_gbp": "5.00",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "lost",
+    "pnl_gbp": "-5.00",
+    "settled_at": "2026-09-11",
+    "settlement_source": "openfootball + ESPN cross-check",
+    "notes": "Brentford 1-1 Sunderland; the near-miss draw landed at 3.93"
+   },
+   {
+    "bet_id": "2026-MW4-STRICT-1",
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-TOT-EVE-EPL",
+    "kickoff_utc": "2026-09-12T16:30:00Z",
+    "selection": "away",
+    "bookmaker": "skybet",
+    "odds_recommended": "3.58",
+    "stake_recommended_gbp": "2.50",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "pending",
+    "pnl_gbp": "",
+    "settled_at": "",
+    "settlement_source": "",
+    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price"
+   },
+   {
+    "bet_id": "2026-MW4-STRICT-2",
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-13-MUN-MCI-EPL",
+    "kickoff_utc": "2026-09-13T15:30:00Z",
+    "selection": "away",
+    "bookmaker": "skybet",
+    "odds_recommended": "2.13",
+    "stake_recommended_gbp": "2.50",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "pending",
+    "pnl_gbp": "",
+    "settled_at": "",
+    "settlement_source": "",
+    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price"
+   },
+   {
+    "bet_id": "2026-MW3-PERSONAL-1",
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "personal",
+    "fixture_id": "2026-09-05-FUL-CRY-EPL",
+    "kickoff_utc": "2026-09-05T14:00:00Z",
+    "selection": "away",
+    "bookmaker": "skybet",
+    "odds_recommended": "TBD",
+    "stake_recommended_gbp": "",
+    "placed": "yes",
+    "odds_placed": "TBD",
+    "stake_placed_gbp": "TBD",
+    "result": "won",
+    "pnl_gbp": "TBD",
+    "settled_at": "2026-09-11",
+    "settlement_source": "openfootball + ESPN cross-check",
+    "notes": "off-model personal bet by Rogan; Fulham 2-3 Palace; stake and odds unreported after 2 asks, row stays TBD until supplied"
+   }
+  ],
+  "discipline": [
+   {
+    "matchweek": "MW2",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-08-29-LIV-NFO-EPL",
+    "selection": "draw",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "cap_kill",
+    "outcome": "would_have_won",
+    "settled_at": "",
+    "notes": "Liverpool 2-2 Forest; cap miss 1 of 2 through MW3"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-04-IPS-LIV-EPL",
+    "selection": "away",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "cap_kill",
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-11",
+    "notes": "Ipswich 0-2 Liverpool; cap miss 2 of 2 through MW3"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-BRE-SUN-EPL",
+    "selection": "away",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "cap_kill",
+    "outcome": "save",
+    "settled_at": "2026-09-11",
+    "notes": "Brentford 1-1 Sunderland; drew"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-BRE-SUN-EPL",
+    "selection": "draw",
+    "edge_pp": "",
+    "odds": "3.93",
+    "kind": "near_miss",
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-11",
+    "notes": "near-miss draw landed"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-NFO-TOT-EPL",
+    "selection": "home",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "near_miss",
+    "outcome": "save",
+    "settled_at": "2026-09-11",
+    "notes": "Forest 0-0 Spurs"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-HUL-AVL-EPL",
+    "selection": "home",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "near_miss",
+    "outcome": "save",
+    "settled_at": "2026-09-11",
+    "notes": "Hull 0-0 Villa"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-NEW-BOU-EPL",
+    "selection": "home",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "near_miss",
+    "outcome": "save",
+    "settled_at": "2026-09-11",
+    "notes": "Newcastle 2-2 Bournemouth"
+   },
+   {
+    "matchweek": "MW3",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-05-MCI-COV-EPL",
+    "selection": "home",
+    "edge_pp": "",
+    "odds": "1.16",
+    "kind": "ev_reject",
+    "outcome": "correct",
+    "settled_at": "2026-09-11",
+    "notes": "EV-negative reject; City won 1-0 at 1.16"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-14-LEE-NEW-EPL",
+    "selection": "away",
+    "edge_pp": "7.5",
+    "odds": "2.84",
+    "kind": "challenge_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "killed on news, see prediction file; settle in first new-setup run"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-CRY-IPS-EPL",
+    "selection": "home",
+    "edge_pp": "11.0",
+    "odds": "1.87",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": ""
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-13-COV-BHA-EPL",
+    "selection": "away",
+    "edge_pp": "14.1",
+    "odds": "1.87",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "Coventry on promoted prior"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-LIV-FUL-EPL",
+    "selection": "away",
+    "edge_pp": "4.2",
+    "odds": "6.31",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "odds above 4.0 too"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-LIV-FUL-EPL",
+    "selection": "draw",
+    "edge_pp": "3.4",
+    "odds": "4.95",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "odds above 4.0 too"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-SUN-ARS-EPL",
+    "selection": "home",
+    "edge_pp": "3.7",
+    "odds": "7.13",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "odds above 4.0 too"
+   },
+   {
+    "matchweek": "MW4",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-12-SUN-ARS-EPL",
+    "selection": "draw",
+    "edge_pp": "3.1",
+    "odds": "4.20",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "odds above 4.0 too"
+   },
+   {
+    "matchweek": "MW4-R3",
+    "competition": "EFLC",
+    "lane": "informational",
+    "fixture_id": "2026-09-15-LIV-TOT-EFLC",
+    "selection": "",
+    "edge_pp": "",
+    "odds": "",
+    "kind": "informational",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "Carabao R3 priced informationally, blended Liverpool 61% v Spurs 18%; settle in first new-setup run"
+   }
+  ]
+ }
+}
