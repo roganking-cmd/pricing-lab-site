@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-16T09:25:44Z",
+ "built_at": "2026-09-16T10:01:20Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -565,9 +565,9 @@
      "home": "Brentford",
      "away": "Chelsea",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -579,7 +579,7 @@
       "home": 2.8,
       "draw": 3.6,
       "away": 2.25,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.3308823529411765,
@@ -612,23 +612,147 @@
        "weekly_cap": true
       },
       "bookmaker": "skybet",
-      "challenge": "not_run",
+      "challenge": "pass",
       "shadow": false,
-      "run_label": "MW5 T-48h run 7"
+      "run_label": "MW5 T-48h run 8"
      },
      "news": {
       "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
-      "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "model": "claude-opus-5",
+      "retrieved_at": "2026-09-16T09:51:44Z",
+      "cutoff": "2026-09-16T09:51:43Z",
+      "items": [
+       {
+        "club": "Chelsea",
+        "player": "Moises Caicedo",
+        "status": "doubt",
+        "detail": "Sports Mole reports Chelsea remain cautious over Caicedo, who has not played since a cameo against Brighton on matchday two, and that he could feature at Brentford only if cleared by the medical team.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
+        "published": "2026-09-15",
+        "confidence": 0.85,
+        "published_known": true
+       },
+       {
+        "club": "Chelsea",
+        "player": "Jordan Henderson",
+        "status": "doubt",
+        "detail": "Henderson has been pictured in training but will only return from a wrist injury after multiple checks, and could otherwise wait until October for his Chelsea debut.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
+        "published": "2026-09-15",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Chelsea",
+        "player": "Marco Palestra",
+        "status": "doubt",
+        "detail": "Palestra has missed the start of the season with a quad injury sustained in training and his manager has said the club will not rush him back without assurances over his health, with a bench place at Brentford dependent on his recovery.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
+        "published": "2026-09-15",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Chelsea",
+        "player": "Emmanuel Emegha",
+        "status": "out",
+        "detail": "Emegha is still yet to play for Chelsea since his summer arrival from Strasbourg and his return date remains unknown.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
+        "published": "2026-09-15",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Chelsea",
+        "player": null,
+        "status": "other",
+        "detail": "Chelsea have no players banned for the Premier League trip to Brentford.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
+        "published": "2026-09-15",
+        "confidence": 0.85,
+        "published_known": true
+       },
+       {
+        "club": "Brentford",
+        "player": "Mathias Jensen",
+        "status": "out",
+        "detail": "Jensen was listed as out with an unspecified issue in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Brentford",
+        "player": "Sepp van den Berg",
+        "status": "out",
+        "detail": "Van den Berg was listed as out with a groin injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Brentford",
+        "player": "Antoni Milambo",
+        "status": "out",
+        "detail": "Milambo was listed as out with a knee injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Brentford",
+        "player": "Josh Dasilva",
+        "status": "out",
+        "detail": "Dasilva was listed as out with a thigh injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       }
+      ],
+      "dropped": [],
+      "summary": "The freshest fixture-specific reporting is Chelsea-side: Caicedo, Henderson and Palestra are all described as potential returnees whose involvement at the Gtech depends on medical clearance, Emegha has no return date, and the visitors have no suspensions. For Brentford the most recent published absence list (matchday four at Bournemouth) had Mathias Jensen, Sepp van den Berg, Antoni Milambo and Josh Dasilva out; no newer Brentford update was found before the cutoff. No managerial change or midweek cup/European commitment for either club was reported in the sources reviewed, so no rotation item is recorded.",
+      "searches_note": "Searched for Brentford and Chelsea injury/suspension lists, a Brentford v Chelsea preview/team-news piece, Brentford manager fitness updates, and Premier League club-by-club injury pages. Found a Chelsea-vs-Brentford specific list dated roughly 15 September 2026, but no Brentford-vs-Chelsea specific team-news article inside the cutoff window; the Brentford items therefore come from the five-day-old Bournemouth-vs-Brentford round-up and may be stale. Outlet pages showed only relative ages (e.g. '20 hours ago', '5 days ago') rather than visible exact timestamps, so the published dates above are derived from those relative ages and are approximate; the Premier Injuries and Premier League club pages carried no usable dated Brentford detail. Nothing found on managerial changes or rotation-driving midweek fixtures for either club.",
+      "status": "ok",
+      "meta": {
+       "request_ids": [
+        "req_011Cf6usb5T5HkG48ap6UohC"
+       ],
+       "searches": 13,
+       "turns": 1,
+       "model": "claude-opus-5",
+       "fallback": true,
+       "pruned_domains": [],
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "stop_reason": "end_turn"
+      }
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-18-BRE-CHE-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-18-BRE-CHE-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -703,9 +827,9 @@
      "home": "Spurs",
      "away": "Aston Villa",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -717,7 +841,7 @@
       "home": 2.0,
       "draw": 3.5,
       "away": 3.6,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.4701492537313433,
@@ -725,9 +849,9 @@
       "away": 0.2611940298507463
      },
      "market_devigged": {
-      "home": 0.47515199425247523,
-      "draw": 0.2633824222435932,
-      "away": 0.2614655835039315
+      "home": 0.4749861831182626,
+      "draw": 0.2632905111526325,
+      "away": 0.2617233057291049
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -756,23 +880,23 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbuuTDHqRTwRoCqiCp'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbtxtuEffrmh8gaKVe'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-19-TOT-AVL-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-19-TOT-AVL-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -795,12 +919,12 @@
        "average": {
         "home": 1.981,
         "draw": 3.5738,
-        "away": 3.6
+        "away": 3.5952
        },
        "devigged": {
-        "home": 0.4752,
-        "draw": 0.2634,
-        "away": 0.2615
+        "home": 0.475,
+        "draw": 0.2633,
+        "away": 0.2617
        },
        "n_bookmakers": 21
       },
@@ -816,7 +940,7 @@
         "odds": 2.0,
         "edge_pp": -11.52,
         "ev": -0.2902,
-        "edge_vs_market_pp": -12.03
+        "edge_vs_market_pp": -12.01
        },
        "draw": {
         "p_model": 0.2718,
@@ -824,7 +948,7 @@
         "odds": 3.5,
         "edge_pp": 0.31,
         "ev": -0.0487,
-        "edge_vs_market_pp": 0.84
+        "edge_vs_market_pp": 0.85
        },
        "away": {
         "p_model": 0.3733,
@@ -832,7 +956,7 @@
         "odds": 3.6,
         "edge_pp": 11.21,
         "ev": 0.3439,
-        "edge_vs_market_pp": 11.18
+        "edge_vs_market_pp": 11.16
        }
       },
       "best": "away"
@@ -847,9 +971,9 @@
      "home": "Brighton",
      "away": "Arsenal",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -861,7 +985,7 @@
       "home": 4.6,
       "draw": 3.8,
       "away": 1.67,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.20140916592611402,
@@ -869,9 +993,9 @@
       "away": 0.5547797384791164
      },
      "market_devigged": {
-      "home": 0.2020362741080758,
-      "draw": 0.24391960738354632,
-      "away": 0.5540441185083779
+      "home": 0.20213202182759338,
+      "draw": 0.24418080991090432,
+      "away": 0.5536871682615024
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -901,21 +1025,200 @@
       },
       "challenge": "not_required",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
-      "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "model": "claude-opus-5",
+      "retrieved_at": "2026-09-16T09:55:14Z",
+      "cutoff": "2026-09-16T09:51:43Z",
+      "items": [
+       {
+        "club": "Brighton",
+        "player": "Yankuba Minteh",
+        "status": "out",
+        "detail": "Sports Mole reported Hurzeler cannot call upon Minteh due to a calf problem.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.72,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Kaoru Mitoma",
+        "status": "out",
+        "detail": "Listed as unavailable with a thigh injury in Brighton's latest pre-match injury round-up.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.72,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Evan Ferguson",
+        "status": "out",
+        "detail": "Ruled out with an ankle injury according to the same report.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.7,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Mats Wieffer",
+        "status": "out",
+        "detail": "Unavailable with a knee injury.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.7,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Stefanos Tzimas",
+        "status": "out",
+        "detail": "Unavailable with a knee injury.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.7,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Jack Hinshelwood",
+        "status": "out",
+        "detail": "Listed as absent with an unspecified issue.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.65,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Zadok Yohanna",
+        "status": "out",
+        "detail": "Listed as absent with an unspecified issue.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Georginio Rutter",
+        "status": "doubt",
+        "detail": "Reported as having a chance of making the squad but following a recent setback.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.65,
+        "published_known": true
+       },
+       {
+        "club": "Brighton",
+        "player": "Femi Azeez",
+        "status": "returning",
+        "detail": "Described as in contention to return to the squad, though not for a starting role at that point.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
+        "published": "2026-09-11",
+        "confidence": 0.62,
+        "published_known": true
+       },
+       {
+        "club": "Arsenal",
+        "player": "William Saliba",
+        "status": "out",
+        "detail": "Sports Mole reported Saliba was not expected back in the squad in the immediate future with a back injury, though Arteta called his progress \"really positive\".",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
+        "published": "2026-09-09",
+        "confidence": 0.72,
+        "published_known": true
+       },
+       {
+        "club": "Arsenal",
+        "player": "Jurrien Timber",
+        "status": "returning",
+        "detail": "Yet to feature this season with a long-standing groin issue but back in training and closing in on a return, with a possible return date given as 12 September.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
+        "published": "2026-09-09",
+        "confidence": 0.72,
+        "published_known": true
+       },
+       {
+        "club": "Arsenal",
+        "player": "Cristhian Mosquera",
+        "status": "doubt",
+        "detail": "Missed consecutive games after coming off injured against Aston Villa on 31 August with a muscular issue, with Arteta later giving an encouraging update.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/news/triple-arsenal-injury-update-as-gbp50m-star-spotted-limping-before-sunderland-clash_605002.html",
+        "published": "2026-09-12",
+        "confidence": 0.7,
+        "published_known": true
+       },
+       {
+        "club": "Arsenal",
+        "player": "Ben White",
+        "status": "doubt",
+        "detail": "Named among players who raised fitness concerns in recent weeks, with Arteta providing encouraging news.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/news/triple-arsenal-injury-update-as-gbp50m-star-spotted-limping-before-sunderland-clash_605002.html",
+        "published": "2026-09-12",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Arsenal",
+        "player": null,
+        "status": "other",
+        "detail": "Arsenal had no players suspended as of their most recent pre-cutoff injury and suspension round-up.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
+        "published": "2026-09-09",
+        "confidence": 0.65,
+        "published_known": true
+       }
+      ],
+      "dropped": [],
+      "summary": "Brighton's most recent pre-cutoff report listed a long absentee list including Minteh (calf), Mitoma (thigh), Ferguson (ankle), Wieffer and Tzimas (knee), Hinshelwood and Yohanna, with Azeez and Rutter only in contention for squad places. Arsenal's latest reports had Saliba sidelined with a back problem, Timber closing in on his first appearance of the season after a groin issue, and Mosquera and Ben White the subject of encouraging but unresolved fitness updates, with no suspensions. No preview or team-news piece specific to the 19 September Brighton v Arsenal fixture had been published before the cutoff.",
+      "searches_note": "Searched for Brighton v Arsenal team news/previews for 19 September 2026, club-by-club Premier League injury lists, and the latest Brighton (Hurzeler) and Arsenal (Arteta) injury updates. Found no fixture-specific preview or press-conference report for this match before the cutoff, so items are drawn from each club's most recent previous-matchweek report; older Brighton v Arsenal previews from December 2025 and March 2026 were excluded as stale. Sources showed only relative timestamps ('4 days ago', '1 week ago', '5 days ago') rather than visible dates, so the published values above are approximate dates derived from those relative ages and all fall before the cutoff. I could not verify current squad status after 12-13 September, find any managerial-change news for either club, or find any source stating rotation plans (Arsenal's Champions League trip to Napoli fell before, not after, their Sunderland fixture); my search allowance was exhausted before a further Brighton follow-up check completed.",
+      "status": "ok",
+      "meta": {
+       "request_ids": [
+        "req_011Cf6v935JHbttYFrEzDgXA"
+       ],
+       "searches": 13,
+       "turns": 1,
+       "model": "claude-opus-5",
+       "fallback": true,
+       "pruned_domains": [],
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "stop_reason": "end_turn"
+      }
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-19-BHA-ARS-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-19-BHA-ARS-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -937,13 +1240,13 @@
       "market": {
        "average": {
         "home": 4.6567,
-        "draw": 3.8571,
-        "away": 1.6981
+        "draw": 3.8548,
+        "away": 1.7
        },
        "devigged": {
-        "home": 0.202,
-        "draw": 0.2439,
-        "away": 0.554
+        "home": 0.2021,
+        "draw": 0.2442,
+        "away": 0.5537
        },
        "n_bookmakers": 21
       },
@@ -959,7 +1262,7 @@
         "odds": 4.6,
         "edge_pp": 0.09,
         "ev": -0.0694,
-        "edge_vs_market_pp": 0.03
+        "edge_vs_market_pp": 0.02
        },
        "draw": {
         "p_model": 0.2711,
@@ -967,7 +1270,7 @@
         "odds": 3.8,
         "edge_pp": 2.73,
         "ev": 0.0302,
-        "edge_vs_market_pp": 2.72
+        "edge_vs_market_pp": 2.69
        },
        "away": {
         "p_model": 0.5267,
@@ -975,7 +1278,7 @@
         "odds": 1.67,
         "edge_pp": -2.81,
         "ev": -0.1204,
-        "edge_vs_market_pp": -2.73
+        "edge_vs_market_pp": -2.7
        }
       },
       "best": "draw"
@@ -990,9 +1293,9 @@
      "home": "Everton",
      "away": "Ipswich",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1004,7 +1307,7 @@
       "home": 1.75,
       "draw": 3.75,
       "away": 4.33,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.5345239074973253,
@@ -1042,24 +1345,148 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "challenge": "pass",
+      "challenge_reason": "The only public information available before the cutoff points the same way as the model, not against it: Ipswich's 11 September Sports Mole round-up has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts or suspensions, and Ipswich played an EFL Cup third-round tie at home to Arsenal in the midweek before this game, a congestion/rotation factor. Everton's freshest dated absence list (Sports Mole, 5 September) named only Christian Norgaard, with no suspensions and no managerial change at either club, and my confirmatory searches surfaced nothing dated before 2026-09-16 that would justify Sky Bet's shorter view of Everton. The one genuine weakness is staleness — the Everton list is two weeks old and pre-dates the Spurs game of 12 September — but a gap in covera",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
-      "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "model": "claude-opus-5",
+      "retrieved_at": "2026-09-16T09:57:12Z",
+      "cutoff": "2026-09-16T09:51:43Z",
+      "items": [
+       {
+        "club": "Everton",
+        "player": "Christian Norgaard",
+        "status": "out",
+        "detail": "Sports Mole listed Norgaard as Everton's only absentee with an unspecified problem ahead of the Manchester United game on 6 September.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/team-news/everton-vs-man-united-injury-suspension-list-predicted-xis_604456.html",
+        "published": "2026-09-05T14:00:00+01:00",
+        "confidence": 0.5,
+        "published_known": true
+       },
+       {
+        "club": "Everton",
+        "player": null,
+        "status": "other",
+        "detail": "The same round-up recorded no doubtful Everton players and no suspensions at that date, and no more recent Everton absence list was retrievable before the cutoff.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/team-news/everton-vs-man-united-injury-suspension-list-predicted-xis_604456.html",
+        "published": "2026-09-05T14:00:00+01:00",
+        "confidence": 0.45,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": "Jaden Philogene-Bidace",
+        "status": "out",
+        "detail": "Listed as out with an ankle injury in the most recent Ipswich team-news round-up, published 11 September.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11T15:00:00+01:00",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": "Jaden Philogene-Bidace",
+        "status": "returning",
+        "detail": "An earlier Sports Mole injury round-up said the attacker was unlikely to be back until the middle of September.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/philogene-bidace-florentino-latest-ipswich-injury-suspension-list-vs-man-united_603815.html",
+        "published": null,
+        "confidence": 0.5,
+        "published_known": false
+       },
+       {
+        "club": "Ipswich",
+        "player": "Azor Matusiwa",
+        "status": "out",
+        "detail": "Listed as out with a muscle injury in the 11 September Ipswich team-news round-up.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11T15:00:00+01:00",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": "Jack Taylor",
+        "status": "out",
+        "detail": "Listed as out with a knee injury in the 11 September Ipswich team-news round-up.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11T15:00:00+01:00",
+        "confidence": 0.8,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": "Florentino Luis",
+        "status": "doubt",
+        "detail": "Flagged as doubtful with a calf problem in the 3 September round-up, though he was not listed as absent in the later 11 September report.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/ipswich-town/team-news/ipswich-vs-liverpool-injury-suspension-list-predicted-xis_604317.html",
+        "published": "2026-09-03T20:00:00+01:00",
+        "confidence": 0.4,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": "Emersonn",
+        "status": "doubt",
+        "detail": "Listed as doubtful with a knee issue on 3 September, with no doubts recorded in the later 11 September report.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/ipswich-town/team-news/ipswich-vs-liverpool-injury-suspension-list-predicted-xis_604317.html",
+        "published": "2026-09-03T20:00:00+01:00",
+        "confidence": 0.4,
+        "published_known": true
+       },
+       {
+        "club": "Ipswich",
+        "player": null,
+        "status": "rotation",
+        "detail": "Ipswich played an EFL Cup third-round tie at home to Arsenal on the Tuesday before this fixture, which is a midweek fixture-congestion factor; the page carried no visible publication date.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/arsenal/league-cup/team-news/ipswich-vs-arsenal-injury-suspension-list-predicted-xis_605060.html",
+        "published": null,
+        "confidence": 0.6,
+        "published_known": false
+       }
+      ],
+      "dropped": [],
+      "summary": "Ipswich's picture is the clearer of the two: their most recent dated round-up (11 September) has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts and no suspensions, while an earlier report suggested Philogene-Bidace could be available around mid-September. Ipswich also played an EFL Cup third-round tie against Arsenal at Portman Road in the midweek before this game, a rotation consideration noted by the source. For Everton, the freshest dated absence list available was from 5 September, naming only Christian Norgaard as out; no suspensions or managerial changes were reported for either club before the cutoff.",
+      "searches_note": "Searched for Everton and Ipswich team news/injuries for September 2026, for a direct Everton v Ipswich preview, and for the Ipswich v Arsenal EFL Cup tie; the search budget was then exhausted. No dedicated Everton v Ipswich preview published before the cutoff was found (only 2025 archive versions), and the 11 September Tottenham v Everton round-up's retrievable text did not include Everton's absentee list, so the Everton item rests on the 5 September report. The Premier League's own club-by-club injury page (updated 15 September 2026) returned no player-level detail in the retrieved text. Two pages showed no visible publication date and are recorded with published set to null.",
+      "status": "ok",
+      "meta": {
+       "request_ids": [
+        "req_011Cf6vHo9u8QjXyeFwGLyWm"
+       ],
+       "searches": 14,
+       "turns": 1,
+       "model": "claude-opus-5",
+       "fallback": true,
+       "pruned_domains": [],
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "stop_reason": "end_turn"
+      }
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-19-EVE-IPS-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-19-EVE-IPS-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1134,9 +1561,9 @@
      "home": "Newcastle",
      "away": "Hull",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1148,7 +1575,7 @@
       "home": 1.57,
       "draw": 4.2,
       "away": 5.0,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.5924839182936463,
@@ -1187,23 +1614,23 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbspSTQusnLwYzGLrN'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbrrPkMUMy4UeQA3pQ'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-19-NEW-HUL-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-19-NEW-HUL-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1278,9 +1705,9 @@
      "home": "Forest",
      "away": "Coventry",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1292,7 +1719,7 @@
       "home": 1.62,
       "draw": 3.8,
       "away": 5.0,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.5713254751022372,
@@ -1300,9 +1727,9 @@
       "away": 0.18510945393312486
      },
      "market_devigged": {
-      "home": 0.574473790917909,
-      "draw": 0.23888633605219967,
-      "away": 0.1866398730298914
+      "home": 0.5741689028913268,
+      "draw": 0.23875955292522708,
+      "away": 0.1870715441834461
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -1331,23 +1758,23 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbqqsVhHbRcTToTSWE'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vUtgqKgHZPqJPdz8MG'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-19-NFO-COV-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-19-NFO-COV-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1370,12 +1797,12 @@
        "average": {
         "home": 1.6376,
         "draw": 3.9381,
-        "away": 5.0405
+        "away": 5.0262
        },
        "devigged": {
-        "home": 0.5745,
-        "draw": 0.2389,
-        "away": 0.1866
+        "home": 0.5742,
+        "draw": 0.2388,
+        "away": 0.1871
        },
        "n_bookmakers": 21
       },
@@ -1391,7 +1818,7 @@
         "odds": 1.62,
         "edge_pp": 12.09,
         "ev": 0.1214,
-        "edge_vs_market_pp": 11.77
+        "edge_vs_market_pp": 11.8
        },
        "draw": {
         "p_model": 0.2058,
@@ -1399,7 +1826,7 @@
         "odds": 3.8,
         "edge_pp": -3.78,
         "ev": -0.218,
-        "edge_vs_market_pp": -3.31
+        "edge_vs_market_pp": -3.3
        },
        "away": {
         "p_model": 0.102,
@@ -1407,7 +1834,7 @@
         "odds": 5.0,
         "edge_pp": -8.31,
         "ev": -0.49,
-        "edge_vs_market_pp": -8.46
+        "edge_vs_market_pp": -8.51
        }
       },
       "best": "home"
@@ -1422,9 +1849,9 @@
      "home": "Bournemouth",
      "away": "Liverpool",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1436,7 +1863,7 @@
       "home": 3.1,
       "draw": 3.6,
       "away": 2.1,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.29964328180737215,
@@ -1476,21 +1903,21 @@
       },
       "challenge": "not_required",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbvuUQsXbxmJ77tJGD'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-20-BOU-LIV-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-20-BOU-LIV-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1565,9 +1992,9 @@
      "home": "Leeds",
      "away": "Crystal Palace",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1579,7 +2006,7 @@
       "home": 1.75,
       "draw": 3.6,
       "away": 4.33,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.5290254704654596,
@@ -1587,9 +2014,9 @@
       "away": 0.21380937028049754
      },
      "market_devigged": {
-      "home": 0.5302308198353242,
-      "draw": 0.25222914073158953,
-      "away": 0.21754003943308625
+      "home": 0.5300902417285893,
+      "draw": 0.252304620129908,
+      "away": 0.2176051381415026
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -1618,23 +2045,23 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbzCAfFQrdG6YXjXkC'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vby9R82jTbBZNJ6SD7'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-20-LEE-CRY-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-20-LEE-CRY-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1655,14 +2082,14 @@
       },
       "market": {
        "average": {
-        "home": 1.7714,
+        "home": 1.7724,
         "draw": 3.7238,
         "away": 4.3176
        },
        "devigged": {
-        "home": 0.5302,
-        "draw": 0.2522,
-        "away": 0.2175
+        "home": 0.5301,
+        "draw": 0.2523,
+        "away": 0.2176
        },
        "n_bookmakers": 21
       },
@@ -1678,7 +2105,7 @@
         "odds": 1.75,
         "edge_pp": -10.9,
         "ev": -0.265,
-        "edge_vs_market_pp": -11.02
+        "edge_vs_market_pp": -11.01
        },
        "draw": {
         "p_model": 0.2916,
@@ -1686,7 +2113,7 @@
         "odds": 3.6,
         "edge_pp": 3.44,
         "ev": 0.0498,
-        "edge_vs_market_pp": 3.94
+        "edge_vs_market_pp": 3.93
        },
        "away": {
         "p_model": 0.2883,
@@ -1694,7 +2121,7 @@
         "odds": 4.33,
         "edge_pp": 7.45,
         "ev": 0.2483,
-        "edge_vs_market_pp": 7.08
+        "edge_vs_market_pp": 7.07
        }
       },
       "best": "away"
@@ -1709,9 +2136,9 @@
      "home": "Man City",
      "away": "Sunderland",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1723,7 +2150,7 @@
       "home": 1.29,
       "draw": 5.5,
       "away": 9.5,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.7297486033519555,
@@ -1763,21 +2190,21 @@
       },
       "challenge": "not_required",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r7"
+      "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vc1DS3NiiGqYPaAqZr'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-20-MCI-SUN-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-20-MCI-SUN-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1852,9 +2279,9 @@
      "home": "Fulham",
      "away": "Man Utd",
      "run": {
-      "number": 7,
+      "number": 8,
       "stage": "T-48h",
-      "label": "MW5 T-48h run 7",
+      "label": "MW5 T-48h run 8",
       "note": null
      },
      "model": {
@@ -1866,7 +2293,7 @@
       "home": 3.4,
       "draw": 3.6,
       "away": 2.0,
-      "last_update": "2026-09-16T09:25:01Z"
+      "last_update": "2026-09-16T09:51:40Z"
      },
      "sky_devigged": {
       "home": 0.27439024390243905,
@@ -1901,21 +2328,21 @@
       "bookmaker": "skybet",
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "MW5 T-48h run 7"
+      "run_label": "MW5 T-48h run 8"
      },
      "news": {
       "agent": "news_extraction",
       "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbwmKftY8rz1Fjq86Z'}",
       "items": [],
-      "cutoff": "2026-09-16T09:25:37Z"
+      "cutoff": "2026-09-16T09:51:43Z"
      },
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:25:36Z",
-      "first_odds_contact": "2026-09-16T09:25:37Z",
-      "snapshot": "2026-09-20-FUL-MUN-EPL-20260916T092537Z.json"
+      "committed": "2026-09-16T09:51:42Z",
+      "first_odds_contact": "2026-09-16T09:51:43Z",
+      "snapshot": "2026-09-20-FUL-MUN-EPL-20260916T095143Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -3669,12 +4096,12 @@
  "latest_run": {
   "as_of": "2026-09-16",
   "run": {
-   "number": 7,
+   "number": 8,
    "stage": "T-48h",
    "shadow": false
   },
-  "predictions_committed_at": "2026-09-16T09:25:37Z",
-  "first_odds_contact_at": "2026-09-16T09:25:37Z",
+  "predictions_committed_at": "2026-09-16T09:51:43Z",
+  "first_odds_contact_at": "2026-09-16T09:51:43Z",
   "settled": {
    "EPL": {
     "competition": "EPL",
@@ -3723,8 +4150,8 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge": "pass",
+    "challenge_reason": "The freshest fixture-specific reporting (Sports Mole, 15 Sep 2026) is Chelsea-negative rather than Brentford-negative: Caicedo, Henderson and Palestra are only possible returnees subject to medical clearance, Emegha has no return date, and the same preview notes Chelsea arrive on a two-match winless run (2-1 loss to Arsenal, 2-2 draw with Hull) with their defensive frailties under scrutiny, while confirming no Chelsea suspensions. Brentford's four listed absentees (Jensen, Van den Berg, Milambo, Dasilva) come from the older matchday-four Bournemouth list and are squad/rotation-level rather than talismanic, with Kelleher, Thiago, Schade, Damsgaard and Ouattara all available in that predicted XI. There is no managerial change, no midweek cup or European commitment, no congestion angle for a "
    },
    {
     "fixture_id": "2026-09-20-FUL-MUN-EPL",
@@ -3752,7 +4179,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbxQGWgyg5M7UxJqSX'}"
    }
   ],
   "fun_bet": null,
@@ -3782,8 +4209,8 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge": "pass",
+    "challenge_reason": "The freshest fixture-specific reporting (Sports Mole, 15 Sep 2026) is Chelsea-negative rather than Brentford-negative: Caicedo, Henderson and Palestra are only possible returnees subject to medical clearance, Emegha has no return date, and the same preview notes Chelsea arrive on a two-match winless run (2-1 loss to Arsenal, 2-2 draw with Hull) with their defensive frailties under scrutiny, while confirming no Chelsea suspensions. Brentford's four listed absentees (Jensen, Van den Berg, Milambo, Dasilva) come from the older matchday-four Bournemouth list and are squad/rotation-level rather than talismanic, with Kelleher, Thiago, Schade, Damsgaard and Ouattara all available in that predicted XI. There is no managerial change, no midweek cup or European commitment, no congestion angle for a "
    },
    {
     "fixture_id": "2026-09-19-BHA-ARS-EPL",
@@ -3837,8 +4264,8 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge": "pass",
+    "challenge_reason": "The only public information available before the cutoff points the same way as the model, not against it: Ipswich's 11 September Sports Mole round-up has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts or suspensions, and Ipswich played an EFL Cup third-round tie at home to Arsenal in the midweek before this game, a congestion/rotation factor. Everton's freshest dated absence list (Sports Mole, 5 September) named only Christian Norgaard, with no suspensions and no managerial change at either club, and my confirmatory searches surfaced nothing dated before 2026-09-16 that would justify Sky Bet's shorter view of Everton. The one genuine weakness is staleness — the Everton list is two weeks old and pre-dates the Spurs game of 12 September — but a gap in covera"
    },
    {
     "fixture_id": "2026-09-19-NFO-COV-EPL",
@@ -3866,7 +4293,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbqqsVhHbRcTToTSWE'}"
    },
    {
     "fixture_id": "2026-09-19-NEW-HUL-EPL",
@@ -3894,7 +4321,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbspSTQusnLwYzGLrN'}"
    },
    {
     "fixture_id": "2026-09-19-TOT-AVL-EPL",
@@ -3922,7 +4349,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbuuTDHqRTwRoCqiCp'}"
    },
    {
     "fixture_id": "2026-09-20-BOU-LIV-EPL",
@@ -3977,7 +4404,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbxQGWgyg5M7UxJqSX'}"
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -4005,7 +4432,7 @@
      "weekly_cap": true
     },
     "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': \"The following domains are not accessible to our user agent: ['bbc.co.uk', 'birminghammail.co.uk', 'chroniclelive.co.uk', 'football.london', 'independent.co.uk', 'liverpoolecho.co.uk', 'manchestereveningnews.co"
+    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbzCAfFQrdG6YXjXkC'}"
    },
    {
     "fixture_id": "2026-09-20-MCI-SUN-EPL",
@@ -4037,62 +4464,6 @@
   ]
  },
  "fetch_log": [
-  {
-   "competitions": {
-    "EPL": {
-     "events": 20,
-     "stored": [
-      "2026-09-18-BRE-CHE-EPL",
-      "2026-09-19-TOT-AVL-EPL",
-      "2026-09-19-BHA-ARS-EPL",
-      "2026-09-19-EVE-IPS-EPL",
-      "2026-09-19-NEW-HUL-EPL",
-      "2026-09-19-NFO-COV-EPL",
-      "2026-09-20-BOU-LIV-EPL",
-      "2026-09-20-LEE-CRY-EPL",
-      "2026-09-20-MCI-SUN-EPL",
-      "2026-09-20-FUL-MUN-EPL"
-     ],
-     "skipped_unpriced": [
-      "2026-10-10-ARS-LEE-EPL",
-      "2026-10-10-AVL-BRE-EPL",
-      "2026-10-10-CHE-BOU-EPL",
-      "2026-10-10-SUN-BHA-EPL",
-      "2026-10-10-IPS-FUL-EPL",
-      "2026-10-10-MUN-TOT-EPL",
-      "2026-10-11-CRY-NFO-EPL",
-      "2026-10-11-HUL-EVE-EPL",
-      "2026-10-11-LIV-MCI-EPL",
-      "2026-10-12-COV-NEW-EPL"
-     ],
-     "skybet_priced": 10,
-     "unknown_teams": []
-    },
-    "EFLC": {
-     "events": 7,
-     "stored": [
-      "2026-09-15-LIV-TOT-EFLC"
-     ],
-     "skipped_unpriced": [
-      "2026-09-15-REA-BRE-EFLC",
-      "2026-09-16-EVE-WOL-EFLC",
-      "2026-09-16-FLE-SHU-EFLC",
-      "2026-09-16-COV-AVL-EFLC",
-      "2026-09-16-MUN-BHA-EFLC",
-      "2026-09-17-MCI-NWC-EFLC"
-     ],
-     "skybet_priced": 1,
-     "unknown_teams": []
-    }
-   },
-   "first_odds_contact_at": "2026-09-15T21:03:15Z",
-   "quota": {
-    "remaining": "492",
-    "used": "8",
-    "last_cost": "1"
-   },
-   "predictions_committed_at": "2026-09-15T21:03:15Z"
-  },
   {
    "competitions": {
     "EPL": {
@@ -4308,6 +4679,59 @@
     "last_cost": "1"
    },
    "predictions_committed_at": "2026-09-16T09:25:37Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 5,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-16T09:51:43Z",
+   "quota": {
+    "remaining": "482",
+    "used": "18",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-16T09:51:43Z"
   }
  ],
  "protocol_audit": {
@@ -4505,7 +4929,7 @@
     "pnl_gbp": "",
     "settled_at": "",
     "settlement_source": "",
-    "notes": "T-48h r7: edge 6.8pp at Sky Bet 2.8, EV +0.116; challenge not_run"
+    "notes": "T-48h r8: edge 6.8pp at Sky Bet 2.8, EV +0.116; challenge pass"
    },
    {
     "bet_id": "MW5-EPL-STRICT-2026-09-20-FUL-MUN-EPL",
@@ -4525,7 +4949,7 @@
     "pnl_gbp": "",
     "settled_at": "",
     "settlement_source": "",
-    "notes": "T-48h r7: edge 6.3pp at Sky Bet 3.4, EV +0.148; challenge not_run"
+    "notes": "T-48h r8: edge 6.3pp at Sky Bet 3.4, EV +0.148; challenge not_run"
    }
   ],
   "discipline": [
