@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-16T10:01:20Z",
+ "built_at": "2026-09-16T10:55:23Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -2044,17 +2044,113 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbzCAfFQrdG6YXjXkC'}",
+      "challenge": "kill",
+      "challenge_reason": "Public information explains the market's price against the Palace-away selection: Palace went into their last game without Mateta, Sarr and Riad with Doucoure barely back (Sports Mole, 11 Sep), and Disasi is now suspended after a reckless challenge on Jack Clarke (Sports Mole, 12 Sep), while Leeds' absences (Rodon, Joseph) are already known and Gruev is close to returning (Sports Mole, 13 Sep). The model cannot see a depleted Palace attack and defence, so its 7.5pp edge is unreliable. The verdict was already NO BET under the odds gate; this kill is recorded for the discipline record.",
+      "challenge_cost_usd": 0.0,
       "shadow": false,
       "run_label": "2026-09-16 T-48h r8"
      },
      "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vby9R82jTbBZNJ6SD7'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
+      "agent": "claude-code-session",
+      "model": "in-session web search",
+      "retrieved_at": "2026-09-16T10:54:50Z",
+      "cutoff": "2026-09-16T10:54:50Z",
+      "items": [
+       {
+        "club": "Crystal Palace",
+        "player": "Jean-Philippe Mateta",
+        "status": "out",
+        "detail": "Thigh injury; out for the Ipswich game, no return date given.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Crystal Palace",
+        "player": "Ismaila Sarr",
+        "status": "doubt",
+        "detail": "Groin; out for Ipswich, expected back in training on the Monday after.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11",
+        "confidence": 0.55,
+        "published_known": true
+       },
+       {
+        "club": "Crystal Palace",
+        "player": "Chadi Riad",
+        "status": "out",
+        "detail": "Knee injury; out for the Ipswich game.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
+        "published": "2026-09-11",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Crystal Palace",
+        "player": "Axel Disasi",
+        "status": "suspended",
+        "detail": "Facing a ban after a 'reckless' challenge on Jack Clarke against Ipswich; the article lists the games he will miss.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/news/crystal-palace-games-axel-disasi-will-miss-after-reckless-challenge-on-jack-clarke_605028.html",
+        "published": "2026-09-12",
+        "confidence": 0.5,
+        "published_known": true
+       },
+       {
+        "club": "Leeds",
+        "player": "Joe Rodon",
+        "status": "out",
+        "detail": "Thigh injury, eight to ten weeks.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
+        "published": "2026-09-13",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Leeds",
+        "player": "Mateo Joseph",
+        "status": "out",
+        "detail": "Working back from an ACL injury.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
+        "published": "2026-09-13",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Leeds",
+        "player": "Ilia Gruev",
+        "status": "returning",
+        "detail": "Farke hinted he could be fit to return from a knee problem; no new injuries after the Chelsea cup tie.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
+        "published": "2026-09-13",
+        "confidence": 0.5,
+        "published_known": true
+       }
+      ],
+      "dropped": [],
+      "summary": "Crystal Palace's freshest list (Sports Mole, 11 Sep, before the Ipswich game) had Chadi Riad, Jean-Philippe Mateta and Ismaila Sarr out, Sarr due back in training on the Monday, and Cheick Doucoure only just back from a long absence; Axel Disasi then picked up a suspension for a reckless challenge on Jack Clarke. Leeds (Sports Mole, 13 Sep, before Newcastle) had Joe Rodon out for eight to ten weeks and Mateo Joseph recovering from an ACL injury, with Ilia Gruev close to a return and no new injuries after the Chelsea cup tie.",
+      "searches_note": null,
+      "status": "ok",
+      "meta": {
+       "searches": 3,
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "cost_usd": 0.0
+      }
      },
      "result": null,
      "unrated": null,
@@ -2326,16 +2422,111 @@
        "weekly_cap": true
       },
       "bookmaker": "skybet",
-      "challenge": "not_run",
+      "challenge": "pass",
       "shadow": false,
       "run_label": "MW5 T-48h run 8"
      },
      "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbwmKftY8rz1Fjq86Z'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
+      "agent": "claude-code-session",
+      "model": "in-session web search",
+      "retrieved_at": "2026-09-16T10:54:49Z",
+      "cutoff": "2026-09-16T10:54:49Z",
+      "items": [
+       {
+        "club": "Fulham",
+        "player": "Tom Cairney",
+        "status": "out",
+        "detail": "Knee injury; listed as out in the pre-Liverpool round-up, no return date given.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/team-news/liverpool-vs-fulham-injury-suspension-list-predicted-xis_604779.html",
+        "published": "2026-09-12",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Fulham",
+        "player": "Luc De Fougerolles",
+        "status": "out",
+        "detail": "Knee injury; listed as out in the pre-Liverpool round-up.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/team-news/liverpool-vs-fulham-injury-suspension-list-predicted-xis_604779.html",
+        "published": "2026-09-12",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Carlos Baleba",
+        "status": "out",
+        "detail": "Ankle issue keeps the new signing unavailable; expected back in the near future.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
+        "published": "2026-09-12",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Amad Diallo",
+        "status": "doubt",
+        "detail": "Missed the Hull and Ipswich games with a training injury; only a slight chance of a return was reported before the derby.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
+        "published": "2026-09-12",
+        "confidence": 0.55,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Matthijs de Ligt",
+        "status": "returning",
+        "detail": "Back in training after a long-term back injury and an operation; targeted for the first half of the season, not yet available.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
+        "published": "2026-09-12",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Manuel Ugarte",
+        "status": "out",
+        "detail": "Serious knee injury from the 2026 World Cup; out for a significant period.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
+        "published": "2026-09-12",
+        "confidence": 0.65,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Luke Shaw",
+        "status": "doubt",
+        "detail": "Michael Carrick: 'Luke is not quite ready yet, but he is very close', before the derby.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/how-long-carrick-issues-shaw-injury-update-ahead-of-manchester-derby_605067.html",
+        "published": "2026-09-13",
+        "confidence": 0.55,
+        "published_known": true
+       }
+      ],
+      "dropped": [],
+      "summary": "No fixture-specific Fulham v Man Utd preview had been published before the cutoff. Fulham's freshest list (Sports Mole, 12 Sep, before the Liverpool game) had only Tom Cairney and Luc De Fougerolles out, with a full-strength predicted XI. Man Utd's freshest list (Sports Mole, 13 Sep, before the derby) had Carlos Baleba (ankle) and Manuel Ugarte (knee, long term) out, Amad Diallo a doubt after a training injury, Matthijs de Ligt back in training but not yet available, and Luke Shaw described by Michael Carrick as 'very close' to a return.",
+      "searches_note": null,
+      "status": "ok",
+      "meta": {
+       "searches": 5,
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "cost_usd": 0.0
+      }
      },
      "result": null,
      "unrated": null,
@@ -4119,10 +4310,25 @@
    }
   },
   "agents": {
-   "status": "ok",
+   "status": "claude-code-session",
    "news": 10,
-   "challenges": 7,
-   "kills": []
+   "challenges": 9,
+   "kills": [],
+   "cost": {
+    "total_usd": 0.0
+   },
+   "manual": [
+    {
+     "fixture_id": "2026-09-20-FUL-MUN-EPL",
+     "verdict": "pass",
+     "at": "2026-09-16T10:54:49Z"
+    },
+    {
+     "fixture_id": "2026-09-20-LEE-CRY-EPL",
+     "verdict": "kill",
+     "at": "2026-09-16T10:54:50Z"
+    }
+   ]
   },
   "strict_bets": [
    {
@@ -4178,7 +4384,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
+    "challenge": "pass",
     "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbxQGWgyg5M7UxJqSX'}"
    }
   ],
@@ -4403,8 +4609,9 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbxQGWgyg5M7UxJqSX'}"
+    "challenge": "pass",
+    "challenge_reason": "The only pre-cutoff team news runs against Man Utd, not Fulham: Baleba and Ugarte out, Amad a doubt, de Ligt not yet back and Shaw only close to a return (Sports Mole, 12 to 13 Sep), while Fulham's freshest list (Sports Mole, 12 Sep) had only Cairney and De Fougerolles out with a full-strength XI. No Fulham v Man Utd preview, new Fulham absence, suspension, rotation or managerial change was published on the allowed outlets before the cutoff, so nothing explains the market's shorter view of Man Utd. Confidence is modest because the Fulham list is a week old and search results, not full articles, were available.",
+    "challenge_cost_usd": 0.0
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -4431,8 +4638,9 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbzCAfFQrdG6YXjXkC'}"
+    "challenge": "kill",
+    "challenge_reason": "Public information explains the market's price against the Palace-away selection: Palace went into their last game without Mateta, Sarr and Riad with Doucoure barely back (Sports Mole, 11 Sep), and Disasi is now suspended after a reckless challenge on Jack Clarke (Sports Mole, 12 Sep), while Leeds' absences (Rodon, Joseph) are already known and Gruev is close to returning (Sports Mole, 13 Sep). The model cannot see a depleted Palace attack and defence, so its 7.5pp edge is unreliable. The verdict was already NO BET under the odds gate; this kill is recorded for the discipline record.",
+    "challenge_cost_usd": 0.0
    },
    {
     "fixture_id": "2026-09-20-MCI-SUN-EPL",
