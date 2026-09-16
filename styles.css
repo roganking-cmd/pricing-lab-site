@@ -40,5 +40,15 @@ td.num,th.num{text-align:right}.scroll{overflow-x:auto}
 .stat{display:flex;flex-wrap:wrap;gap:12px}.stat .card{flex:1 1 160px;margin:0}.stat .k{font-size:12px;color:var(--silver-dim);text-transform:uppercase;letter-spacing:.4px}.stat .v{font-family:var(--serif);font-size:24px}
 .meter{height:10px;border-radius:6px;background:rgba(201,207,203,.12);overflow:hidden;margin-top:6px}.meter i{display:block;height:100%;background:var(--green)}
 svg.chart{width:100%;height:auto;max-width:720px}
+.front-title{margin-top:6px}.front-grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.front-card{padding:18px 20px}.front-card.strict{border-color:rgba(46,204,113,.55);background:linear-gradient(180deg,rgba(46,204,113,.12),var(--card))}
+.front-card.fun{border-color:rgba(46,204,113,.35)}.front-card.kill{border-color:rgba(240,180,41,.55);background:linear-gradient(180deg,rgba(240,180,41,.10),var(--card))}
+.front-kind{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--silver);font-weight:600}
+.front-fixture{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:22px;margin:10px 0 2px}
+.front-pick{font-family:var(--serif);font-size:30px;margin:8px 0 6px}
+.front-row{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:15px;margin-top:6px}.front-row b{font-family:var(--serif);font-size:19px}
+.nobet{text-align:center;padding:56px 20px}.nobet-big{font-family:var(--serif);font-size:44px;letter-spacing:1px;color:var(--silver)}.nobet-sub{color:var(--silver-dim);margin-top:8px;font-size:15px}
+.capline{color:var(--silver);margin-top:18px}
+@media (max-width:520px){.front-pick{font-size:24px}.nobet-big{font-size:32px}}
 footer{margin-top:36px;color:var(--silver-dim);font-size:12px}
 @media (max-width:520px){.fixture{grid-template-columns:1fr auto 1fr}.crest,.badge{width:44px;height:44px}}

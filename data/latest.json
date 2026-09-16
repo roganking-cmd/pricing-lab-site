@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-15T20:50:00Z",
+ "built_at": "2026-09-16T08:54:07Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -53,7 +53,7 @@
   "EPL": {
    "key": "EPL",
    "name": "Premier League",
-   "page": "index.html",
+   "page": "premier-league.html",
    "blend_lambda": 0.0,
    "fixtures": [
     {
@@ -565,10 +565,10 @@
      "home": "Brentford",
      "away": "Chelsea",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.3987,
@@ -579,7 +579,7 @@
       "home": 2.88,
       "draw": 3.6,
       "away": 2.25,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.3246753246753247,
@@ -587,18 +587,12 @@
       "away": 0.41558441558441556
      },
      "market_devigged": {
-      "home": 0.32823169746721925,
-      "draw": 0.25087979200131416,
-      "away": 0.42088851053146664
+      "home": 0.328693033310521,
+      "draw": 0.2513436934459281,
+      "away": 0.4199632732435508
      },
      "n_bookmakers": 21,
      "verdict": {
-      "fixture_id": "2026-09-18-BRE-CHE-EPL",
-      "competition": "EPL",
-      "matchweek": "MW5",
-      "home": "Brentford",
-      "away": "Chelsea",
-      "kickoff_utc": "2026-09-18T19:00:00Z",
       "verdict": "STRICT_BET",
       "lane": "strict",
       "selection": "home",
@@ -608,6 +602,7 @@
       "odds_recommended": 2.88,
       "edge_pp": 7.4,
       "ev": 0.1483,
+      "skip_if_sky_below": 2.51,
       "checks": {
        "edge_min": true,
        "edge_max": true,
@@ -616,18 +611,82 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "bookmaker": "skybet",
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "MW5 T-72h run 5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-18-BRE-CHE-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-18-BRE-CHE-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-18-BRE-CHE-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 2.88,
+        "draw": 3.6,
+        "away": 2.25
+       },
+       "devigged": {
+        "home": 0.3247,
+        "draw": 0.2597,
+        "away": 0.4156
+       }
+      },
+      "market": {
+       "average": {
+        "home": 2.8657,
+        "draw": 3.7476,
+        "away": 2.2429
+       },
+       "devigged": {
+        "home": 0.3287,
+        "draw": 0.2513,
+        "away": 0.42
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.3987,
+       "draw": 0.2653,
+       "away": 0.3361
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.3987,
+        "p_final": 0.3987,
+        "odds": 2.88,
+        "edge_pp": 7.4,
+        "ev": 0.1483,
+        "edge_vs_market_pp": 7.0
+       },
+       "draw": {
+        "p_model": 0.2653,
+        "p_final": 0.2653,
+        "odds": 3.6,
+        "edge_pp": 0.56,
+        "ev": -0.0449,
+        "edge_vs_market_pp": 1.4
+       },
+       "away": {
+        "p_model": 0.3361,
+        "p_final": 0.3361,
+        "odds": 2.25,
+        "edge_pp": -7.95,
+        "ev": -0.2438,
+        "edge_vs_market_pp": -8.39
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     },
     {
@@ -638,10 +697,10 @@
      "home": "Spurs",
      "away": "Aston Villa",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.3549,
@@ -652,7 +711,7 @@
       "home": 2.0,
       "draw": 3.5,
       "away": 3.6,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.4701492537313433,
@@ -660,9 +719,9 @@
       "away": 0.2611940298507463
      },
      "market_devigged": {
-      "home": 0.4752873860113355,
-      "draw": 0.2633151206703333,
-      "away": 0.26139749331833123
+      "home": 0.4747620243378722,
+      "draw": 0.26314370475914706,
+      "away": 0.2620942709029807
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -681,6 +740,7 @@
       "odds_recommended": 3.6,
       "edge_pp": 11.21,
       "ev": 0.3439,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
        "edge_max": false,
@@ -689,18 +749,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-19-TOT-AVL-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-19-TOT-AVL-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-19-TOT-AVL-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 2.0,
+        "draw": 3.5,
+        "away": 3.6
+       },
+       "devigged": {
+        "home": 0.4701,
+        "draw": 0.2687,
+        "away": 0.2612
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.9795,
+        "draw": 3.5714,
+        "away": 3.5857
+       },
+       "devigged": {
+        "home": 0.4748,
+        "draw": 0.2631,
+        "away": 0.2621
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.3549,
+       "draw": 0.2718,
+       "away": 0.3733
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.3549,
+        "p_final": 0.3549,
+        "odds": 2.0,
+        "edge_pp": -11.52,
+        "ev": -0.2902,
+        "edge_vs_market_pp": -11.99
+       },
+       "draw": {
+        "p_model": 0.2718,
+        "p_final": 0.2718,
+        "odds": 3.5,
+        "edge_pp": 0.31,
+        "ev": -0.0487,
+        "edge_vs_market_pp": 0.87
+       },
+       "away": {
+        "p_model": 0.3733,
+        "p_final": 0.3733,
+        "odds": 3.6,
+        "edge_pp": 11.21,
+        "ev": 0.3439,
+        "edge_vs_market_pp": 11.12
+       }
+      },
+      "best": "away"
+     },
      "shrinkage": null
     },
     {
@@ -711,10 +834,10 @@
      "home": "Brighton",
      "away": "Arsenal",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.2023,
@@ -725,7 +848,7 @@
       "home": 4.5,
       "draw": 3.8,
       "away": 1.7,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.20698494072412688,
@@ -733,9 +856,9 @@
       "away": 0.5479013136815124
      },
      "market_devigged": {
-      "home": 0.20438338834829206,
-      "draw": 0.243968486859456,
-      "away": 0.5516481247922519
+      "home": 0.2049890062114033,
+      "draw": 0.24401072789811276,
+      "away": 0.5510002658904839
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -754,6 +877,7 @@
       "odds_recommended": 3.8,
       "edge_pp": 2.6,
       "ev": 0.0302,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": false,
        "edge_max": true,
@@ -762,18 +886,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-19-BHA-ARS-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-19-BHA-ARS-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-19-BHA-ARS-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 4.5,
+        "draw": 3.8,
+        "away": 1.7
+       },
+       "devigged": {
+        "home": 0.207,
+        "draw": 0.2451,
+        "away": 0.5479
+       }
+      },
+      "market": {
+       "average": {
+        "home": 4.5886,
+        "draw": 3.8548,
+        "away": 1.7071
+       },
+       "devigged": {
+        "home": 0.205,
+        "draw": 0.244,
+        "away": 0.551
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.2023,
+       "draw": 0.2711,
+       "away": 0.5267
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.2023,
+        "p_final": 0.2023,
+        "odds": 4.5,
+        "edge_pp": -0.47,
+        "ev": -0.0897,
+        "edge_vs_market_pp": -0.27
+       },
+       "draw": {
+        "p_model": 0.2711,
+        "p_final": 0.2711,
+        "odds": 3.8,
+        "edge_pp": 2.6,
+        "ev": 0.0302,
+        "edge_vs_market_pp": 2.71
+       },
+       "away": {
+        "p_model": 0.5267,
+        "p_final": 0.5267,
+        "odds": 1.7,
+        "edge_pp": -2.12,
+        "ev": -0.1046,
+        "edge_vs_market_pp": -2.43
+       }
+      },
+      "best": "draw"
+     },
      "shrinkage": null
     },
     {
@@ -784,10 +971,10 @@
      "home": "Everton",
      "away": "Ipswich",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.6418,
@@ -798,7 +985,7 @@
       "home": 1.75,
       "draw": 3.75,
       "away": 4.33,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.5345239074973253,
@@ -806,9 +993,9 @@
       "away": 0.21603160233725618
      },
      "market_devigged": {
-      "home": 0.5346248271266678,
-      "draw": 0.25030491600776755,
-      "away": 0.21507025686556475
+      "home": 0.5359177685509955,
+      "draw": 0.2505780373196172,
+      "away": 0.21350419412938737
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -827,6 +1014,7 @@
       "odds_recommended": 1.75,
       "edge_pp": 10.73,
       "ev": 0.1232,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
        "edge_max": false,
@@ -835,18 +1023,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-19-EVE-IPS-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-19-EVE-IPS-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-19-EVE-IPS-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 1.75,
+        "draw": 3.75,
+        "away": 4.33
+       },
+       "devigged": {
+        "home": 0.5345,
+        "draw": 0.2494,
+        "away": 0.216
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.7567,
+        "draw": 3.7571,
+        "away": 4.4095
+       },
+       "devigged": {
+        "home": 0.5359,
+        "draw": 0.2506,
+        "away": 0.2135
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.6418,
+       "draw": 0.2258,
+       "away": 0.1323
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.6418,
+        "p_final": 0.6418,
+        "odds": 1.75,
+        "edge_pp": 10.73,
+        "ev": 0.1232,
+        "edge_vs_market_pp": 10.59
+       },
+       "draw": {
+        "p_model": 0.2258,
+        "p_final": 0.2258,
+        "odds": 3.75,
+        "edge_pp": -2.36,
+        "ev": -0.1532,
+        "edge_vs_market_pp": -2.48
+       },
+       "away": {
+        "p_model": 0.1323,
+        "p_final": 0.1323,
+        "odds": 4.33,
+        "edge_pp": -8.37,
+        "ev": -0.4271,
+        "edge_vs_market_pp": -8.12
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     },
     {
@@ -857,10 +1108,10 @@
      "home": "Newcastle",
      "away": "Hull",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.7781,
@@ -871,7 +1122,7 @@
       "home": 1.57,
       "draw": 4.2,
       "away": 5.0,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.5924839182936463,
@@ -879,9 +1130,9 @@
       "away": 0.18603995034420498
      },
      "market_devigged": {
-      "home": 0.5946169086158034,
-      "draw": 0.22235804518427707,
-      "away": 0.18302504619991952
+      "home": 0.5960422961528805,
+      "draw": 0.22138995201562472,
+      "away": 0.18256775183149482
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -900,6 +1151,7 @@
       "odds_recommended": 1.57,
       "edge_pp": 18.56,
       "ev": 0.2216,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
        "edge_max": false,
@@ -908,18 +1160,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-19-NEW-HUL-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-19-NEW-HUL-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-19-NEW-HUL-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 1.57,
+        "draw": 4.2,
+        "away": 5.0
+       },
+       "devigged": {
+        "home": 0.5925,
+        "draw": 0.2215,
+        "away": 0.186
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.5738,
+        "draw": 4.2371,
+        "away": 5.1381
+       },
+       "devigged": {
+        "home": 0.596,
+        "draw": 0.2214,
+        "away": 0.1826
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.7781,
+       "draw": 0.1513,
+       "away": 0.0707
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.7781,
+        "p_final": 0.7781,
+        "odds": 1.57,
+        "edge_pp": 18.56,
+        "ev": 0.2216,
+        "edge_vs_market_pp": 18.21
+       },
+       "draw": {
+        "p_model": 0.1513,
+        "p_final": 0.1513,
+        "odds": 4.2,
+        "edge_pp": -7.02,
+        "ev": -0.3645,
+        "edge_vs_market_pp": -7.01
+       },
+       "away": {
+        "p_model": 0.0707,
+        "p_final": 0.0707,
+        "odds": 5.0,
+        "edge_pp": -11.53,
+        "ev": -0.6465,
+        "edge_vs_market_pp": -11.19
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     },
     {
@@ -930,10 +1245,10 @@
      "home": "Forest",
      "away": "Coventry",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.6922,
@@ -944,7 +1259,7 @@
       "home": 1.62,
       "draw": 3.8,
       "away": 5.0,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.5713254751022372,
@@ -952,9 +1267,9 @@
       "away": 0.18510945393312486
      },
      "market_devigged": {
-      "home": 0.5732701775684153,
-      "draw": 0.23918136566522868,
-      "away": 0.18754845676635595
+      "home": 0.5740573614602897,
+      "draw": 0.2387858084830247,
+      "away": 0.18715683005668546
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -973,6 +1288,7 @@
       "odds_recommended": 1.62,
       "edge_pp": 12.09,
       "ev": 0.1214,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
        "edge_max": false,
@@ -981,18 +1297,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-19-NFO-COV-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-19-NFO-COV-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-19-NFO-COV-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 1.62,
+        "draw": 3.8,
+        "away": 5.0
+       },
+       "devigged": {
+        "home": 0.5713,
+        "draw": 0.2436,
+        "away": 0.1851
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.6371,
+        "draw": 3.9357,
+        "away": 5.0214
+       },
+       "devigged": {
+        "home": 0.5741,
+        "draw": 0.2388,
+        "away": 0.1872
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.6922,
+       "draw": 0.2058,
+       "away": 0.102
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.6922,
+        "p_final": 0.6922,
+        "odds": 1.62,
+        "edge_pp": 12.09,
+        "ev": 0.1214,
+        "edge_vs_market_pp": 11.81
+       },
+       "draw": {
+        "p_model": 0.2058,
+        "p_final": 0.2058,
+        "odds": 3.8,
+        "edge_pp": -3.78,
+        "ev": -0.218,
+        "edge_vs_market_pp": -3.3
+       },
+       "away": {
+        "p_model": 0.102,
+        "p_final": 0.102,
+        "odds": 5.0,
+        "edge_pp": -8.31,
+        "ev": -0.49,
+        "edge_vs_market_pp": -8.52
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     },
     {
@@ -1003,10 +1382,10 @@
      "home": "Bournemouth",
      "away": "Liverpool",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.3081,
@@ -1017,7 +1396,7 @@
       "home": 3.1,
       "draw": 3.6,
       "away": 2.1,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.29964328180737215,
@@ -1025,9 +1404,9 @@
       "away": 0.4423305588585017
      },
      "market_devigged": {
-      "home": 0.30352310860443943,
-      "draw": 0.25177455951367017,
-      "away": 0.4447023318818904
+      "home": 0.30330416087883244,
+      "draw": 0.2523984823047706,
+      "away": 0.44429735681639704
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -1046,6 +1425,7 @@
       "odds_recommended": 3.1,
       "edge_pp": 0.85,
       "ev": -0.0449,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": false,
        "edge_max": true,
@@ -1054,18 +1434,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-20-BOU-LIV-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-20-BOU-LIV-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-20-BOU-LIV-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 3.1,
+        "draw": 3.6,
+        "away": 2.1
+       },
+       "devigged": {
+        "home": 0.2996,
+        "draw": 0.258,
+        "away": 0.4423
+       }
+      },
+      "market": {
+       "average": {
+        "home": 3.0929,
+        "draw": 3.7167,
+        "away": 2.1114
+       },
+       "devigged": {
+        "home": 0.3033,
+        "draw": 0.2524,
+        "away": 0.4443
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.3081,
+       "draw": 0.2594,
+       "away": 0.4324
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.3081,
+        "p_final": 0.3081,
+        "odds": 3.1,
+        "edge_pp": 0.85,
+        "ev": -0.0449,
+        "edge_vs_market_pp": 0.48
+       },
+       "draw": {
+        "p_model": 0.2594,
+        "p_final": 0.2594,
+        "odds": 3.6,
+        "edge_pp": 0.14,
+        "ev": -0.0662,
+        "edge_vs_market_pp": 0.7
+       },
+       "away": {
+        "p_model": 0.4324,
+        "p_final": 0.4324,
+        "odds": 2.1,
+        "edge_pp": -0.99,
+        "ev": -0.092,
+        "edge_vs_market_pp": -1.19
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     },
     {
@@ -1076,10 +1519,10 @@
      "home": "Leeds",
      "away": "Crystal Palace",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.42,
@@ -1090,7 +1533,7 @@
       "home": 1.75,
       "draw": 3.6,
       "away": 4.33,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.5290254704654596,
@@ -1098,9 +1541,9 @@
       "away": 0.21380937028049754
      },
      "market_devigged": {
-      "home": 0.5299731421913616,
-      "draw": 0.2519273629646151,
-      "away": 0.2180994948440233
+      "home": 0.5305975567238013,
+      "draw": 0.2516999198285092,
+      "away": 0.2177025234476895
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -1119,6 +1562,7 @@
       "odds_recommended": 4.33,
       "edge_pp": 7.45,
       "ev": 0.2483,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
        "edge_max": true,
@@ -1127,18 +1571,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-20-LEE-CRY-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-20-LEE-CRY-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-20-LEE-CRY-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 1.75,
+        "draw": 3.6,
+        "away": 4.33
+       },
+       "devigged": {
+        "home": 0.529,
+        "draw": 0.2572,
+        "away": 0.2138
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.7676,
+        "draw": 3.7262,
+        "away": 4.3081
+       },
+       "devigged": {
+        "home": 0.5306,
+        "draw": 0.2517,
+        "away": 0.2177
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.42,
+       "draw": 0.2916,
+       "away": 0.2883
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.42,
+        "p_final": 0.42,
+        "odds": 1.75,
+        "edge_pp": -10.9,
+        "ev": -0.265,
+        "edge_vs_market_pp": -11.06
+       },
+       "draw": {
+        "p_model": 0.2916,
+        "p_final": 0.2916,
+        "odds": 3.6,
+        "edge_pp": 3.44,
+        "ev": 0.0498,
+        "edge_vs_market_pp": 3.99
+       },
+       "away": {
+        "p_model": 0.2883,
+        "p_final": 0.2883,
+        "odds": 4.33,
+        "edge_pp": 7.45,
+        "ev": 0.2483,
+        "edge_vs_market_pp": 7.06
+       }
+      },
+      "best": "away"
+     },
      "shrinkage": null
     },
     {
@@ -1149,10 +1656,10 @@
      "home": "Man City",
      "away": "Sunderland",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.6701,
@@ -1163,7 +1670,7 @@
       "home": 1.29,
       "draw": 5.5,
       "away": 9.5,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.7297486033519555,
@@ -1171,9 +1678,9 @@
       "away": 0.09909217877094974
      },
      "market_devigged": {
-      "home": 0.7335449072986362,
-      "draw": 0.16923702093585757,
-      "away": 0.09721807176550626
+      "home": 0.7338515601358294,
+      "draw": 0.16896044119313752,
+      "away": 0.09718799867103303
      },
      "n_bookmakers": 21,
      "verdict": {
@@ -1192,6 +1699,7 @@
       "odds_recommended": 5.5,
       "edge_pp": 5.14,
       "ev": 0.2243,
+      "skip_if_sky_below": null,
       "checks": {
        "edge_min": false,
        "edge_max": true,
@@ -1200,18 +1708,81 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-15 T-72h r5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-20-MCI-SUN-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-20-MCI-SUN-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-20-MCI-SUN-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 1.29,
+        "draw": 5.5,
+        "away": 9.5
+       },
+       "devigged": {
+        "home": 0.7297,
+        "draw": 0.1712,
+        "away": 0.0991
+       }
+      },
+      "market": {
+       "average": {
+        "home": 1.2833,
+        "draw": 5.5738,
+        "away": 9.69
+       },
+       "devigged": {
+        "home": 0.7339,
+        "draw": 0.169,
+        "away": 0.0972
+       },
+       "n_bookmakers": 21
+      },
+      "final": {
+       "home": 0.6701,
+       "draw": 0.2226,
+       "away": 0.1073
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.6701,
+        "p_final": 0.6701,
+        "odds": 1.29,
+        "edge_pp": -5.96,
+        "ev": -0.1356,
+        "edge_vs_market_pp": -6.38
+       },
+       "draw": {
+        "p_model": 0.2226,
+        "p_final": 0.2226,
+        "odds": 5.5,
+        "edge_pp": 5.14,
+        "ev": 0.2243,
+        "edge_vs_market_pp": 5.36
+       },
+       "away": {
+        "p_model": 0.1073,
+        "p_final": 0.1073,
+        "odds": 9.5,
+        "edge_pp": 0.82,
+        "ev": 0.0193,
+        "edge_vs_market_pp": 1.01
+       }
+      },
+      "best": "draw"
+     },
      "shrinkage": null
     },
     {
@@ -1222,10 +1793,10 @@
      "home": "Fulham",
      "away": "Man Utd",
      "run": {
-      "number": 1,
-      "stage": "shadow",
-      "label": "MW5 shadow run 1",
-      "note": "shadow pricing on the new setup; the MW5 bets come from the old-recipe run on 18 Sep"
+      "number": 5,
+      "stage": "T-72h",
+      "label": "MW5 T-72h run 5",
+      "note": null
      },
      "model": {
       "home": 0.3376,
@@ -1236,7 +1807,7 @@
       "home": 3.4,
       "draw": 3.6,
       "away": 1.95,
-      "last_update": "2026-09-15T20:21:33Z"
+      "last_update": "2026-09-15T21:42:07Z"
      },
      "sky_devigged": {
       "home": 0.27114716106604864,
@@ -1244,18 +1815,12 @@
       "away": 0.4727694090382387
      },
      "market_devigged": {
-      "home": 0.2749171849789336,
-      "draw": 0.2506435606195896,
-      "away": 0.4744392544014769
+      "home": 0.27535902919028965,
+      "draw": 0.25170402534038555,
+      "away": 0.4729369454693247
      },
      "n_bookmakers": 20,
      "verdict": {
-      "fixture_id": "2026-09-20-FUL-MUN-EPL",
-      "competition": "EPL",
-      "matchweek": "MW5",
-      "home": "Fulham",
-      "away": "Man Utd",
-      "kickoff_utc": "2026-09-20T15:30:00Z",
       "verdict": "STRICT_BET",
       "lane": "strict",
       "selection": "home",
@@ -1265,6 +1830,7 @@
       "odds_recommended": 3.4,
       "edge_pp": 6.65,
       "ev": 0.1478,
+      "skip_if_sky_below": 2.97,
       "checks": {
        "edge_min": true,
        "edge_max": true,
@@ -1273,18 +1839,82 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "shadow": true,
-      "run_label": "2026-09-15 shadow r2"
+      "bookmaker": "skybet",
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "MW5 T-72h run 5"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-15T20:20:10Z",
-      "first_odds_contact": "2026-09-15T20:22:07Z",
-      "snapshot": "2026-09-20-FUL-MUN-EPL-20260915T202207Z.json"
+      "committed": "2026-09-15T21:42:37Z",
+      "first_odds_contact": "2026-09-15T21:42:38Z",
+      "snapshot": "2026-09-20-FUL-MUN-EPL-20260915T214239Z.json"
      },
-     "value": null,
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": "2026-09-20-FUL-MUN-EPL",
+      "sky_priced": true,
+      "sky": {
+       "odds": {
+        "home": 3.4,
+        "draw": 3.6,
+        "away": 1.95
+       },
+       "devigged": {
+        "home": 0.2711,
+        "draw": 0.2561,
+        "away": 0.4728
+       }
+      },
+      "market": {
+       "average": {
+        "home": 3.405,
+        "draw": 3.725,
+        "away": 1.9825
+       },
+       "devigged": {
+        "home": 0.2754,
+        "draw": 0.2517,
+        "away": 0.4729
+       },
+       "n_bookmakers": 20
+      },
+      "final": {
+       "home": 0.3376,
+       "draw": 0.2757,
+       "away": 0.3867
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.3376,
+        "p_final": 0.3376,
+        "odds": 3.4,
+        "edge_pp": 6.65,
+        "ev": 0.1478,
+        "edge_vs_market_pp": 6.22
+       },
+       "draw": {
+        "p_model": 0.2757,
+        "p_final": 0.2757,
+        "odds": 3.6,
+        "edge_pp": 1.96,
+        "ev": -0.0075,
+        "edge_vs_market_pp": 2.4
+       },
+       "away": {
+        "p_model": 0.3867,
+        "p_final": 0.3867,
+        "odds": 1.95,
+        "edge_pp": -8.61,
+        "ev": -0.2459,
+        "edge_vs_market_pp": -8.62
+       }
+      },
+      "best": "home"
+     },
      "shrinkage": null
     }
    ],
@@ -1806,22 +2436,22 @@
       "away": null
      },
      "sky_odds": {
-      "home": 1.06,
-      "draw": 11.0,
-      "away": 36.0,
-      "last_update": "2026-09-15T20:22:06Z"
+      "home": 1.0,
+      "draw": 251.0,
+      "away": 251.0,
+      "last_update": "2026-09-15T20:53:37Z"
      },
      "sky_devigged": {
-      "home": 0.8882508635772285,
-      "draw": 0.08559508321744204,
-      "away": 0.026154053205329507
+      "home": 0.9920948616600791,
+      "draw": 0.003952569169960474,
+      "away": 0.003952569169960474
      },
      "market_devigged": {
-      "home": 0.8886143118509493,
-      "draw": 0.08760090924375294,
-      "away": 0.02378477890529767
+      "home": 0.9803584910303189,
+      "draw": 0.01252859668275878,
+      "away": 0.007112912286922312
      },
-     "n_bookmakers": 17,
+     "n_bookmakers": 12,
      "verdict": {
       "fixture_id": "2026-09-15-LIV-TOT-EFLC",
       "competition": "EFLC",
@@ -1855,7 +2485,7 @@
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
       "first_odds_contact": "2026-09-11T08:10:00Z",
-      "snapshot": "2026-09-15-LIV-TOT-EFLC-20260915T202207Z.json"
+      "snapshot": "2026-09-15-LIV-TOT-EFLC-20260915T210316Z.json"
      },
      "value": {
       "selection": null
@@ -2974,13 +3604,34 @@
  "latest_run": {
   "as_of": "2026-09-15",
   "run": {
-   "number": 2,
-   "stage": "shadow",
-   "shadow": true
+   "number": 5,
+   "stage": "T-72h",
+   "shadow": false
   },
-  "predictions_committed_at": "2026-09-15T20:40:30Z",
-  "first_odds_contact_at": null,
-  "settled": {},
+  "predictions_committed_at": "2026-09-15T21:42:38Z",
+  "first_odds_contact_at": "2026-09-15T21:42:38Z",
+  "settled": {
+   "EPL": {
+    "competition": "EPL",
+    "ledger": [],
+    "discipline": [],
+    "predictions": [],
+    "results": {}
+   },
+   "EFLC": {
+    "competition": "EFLC",
+    "ledger": [],
+    "discipline": [],
+    "predictions": [],
+    "results": {}
+   }
+  },
+  "agents": {
+   "status": "not_run",
+   "news": 0,
+   "challenges": 0,
+   "kills": []
+  },
   "strict_bets": [
    {
     "fixture_id": "2026-09-18-BRE-CHE-EPL",
@@ -2998,6 +3649,7 @@
     "odds_recommended": 2.88,
     "edge_pp": 7.4,
     "ev": 0.1483,
+    "skip_if_sky_below": 2.51,
     "checks": {
      "edge_min": true,
      "edge_max": true,
@@ -3005,7 +3657,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-FUL-MUN-EPL",
@@ -3023,6 +3676,7 @@
     "odds_recommended": 3.4,
     "edge_pp": 6.65,
     "ev": 0.1478,
+    "skip_if_sky_below": 2.97,
     "checks": {
      "edge_min": true,
      "edge_max": true,
@@ -3030,7 +3684,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    }
   ],
   "fun_bet": null,
@@ -3051,6 +3706,7 @@
     "odds_recommended": 2.88,
     "edge_pp": 7.4,
     "ev": 0.1483,
+    "skip_if_sky_below": 2.51,
     "checks": {
      "edge_min": true,
      "edge_max": true,
@@ -3058,7 +3714,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-BHA-ARS-EPL",
@@ -3076,6 +3733,7 @@
     "odds_recommended": 3.8,
     "edge_pp": 2.6,
     "ev": 0.0302,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": false,
      "edge_max": true,
@@ -3083,7 +3741,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-EVE-IPS-EPL",
@@ -3101,6 +3760,7 @@
     "odds_recommended": 1.75,
     "edge_pp": 10.73,
     "ev": 0.1232,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
      "edge_max": false,
@@ -3108,7 +3768,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-NFO-COV-EPL",
@@ -3126,6 +3787,7 @@
     "odds_recommended": 1.62,
     "edge_pp": 12.09,
     "ev": 0.1214,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
      "edge_max": false,
@@ -3133,7 +3795,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-NEW-HUL-EPL",
@@ -3151,6 +3814,7 @@
     "odds_recommended": 1.57,
     "edge_pp": 18.56,
     "ev": 0.2216,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
      "edge_max": false,
@@ -3158,7 +3822,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-TOT-AVL-EPL",
@@ -3176,6 +3841,7 @@
     "odds_recommended": 3.6,
     "edge_pp": 11.21,
     "ev": 0.3439,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
      "edge_max": false,
@@ -3183,7 +3849,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-BOU-LIV-EPL",
@@ -3201,6 +3868,7 @@
     "odds_recommended": 3.1,
     "edge_pp": 0.85,
     "ev": -0.0449,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": false,
      "edge_max": true,
@@ -3208,7 +3876,8 @@
      "ev_positive": false,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-FUL-MUN-EPL",
@@ -3226,6 +3895,7 @@
     "odds_recommended": 3.4,
     "edge_pp": 6.65,
     "ev": 0.1478,
+    "skip_if_sky_below": 2.97,
     "checks": {
      "edge_min": true,
      "edge_max": true,
@@ -3233,7 +3903,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -3251,6 +3922,7 @@
     "odds_recommended": 4.33,
     "edge_pp": 7.45,
     "ev": 0.2483,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
      "edge_max": true,
@@ -3258,7 +3930,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-MCI-SUN-EPL",
@@ -3276,6 +3949,7 @@
     "odds_recommended": 5.5,
     "edge_pp": 5.14,
     "ev": 0.2243,
+    "skip_if_sky_below": null,
     "checks": {
      "edge_min": false,
      "edge_max": true,
@@ -3283,32 +3957,8 @@
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
-    }
-   },
-   {
-    "fixture_id": "2026-09-15-LIV-TOT-EFLC",
-    "competition": "EFLC",
-    "matchweek": "Round 3",
-    "home": "Liverpool",
-    "away": "Spurs",
-    "kickoff_utc": "2026-09-15T19:00:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": "away",
-    "kind": "cap_kill",
-    "reason": "edge 9.5pp exceeds max_edge_pp 8.0",
-    "stake_gbp": 0.0,
-    "odds_recommended": 36.0,
-    "edge_pp": 9.47,
-    "ev": 3.3519,
-    "checks": {
-     "edge_min": true,
-     "edge_max": false,
-     "odds_max": false,
-     "ev_positive": true,
-     "not_prohibited": true,
-     "weekly_cap": true
-    }
+    },
+    "challenge": "not_run"
    }
   ]
  },
@@ -3375,6 +4025,229 @@
     "error": "The Odds API returned 401 for historical/sports/soccer_epl/odds: {\"message\":\"Historical odds are only available on paid usage plans. See usage plans at https://the-odds-api.com\",\"error_code\":\"HISTORIC"
    },
    "predictions_committed_at": "2026-09-15T20:20:10Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 8,
+     "stored": [
+      "2026-09-15-LIV-TOT-EFLC"
+     ],
+     "skipped_unpriced": [
+      "2026-09-15-IPS-ARS-EFLC",
+      "2026-09-15-REA-BRE-EFLC",
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 1,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-15T20:56:34Z",
+   "quota": {
+    "remaining": "496",
+    "used": "4",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-15T20:56:34Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 8,
+     "stored": [
+      "2026-09-15-LIV-TOT-EFLC"
+     ],
+     "skipped_unpriced": [
+      "2026-09-15-IPS-ARS-EFLC",
+      "2026-09-15-REA-BRE-EFLC",
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 1,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-15T21:02:43Z",
+   "quota": {
+    "remaining": "494",
+    "used": "6",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-15T21:02:43Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 7,
+     "stored": [
+      "2026-09-15-LIV-TOT-EFLC"
+     ],
+     "skipped_unpriced": [
+      "2026-09-15-REA-BRE-EFLC",
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 1,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-15T21:03:15Z",
+   "quota": {
+    "remaining": "492",
+    "used": "8",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-15T21:03:15Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 5,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-09-16-EVE-WOL-EFLC",
+      "2026-09-16-FLE-SHU-EFLC",
+      "2026-09-16-COV-AVL-EFLC",
+      "2026-09-16-MUN-BHA-EFLC",
+      "2026-09-17-MCI-NWC-EFLC"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-15T21:42:38Z",
+   "quota": {
+    "remaining": "490",
+    "used": "10",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-15T21:42:38Z"
   }
  ],
  "protocol_audit": {
@@ -3416,8 +4289,8 @@
   "summary": {
    "staked_settled": 10.0,
    "pnl_settled": -10.0,
-   "pending_stake": 5.0,
-   "pending": 2,
+   "pending_stake": 10.0,
+   "pending": 4,
    "fun_record": {
     "bets": 2,
     "won": 0,
@@ -3425,15 +4298,15 @@
    },
    "week": "2026-W38",
    "cap": 10.0,
-   "committed_this_week": 0,
+   "committed_this_week": 5.0,
    "discipline_counts": {
-    "cap_kill:pending": 2,
+    "cap_kill:pending": 6,
     "cap_kill:save": 1,
     "cap_kill:would_have_won": 2,
     "challenge_kill:pending": 1,
     "ev_reject:correct": 1,
     "informational:pending": 1,
-    "near_miss:pending": 4,
+    "near_miss:pending": 6,
     "near_miss:save": 3,
     "near_miss:would_have_won": 1
    },
@@ -3553,6 +4426,46 @@
     "settled_at": "2026-09-11",
     "settlement_source": "openfootball + ESPN cross-check",
     "notes": "off-model personal bet by Rogan; Fulham 2-3 Palace; stake and odds unreported after 2 asks, row stays TBD until supplied"
+   },
+   {
+    "bet_id": "MW5-EPL-STRICT-2026-09-18-BRE-CHE-EPL",
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "kickoff_utc": "2026-09-18T19:00:00Z",
+    "selection": "home",
+    "bookmaker": "skybet",
+    "odds_recommended": "2.88",
+    "stake_recommended_gbp": "2.50",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "pending",
+    "pnl_gbp": "",
+    "settled_at": "",
+    "settlement_source": "",
+    "notes": "T-72h r5: edge 7.4pp at Sky Bet 2.88, EV +0.148; challenge not_run"
+   },
+   {
+    "bet_id": "MW5-EPL-STRICT-2026-09-20-FUL-MUN-EPL",
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-20-FUL-MUN-EPL",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "selection": "home",
+    "bookmaker": "skybet",
+    "odds_recommended": "3.4",
+    "stake_recommended_gbp": "2.50",
+    "placed": "TBD",
+    "odds_placed": "",
+    "stake_placed_gbp": "",
+    "result": "pending",
+    "pnl_gbp": "",
+    "settled_at": "",
+    "settlement_source": "",
+    "notes": "T-72h r5: edge 6.7pp at Sky Bet 3.4, EV +0.148; challenge not_run"
    }
   ],
   "discipline": [
@@ -3763,6 +4676,84 @@
     "outcome": "pending",
     "settled_at": "",
     "notes": "Carabao R3 priced informationally, blended Liverpool 61% v Spurs 18%; settle in first new-setup run"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-19-EVE-IPS-EPL",
+    "selection": "home",
+    "edge_pp": "10.73",
+    "odds": "1.75",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 10.7pp exceeds max_edge_pp 8.0"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-19-NFO-COV-EPL",
+    "selection": "home",
+    "edge_pp": "12.09",
+    "odds": "1.62",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 12.1pp exceeds max_edge_pp 8.0"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-19-NEW-HUL-EPL",
+    "selection": "home",
+    "edge_pp": "18.56",
+    "odds": "1.57",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 18.6pp exceeds max_edge_pp 8.0"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-19-TOT-AVL-EPL",
+    "selection": "away",
+    "edge_pp": "11.21",
+    "odds": "3.6",
+    "kind": "cap_kill",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 11.2pp exceeds max_edge_pp 8.0"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-20-LEE-CRY-EPL",
+    "selection": "away",
+    "edge_pp": "7.45",
+    "odds": "4.33",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 7.5pp; failed odds_max"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-20-MCI-SUN-EPL",
+    "selection": "draw",
+    "edge_pp": "5.14",
+    "odds": "5.5",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 5.1pp; failed edge_min, odds_max"
    }
   ]
  }
