@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-18T10:59:17Z",
+ "built_at": "2026-09-18T11:02:48Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -1845,11 +1845,111 @@
        "weekly_cap": true
       },
       "bookmaker": "skybet",
-      "challenge": "not_run",
+      "challenge": "pass",
       "shadow": false,
       "run_label": "MW5 T-24h run 9"
      },
-     "news": null,
+     "news": {
+      "agent": "claude-code-session",
+      "model": "in-session web search",
+      "retrieved_at": "2026-09-18T11:02:33Z",
+      "cutoff": "2026-09-18T11:02:33Z",
+      "items": [
+       {
+        "club": "Man Utd",
+        "player": "Carlos Baleba",
+        "status": "out",
+        "detail": "Ankle issue; not available to make his debut, in line to return after the international break (Carrick). Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/carrick-issues-shaw-fitness-update-as-baleba-debut-date-emerges_605178.html",
+        "published": "2026-09-15",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Manuel Ugarte",
+        "status": "out",
+        "detail": "Serious knee injury at the 2026 World Cup; out for a significant period. Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-fulham_605277.html",
+        "published": "2026-09-17",
+        "confidence": 0.65,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Amad Diallo",
+        "status": "out",
+        "detail": "Ankle injury, yet to play this season; possible return v Tottenham on 10 Oct. Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-fulham_605277.html",
+        "published": "2026-09-17",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Luke Shaw",
+        "status": "doubt",
+        "detail": "Slight chance for the Brighton tie; a return at Fulham on Sunday called the more realistic target; Carrick: 'a matter of a few days'. Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/carrick-issues-shaw-fitness-update-as-baleba-debut-date-emerges_605178.html",
+        "published": "2026-09-15",
+        "confidence": 0.55,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": "Matthijs de Ligt",
+        "status": "returning",
+        "detail": "Back in training after back surgery, on course to be available in the coming weeks; not confirmed for Sunday. Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-fulham_605277.html",
+        "published": "2026-09-17",
+        "confidence": 0.55,
+        "published_known": true
+       },
+       {
+        "club": "Man Utd",
+        "player": null,
+        "status": "other",
+        "detail": "Lost the Manchester derby 1-0, then lost 3-2 at home to Brighton in the EFL Cup on Wednesday 16 Sep; no suspensions reported. Page fetch blocked from this session; taken from the search snippet, date read from the article order (pre- and post-Brighton EFL Cup tie, 16 Sep).",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-fulham_605277.html",
+        "published": "2026-09-17",
+        "confidence": 0.6,
+        "published_known": true
+       },
+       {
+        "club": "Fulham",
+        "player": "Tom Cairney",
+        "status": "out",
+        "detail": "Named as Fulham's only known injury absentee going into Matchweek 5. Taken from the search snippet.",
+        "source_name": "Premier League",
+        "source_url": "https://www.premierleague.com/en/news/4719983/ten-key-questions-for-matchweek-5s-fixtures",
+        "published": "2026-09-17",
+        "confidence": 0.55,
+        "published_known": true
+       }
+      ],
+      "dropped": [],
+      "summary": "Man Utd go to Fulham without Baleba (ankle, back after the international break), Ugarte (long-term knee) and Amad (ankle, possible return 10 Oct), with Shaw a doubt and de Ligt only back in training, after losing the derby 1-0 and going out of the EFL Cup 3-2 to Brighton on 16 Sep. Fulham's only listed absentee is Tom Cairney.",
+      "searches_note": null,
+      "status": "ok",
+      "meta": {
+       "searches": 5,
+       "allowed_domains": [
+        "sportsmole.co.uk",
+        "premierleague.com",
+        "skysports.com",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "cost_usd": 0.0
+      }
+     },
      "result": null,
      "unrated": null,
      "protocol": {
@@ -3632,15 +3732,22 @@
    }
   },
   "agents": {
-   "status": "disabled",
+   "status": "claude-code-session",
    "news": 0,
    "news_skipped": 0,
-   "challenges": 0,
+   "challenges": 1,
    "kills": [],
    "cost": {
     "total_usd": 0.0
    },
-   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task"
+   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task",
+   "manual": [
+    {
+     "fixture_id": "2026-09-20-FUL-MUN-EPL",
+     "verdict": "pass",
+     "at": "2026-09-18T11:02:33Z"
+    }
+   ]
   },
   "strict_bets": [
    {
@@ -3668,7 +3775,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run"
+    "challenge": "pass"
    }
   ],
   "fun_bet": null,
@@ -3887,7 +3994,9 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run"
+    "challenge": "pass",
+    "challenge_reason": "Nothing public explains Sky Bet's shorter view of Man Utd: the pre-cutoff team news runs against the visitors, with Baleba, Ugarte and Amad out, Shaw a doubt and de Ligt only back in training, after a derby defeat and an EFL Cup exit to Brighton on 16 Sep (Sports Mole, 15 and 17 Sep). Fulham's only listed absentee is Cairney (premierleague.com Matchweek 5 preview). Confidence is limited because page fetches were blocked and only search snippets were read, with dates read from the article order.",
+    "challenge_cost_usd": 0.0
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
