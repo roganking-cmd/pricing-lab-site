@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-16T10:55:23Z",
+ "built_at": "2026-09-18T10:59:17Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -565,9 +565,9 @@
      "home": "Brentford",
      "away": "Chelsea",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -576,183 +576,58 @@
       "away": 0.3361
      },
      "sky_odds": {
-      "home": 2.8,
-      "draw": 3.6,
-      "away": 2.25,
-      "last_update": "2026-09-16T09:51:40Z"
+      "home": 2.6,
+      "draw": 3.75,
+      "away": 2.5,
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.3308823529411765,
-      "draw": 0.2573529411764706,
-      "away": 0.4117647058823529
+      "home": 0.3658536585365854,
+      "draw": 0.2536585365853659,
+      "away": 0.38048780487804884
      },
      "market_devigged": {
-      "home": 0.3297467925684829,
-      "draw": 0.2502843549933078,
-      "away": 0.4199688524382094
+      "home": 0.3625818556513189,
+      "draw": 0.2567471518395826,
+      "away": 0.3806709925090987
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
-      "verdict": "STRICT_BET",
-      "lane": "strict",
+      "fixture_id": "2026-09-18-BRE-CHE-EPL",
+      "competition": "EPL",
+      "matchweek": "MW5",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "kickoff_utc": "2026-09-18T19:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
       "selection": "home",
-      "kind": "strict_bet",
-      "reason": "edge 6.8pp at Sky Bet 2.8, EV +0.116",
-      "stake_gbp": 2.5,
-      "odds_recommended": 2.8,
-      "edge_pp": 6.78,
-      "ev": 0.1164,
-      "skip_if_sky_below": 2.51,
+      "kind": "near_miss",
+      "reason": "edge 3.3pp; failed edge_min",
+      "stake_gbp": 0.0,
+      "odds_recommended": 2.6,
+      "edge_pp": 3.28,
+      "ev": 0.0366,
+      "skip_if_sky_below": null,
       "checks": {
-       "edge_min": true,
+       "edge_min": false,
        "edge_max": true,
        "odds_max": true,
        "ev_positive": true,
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "bookmaker": "skybet",
-      "challenge": "pass",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "MW5 T-48h run 8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "model": "claude-opus-5",
-      "retrieved_at": "2026-09-16T09:51:44Z",
-      "cutoff": "2026-09-16T09:51:43Z",
-      "items": [
-       {
-        "club": "Chelsea",
-        "player": "Moises Caicedo",
-        "status": "doubt",
-        "detail": "Sports Mole reports Chelsea remain cautious over Caicedo, who has not played since a cameo against Brighton on matchday two, and that he could feature at Brentford only if cleared by the medical team.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
-        "published": "2026-09-15",
-        "confidence": 0.85,
-        "published_known": true
-       },
-       {
-        "club": "Chelsea",
-        "player": "Jordan Henderson",
-        "status": "doubt",
-        "detail": "Henderson has been pictured in training but will only return from a wrist injury after multiple checks, and could otherwise wait until October for his Chelsea debut.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
-        "published": "2026-09-15",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Chelsea",
-        "player": "Marco Palestra",
-        "status": "doubt",
-        "detail": "Palestra has missed the start of the season with a quad injury sustained in training and his manager has said the club will not rush him back without assurances over his health, with a bench place at Brentford dependent on his recovery.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
-        "published": "2026-09-15",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Chelsea",
-        "player": "Emmanuel Emegha",
-        "status": "out",
-        "detail": "Emegha is still yet to play for Chelsea since his summer arrival from Strasbourg and his return date remains unknown.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
-        "published": "2026-09-15",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Chelsea",
-        "player": null,
-        "status": "other",
-        "detail": "Chelsea have no players banned for the Premier League trip to Brentford.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/caicedo-update-henderson-status-chelsea-injury-suspension-list-vs-brentford_605180.html",
-        "published": "2026-09-15",
-        "confidence": 0.85,
-        "published_known": true
-       },
-       {
-        "club": "Brentford",
-        "player": "Mathias Jensen",
-        "status": "out",
-        "detail": "Jensen was listed as out with an unspecified issue in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Brentford",
-        "player": "Sepp van den Berg",
-        "status": "out",
-        "detail": "Van den Berg was listed as out with a groin injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Brentford",
-        "player": "Antoni Milambo",
-        "status": "out",
-        "detail": "Milambo was listed as out with a knee injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Brentford",
-        "player": "Josh Dasilva",
-        "status": "out",
-        "detail": "Dasilva was listed as out with a thigh injury in Brentford's most recent published absence list, for the gameweek-four trip to Bournemouth.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/injury-news/team-news/bournemouth-vs-brentford-injury-suspension-list-predicted-xis_604829.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       }
-      ],
-      "dropped": [],
-      "summary": "The freshest fixture-specific reporting is Chelsea-side: Caicedo, Henderson and Palestra are all described as potential returnees whose involvement at the Gtech depends on medical clearance, Emegha has no return date, and the visitors have no suspensions. For Brentford the most recent published absence list (matchday four at Bournemouth) had Mathias Jensen, Sepp van den Berg, Antoni Milambo and Josh Dasilva out; no newer Brentford update was found before the cutoff. No managerial change or midweek cup/European commitment for either club was reported in the sources reviewed, so no rotation item is recorded.",
-      "searches_note": "Searched for Brentford and Chelsea injury/suspension lists, a Brentford v Chelsea preview/team-news piece, Brentford manager fitness updates, and Premier League club-by-club injury pages. Found a Chelsea-vs-Brentford specific list dated roughly 15 September 2026, but no Brentford-vs-Chelsea specific team-news article inside the cutoff window; the Brentford items therefore come from the five-day-old Bournemouth-vs-Brentford round-up and may be stale. Outlet pages showed only relative ages (e.g. '20 hours ago', '5 days ago') rather than visible exact timestamps, so the published dates above are derived from those relative ages and are approximate; the Premier Injuries and Premier League club pages carried no usable dated Brentford detail. Nothing found on managerial changes or rotation-driving midweek fixtures for either club.",
-      "status": "ok",
-      "meta": {
-       "request_ids": [
-        "req_011Cf6usb5T5HkG48ap6UohC"
-       ],
-       "searches": 13,
-       "turns": 1,
-       "model": "claude-opus-5",
-       "fallback": true,
-       "pruned_domains": [],
-       "allowed_domains": [
-        "skysports.com",
-        "premierleague.com",
-        "efl.com",
-        "sportsmole.co.uk",
-        "premierinjuries.com",
-        "fourfourtwo.com",
-        "90min.com"
-       ],
-       "stop_reason": "end_turn"
-      }
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-18-BRE-CHE-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-18-BRE-CHE-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -761,28 +636,28 @@
       "sky_priced": true,
       "sky": {
        "odds": {
-        "home": 2.8,
-        "draw": 3.6,
-        "away": 2.25
+        "home": 2.6,
+        "draw": 3.75,
+        "away": 2.5
        },
        "devigged": {
-        "home": 0.3309,
-        "draw": 0.2574,
-        "away": 0.4118
+        "home": 0.3659,
+        "draw": 0.2537,
+        "away": 0.3805
        }
       },
       "market": {
        "average": {
-        "home": 2.859,
-        "draw": 3.7667,
-        "away": 2.2448
+        "home": 2.62,
+        "draw": 3.7,
+        "away": 2.4955
        },
        "devigged": {
-        "home": 0.3297,
-        "draw": 0.2503,
-        "away": 0.42
+        "home": 0.3626,
+        "draw": 0.2567,
+        "away": 0.3807
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.3987,
@@ -793,26 +668,26 @@
        "home": {
         "p_model": 0.3987,
         "p_final": 0.3987,
-        "odds": 2.8,
-        "edge_pp": 6.78,
-        "ev": 0.1164,
-        "edge_vs_market_pp": 6.9
+        "odds": 2.6,
+        "edge_pp": 3.28,
+        "ev": 0.0366,
+        "edge_vs_market_pp": 3.61
        },
        "draw": {
         "p_model": 0.2653,
         "p_final": 0.2653,
-        "odds": 3.6,
-        "edge_pp": 0.79,
-        "ev": -0.0449,
-        "edge_vs_market_pp": 1.5
+        "odds": 3.75,
+        "edge_pp": 1.16,
+        "ev": -0.0051,
+        "edge_vs_market_pp": 0.86
        },
        "away": {
         "p_model": 0.3361,
         "p_final": 0.3361,
-        "odds": 2.25,
-        "edge_pp": -7.57,
-        "ev": -0.2438,
-        "edge_vs_market_pp": -8.39
+        "odds": 2.5,
+        "edge_pp": -4.44,
+        "ev": -0.1597,
+        "edge_vs_market_pp": -4.46
        }
       },
       "best": "home"
@@ -827,9 +702,9 @@
      "home": "Spurs",
      "away": "Aston Villa",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -839,21 +714,21 @@
      },
      "sky_odds": {
       "home": 2.0,
-      "draw": 3.5,
+      "draw": 3.4,
       "away": 3.6,
-      "last_update": "2026-09-16T09:51:40Z"
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.4701492537313433,
-      "draw": 0.26865671641791045,
-      "away": 0.2611940298507463
+      "home": 0.46646341463414626,
+      "draw": 0.274390243902439,
+      "away": 0.2591463414634146
      },
      "market_devigged": {
-      "home": 0.4749861831182626,
-      "draw": 0.2632905111526325,
-      "away": 0.2617233057291049
+      "home": 0.4738164493956218,
+      "draw": 0.2654702127701505,
+      "away": 0.2607133378342278
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-19-TOT-AVL-EPL",
       "competition": "EPL",
@@ -865,10 +740,10 @@
       "lane": "none",
       "selection": "away",
       "kind": "cap_kill",
-      "reason": "edge 11.2pp exceeds max_edge_pp 8.0",
+      "reason": "edge 11.4pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
       "odds_recommended": 3.6,
-      "edge_pp": 11.21,
+      "edge_pp": 11.42,
       "ev": 0.3439,
       "skip_if_sky_below": null,
       "checks": {
@@ -880,23 +755,16 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbuuTDHqRTwRoCqiCp'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbtxtuEffrmh8gaKVe'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-19-TOT-AVL-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-19-TOT-AVL-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -906,27 +774,27 @@
       "sky": {
        "odds": {
         "home": 2.0,
-        "draw": 3.5,
+        "draw": 3.4,
         "away": 3.6
        },
        "devigged": {
-        "home": 0.4701,
-        "draw": 0.2687,
-        "away": 0.2612
+        "home": 0.4665,
+        "draw": 0.2744,
+        "away": 0.2591
        }
       },
       "market": {
        "average": {
-        "home": 1.981,
-        "draw": 3.5738,
-        "away": 3.5952
+        "home": 1.996,
+        "draw": 3.5625,
+        "away": 3.6275
        },
        "devigged": {
-        "home": 0.475,
-        "draw": 0.2633,
-        "away": 0.2617
+        "home": 0.4738,
+        "draw": 0.2655,
+        "away": 0.2607
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.3549,
@@ -938,25 +806,25 @@
         "p_model": 0.3549,
         "p_final": 0.3549,
         "odds": 2.0,
-        "edge_pp": -11.52,
+        "edge_pp": -11.16,
         "ev": -0.2902,
-        "edge_vs_market_pp": -12.01
+        "edge_vs_market_pp": -11.89
        },
        "draw": {
         "p_model": 0.2718,
         "p_final": 0.2718,
-        "odds": 3.5,
-        "edge_pp": 0.31,
-        "ev": -0.0487,
-        "edge_vs_market_pp": 0.85
+        "odds": 3.4,
+        "edge_pp": -0.26,
+        "ev": -0.0759,
+        "edge_vs_market_pp": 0.63
        },
        "away": {
         "p_model": 0.3733,
         "p_final": 0.3733,
         "odds": 3.6,
-        "edge_pp": 11.21,
+        "edge_pp": 11.42,
         "ev": 0.3439,
-        "edge_vs_market_pp": 11.16
+        "edge_vs_market_pp": 11.26
        }
       },
       "best": "away"
@@ -971,9 +839,9 @@
      "home": "Brighton",
      "away": "Arsenal",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -982,22 +850,22 @@
       "away": 0.5267
      },
      "sky_odds": {
-      "home": 4.6,
+      "home": 4.75,
       "draw": 3.8,
       "away": 1.67,
-      "last_update": "2026-09-16T09:51:40Z"
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.20140916592611402,
-      "draw": 0.24381109559476954,
-      "away": 0.5547797384791164
+      "home": 0.1962973846605936,
+      "draw": 0.24537173082574198,
+      "away": 0.5583308845136645
      },
      "market_devigged": {
-      "home": 0.20213202182759338,
-      "draw": 0.24418080991090432,
-      "away": 0.5536871682615024
+      "home": 0.19599121521286483,
+      "draw": 0.2415763924253139,
+      "away": 0.5624323923618212
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-19-BHA-ARS-EPL",
       "competition": "EPL",
@@ -1009,10 +877,10 @@
       "lane": "none",
       "selection": "draw",
       "kind": "no_edge",
-      "reason": "best edge 2.7pp on draw",
+      "reason": "best edge 2.6pp on draw",
       "stake_gbp": 0.0,
       "odds_recommended": 3.8,
-      "edge_pp": 2.73,
+      "edge_pp": 2.57,
       "ev": 0.0302,
       "skip_if_sky_below": null,
       "checks": {
@@ -1023,202 +891,17 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_required",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "model": "claude-opus-5",
-      "retrieved_at": "2026-09-16T09:55:14Z",
-      "cutoff": "2026-09-16T09:51:43Z",
-      "items": [
-       {
-        "club": "Brighton",
-        "player": "Yankuba Minteh",
-        "status": "out",
-        "detail": "Sports Mole reported Hurzeler cannot call upon Minteh due to a calf problem.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.72,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Kaoru Mitoma",
-        "status": "out",
-        "detail": "Listed as unavailable with a thigh injury in Brighton's latest pre-match injury round-up.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.72,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Evan Ferguson",
-        "status": "out",
-        "detail": "Ruled out with an ankle injury according to the same report.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.7,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Mats Wieffer",
-        "status": "out",
-        "detail": "Unavailable with a knee injury.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.7,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Stefanos Tzimas",
-        "status": "out",
-        "detail": "Unavailable with a knee injury.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.7,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Jack Hinshelwood",
-        "status": "out",
-        "detail": "Listed as absent with an unspecified issue.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.65,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Zadok Yohanna",
-        "status": "out",
-        "detail": "Listed as absent with an unspecified issue.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Georginio Rutter",
-        "status": "doubt",
-        "detail": "Reported as having a chance of making the squad but following a recent setback.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.65,
-        "published_known": true
-       },
-       {
-        "club": "Brighton",
-        "player": "Femi Azeez",
-        "status": "returning",
-        "detail": "Described as in contention to return to the squad, though not for a starting role at that point.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/predicted-lineups/double-boost-for-hurzeler-predicted-brighton-xi-vs-coventry_604936.html",
-        "published": "2026-09-11",
-        "confidence": 0.62,
-        "published_known": true
-       },
-       {
-        "club": "Arsenal",
-        "player": "William Saliba",
-        "status": "out",
-        "detail": "Sports Mole reported Saliba was not expected back in the squad in the immediate future with a back injury, though Arteta called his progress \"really positive\".",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
-        "published": "2026-09-09",
-        "confidence": 0.72,
-        "published_known": true
-       },
-       {
-        "club": "Arsenal",
-        "player": "Jurrien Timber",
-        "status": "returning",
-        "detail": "Yet to feature this season with a long-standing groin issue but back in training and closing in on a return, with a possible return date given as 12 September.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
-        "published": "2026-09-09",
-        "confidence": 0.72,
-        "published_known": true
-       },
-       {
-        "club": "Arsenal",
-        "player": "Cristhian Mosquera",
-        "status": "doubt",
-        "detail": "Missed consecutive games after coming off injured against Aston Villa on 31 August with a muscular issue, with Arteta later giving an encouraging update.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/news/triple-arsenal-injury-update-as-gbp50m-star-spotted-limping-before-sunderland-clash_605002.html",
-        "published": "2026-09-12",
-        "confidence": 0.7,
-        "published_known": true
-       },
-       {
-        "club": "Arsenal",
-        "player": "Ben White",
-        "status": "doubt",
-        "detail": "Named among players who raised fitness concerns in recent weeks, with Arteta providing encouraging news.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/news/triple-arsenal-injury-update-as-gbp50m-star-spotted-limping-before-sunderland-clash_605002.html",
-        "published": "2026-09-12",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Arsenal",
-        "player": null,
-        "status": "other",
-        "detail": "Arsenal had no players suspended as of their most recent pre-cutoff injury and suspension round-up.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/timber-mosquera-latest-arsenal-injury-suspension-list-vs-sunderland_604811.html",
-        "published": "2026-09-09",
-        "confidence": 0.65,
-        "published_known": true
-       }
-      ],
-      "dropped": [],
-      "summary": "Brighton's most recent pre-cutoff report listed a long absentee list including Minteh (calf), Mitoma (thigh), Ferguson (ankle), Wieffer and Tzimas (knee), Hinshelwood and Yohanna, with Azeez and Rutter only in contention for squad places. Arsenal's latest reports had Saliba sidelined with a back problem, Timber closing in on his first appearance of the season after a groin issue, and Mosquera and Ben White the subject of encouraging but unresolved fitness updates, with no suspensions. No preview or team-news piece specific to the 19 September Brighton v Arsenal fixture had been published before the cutoff.",
-      "searches_note": "Searched for Brighton v Arsenal team news/previews for 19 September 2026, club-by-club Premier League injury lists, and the latest Brighton (Hurzeler) and Arsenal (Arteta) injury updates. Found no fixture-specific preview or press-conference report for this match before the cutoff, so items are drawn from each club's most recent previous-matchweek report; older Brighton v Arsenal previews from December 2025 and March 2026 were excluded as stale. Sources showed only relative timestamps ('4 days ago', '1 week ago', '5 days ago') rather than visible dates, so the published values above are approximate dates derived from those relative ages and all fall before the cutoff. I could not verify current squad status after 12-13 September, find any managerial-change news for either club, or find any source stating rotation plans (Arsenal's Champions League trip to Napoli fell before, not after, their Sunderland fixture); my search allowance was exhausted before a further Brighton follow-up check completed.",
-      "status": "ok",
-      "meta": {
-       "request_ids": [
-        "req_011Cf6v935JHbttYFrEzDgXA"
-       ],
-       "searches": 13,
-       "turns": 1,
-       "model": "claude-opus-5",
-       "fallback": true,
-       "pruned_domains": [],
-       "allowed_domains": [
-        "skysports.com",
-        "premierleague.com",
-        "efl.com",
-        "sportsmole.co.uk",
-        "premierinjuries.com",
-        "fourfourtwo.com",
-        "90min.com"
-       ],
-       "stop_reason": "end_turn"
-      }
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-19-BHA-ARS-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-19-BHA-ARS-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1227,28 +910,28 @@
       "sky_priced": true,
       "sky": {
        "odds": {
-        "home": 4.6,
+        "home": 4.75,
         "draw": 3.8,
         "away": 1.67
        },
        "devigged": {
-        "home": 0.2014,
-        "draw": 0.2438,
-        "away": 0.5548
+        "home": 0.1963,
+        "draw": 0.2454,
+        "away": 0.5583
        }
       },
       "market": {
        "average": {
-        "home": 4.6567,
-        "draw": 3.8548,
-        "away": 1.7
+        "home": 4.8225,
+        "draw": 3.9125,
+        "away": 1.6805
        },
        "devigged": {
-        "home": 0.2021,
-        "draw": 0.2442,
-        "away": 0.5537
+        "home": 0.196,
+        "draw": 0.2416,
+        "away": 0.5624
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.2023,
@@ -1259,26 +942,26 @@
        "home": {
         "p_model": 0.2023,
         "p_final": 0.2023,
-        "odds": 4.6,
-        "edge_pp": 0.09,
-        "ev": -0.0694,
-        "edge_vs_market_pp": 0.02
+        "odds": 4.75,
+        "edge_pp": 0.6,
+        "ev": -0.0391,
+        "edge_vs_market_pp": 0.63
        },
        "draw": {
         "p_model": 0.2711,
         "p_final": 0.2711,
         "odds": 3.8,
-        "edge_pp": 2.73,
+        "edge_pp": 2.57,
         "ev": 0.0302,
-        "edge_vs_market_pp": 2.69
+        "edge_vs_market_pp": 2.95
        },
        "away": {
         "p_model": 0.5267,
         "p_final": 0.5267,
         "odds": 1.67,
-        "edge_pp": -2.81,
+        "edge_pp": -3.16,
         "ev": -0.1204,
-        "edge_vs_market_pp": -2.7
+        "edge_vs_market_pp": -3.57
        }
       },
       "best": "draw"
@@ -1293,9 +976,9 @@
      "home": "Everton",
      "away": "Ipswich",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -1305,21 +988,21 @@
      },
      "sky_odds": {
       "home": 1.75,
-      "draw": 3.75,
-      "away": 4.33,
-      "last_update": "2026-09-16T09:51:40Z"
+      "draw": 3.6,
+      "away": 4.5,
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.5345239074973253,
-      "draw": 0.24944449016541848,
-      "away": 0.21603160233725618
+      "home": 0.5333333333333333,
+      "draw": 0.2592592592592593,
+      "away": 0.2074074074074074
      },
      "market_devigged": {
-      "home": 0.5355797240122406,
-      "draw": 0.2507126436071017,
-      "away": 0.21370763238065751
+      "home": 0.5377782491586723,
+      "draw": 0.2488196077907602,
+      "away": 0.21340214305056748
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-19-EVE-IPS-EPL",
       "competition": "EPL",
@@ -1331,10 +1014,10 @@
       "lane": "none",
       "selection": "home",
       "kind": "cap_kill",
-      "reason": "edge 10.7pp exceeds max_edge_pp 8.0",
+      "reason": "edge 10.8pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
       "odds_recommended": 1.75,
-      "edge_pp": 10.73,
+      "edge_pp": 10.85,
       "ev": 0.1232,
       "skip_if_sky_below": null,
       "checks": {
@@ -1345,148 +1028,17 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "pass",
-      "challenge_reason": "The only public information available before the cutoff points the same way as the model, not against it: Ipswich's 11 September Sports Mole round-up has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts or suspensions, and Ipswich played an EFL Cup third-round tie at home to Arsenal in the midweek before this game, a congestion/rotation factor. Everton's freshest dated absence list (Sports Mole, 5 September) named only Christian Norgaard, with no suspensions and no managerial change at either club, and my confirmatory searches surfaced nothing dated before 2026-09-16 that would justify Sky Bet's shorter view of Everton. The one genuine weakness is staleness — the Everton list is two weeks old and pre-dates the Spurs game of 12 September — but a gap in covera",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "model": "claude-opus-5",
-      "retrieved_at": "2026-09-16T09:57:12Z",
-      "cutoff": "2026-09-16T09:51:43Z",
-      "items": [
-       {
-        "club": "Everton",
-        "player": "Christian Norgaard",
-        "status": "out",
-        "detail": "Sports Mole listed Norgaard as Everton's only absentee with an unspecified problem ahead of the Manchester United game on 6 September.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/team-news/everton-vs-man-united-injury-suspension-list-predicted-xis_604456.html",
-        "published": "2026-09-05T14:00:00+01:00",
-        "confidence": 0.5,
-        "published_known": true
-       },
-       {
-        "club": "Everton",
-        "player": null,
-        "status": "other",
-        "detail": "The same round-up recorded no doubtful Everton players and no suspensions at that date, and no more recent Everton absence list was retrievable before the cutoff.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/team-news/everton-vs-man-united-injury-suspension-list-predicted-xis_604456.html",
-        "published": "2026-09-05T14:00:00+01:00",
-        "confidence": 0.45,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": "Jaden Philogene-Bidace",
-        "status": "out",
-        "detail": "Listed as out with an ankle injury in the most recent Ipswich team-news round-up, published 11 September.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11T15:00:00+01:00",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": "Jaden Philogene-Bidace",
-        "status": "returning",
-        "detail": "An earlier Sports Mole injury round-up said the attacker was unlikely to be back until the middle of September.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/injuries-and-suspensions/philogene-bidace-florentino-latest-ipswich-injury-suspension-list-vs-man-united_603815.html",
-        "published": null,
-        "confidence": 0.5,
-        "published_known": false
-       },
-       {
-        "club": "Ipswich",
-        "player": "Azor Matusiwa",
-        "status": "out",
-        "detail": "Listed as out with a muscle injury in the 11 September Ipswich team-news round-up.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11T15:00:00+01:00",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": "Jack Taylor",
-        "status": "out",
-        "detail": "Listed as out with a knee injury in the 11 September Ipswich team-news round-up.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11T15:00:00+01:00",
-        "confidence": 0.8,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": "Florentino Luis",
-        "status": "doubt",
-        "detail": "Flagged as doubtful with a calf problem in the 3 September round-up, though he was not listed as absent in the later 11 September report.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/ipswich-town/team-news/ipswich-vs-liverpool-injury-suspension-list-predicted-xis_604317.html",
-        "published": "2026-09-03T20:00:00+01:00",
-        "confidence": 0.4,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": "Emersonn",
-        "status": "doubt",
-        "detail": "Listed as doubtful with a knee issue on 3 September, with no doubts recorded in the later 11 September report.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/ipswich-town/team-news/ipswich-vs-liverpool-injury-suspension-list-predicted-xis_604317.html",
-        "published": "2026-09-03T20:00:00+01:00",
-        "confidence": 0.4,
-        "published_known": true
-       },
-       {
-        "club": "Ipswich",
-        "player": null,
-        "status": "rotation",
-        "detail": "Ipswich played an EFL Cup third-round tie at home to Arsenal on the Tuesday before this fixture, which is a midweek fixture-congestion factor; the page carried no visible publication date.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/arsenal/league-cup/team-news/ipswich-vs-arsenal-injury-suspension-list-predicted-xis_605060.html",
-        "published": null,
-        "confidence": 0.6,
-        "published_known": false
-       }
-      ],
-      "dropped": [],
-      "summary": "Ipswich's picture is the clearer of the two: their most recent dated round-up (11 September) has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts and no suspensions, while an earlier report suggested Philogene-Bidace could be available around mid-September. Ipswich also played an EFL Cup third-round tie against Arsenal at Portman Road in the midweek before this game, a rotation consideration noted by the source. For Everton, the freshest dated absence list available was from 5 September, naming only Christian Norgaard as out; no suspensions or managerial changes were reported for either club before the cutoff.",
-      "searches_note": "Searched for Everton and Ipswich team news/injuries for September 2026, for a direct Everton v Ipswich preview, and for the Ipswich v Arsenal EFL Cup tie; the search budget was then exhausted. No dedicated Everton v Ipswich preview published before the cutoff was found (only 2025 archive versions), and the 11 September Tottenham v Everton round-up's retrievable text did not include Everton's absentee list, so the Everton item rests on the 5 September report. The Premier League's own club-by-club injury page (updated 15 September 2026) returned no player-level detail in the retrieved text. Two pages showed no visible publication date and are recorded with published set to null.",
-      "status": "ok",
-      "meta": {
-       "request_ids": [
-        "req_011Cf6vHo9u8QjXyeFwGLyWm"
-       ],
-       "searches": 14,
-       "turns": 1,
-       "model": "claude-opus-5",
-       "fallback": true,
-       "pruned_domains": [],
-       "allowed_domains": [
-        "skysports.com",
-        "premierleague.com",
-        "efl.com",
-        "sportsmole.co.uk",
-        "premierinjuries.com",
-        "fourfourtwo.com",
-        "90min.com"
-       ],
-       "stop_reason": "end_turn"
-      }
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-19-EVE-IPS-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-19-EVE-IPS-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1496,27 +1048,27 @@
       "sky": {
        "odds": {
         "home": 1.75,
-        "draw": 3.75,
-        "away": 4.33
+        "draw": 3.6,
+        "away": 4.5
        },
        "devigged": {
-        "home": 0.5345,
-        "draw": 0.2494,
-        "away": 0.216
+        "home": 0.5333,
+        "draw": 0.2593,
+        "away": 0.2074
        }
       },
       "market": {
        "average": {
-        "home": 1.761,
-        "draw": 3.7619,
-        "away": 4.4133
+        "home": 1.7605,
+        "draw": 3.805,
+        "away": 4.4365
        },
        "devigged": {
-        "home": 0.5356,
-        "draw": 0.2507,
-        "away": 0.2137
+        "home": 0.5378,
+        "draw": 0.2488,
+        "away": 0.2134
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.6418,
@@ -1528,25 +1080,25 @@
         "p_model": 0.6418,
         "p_final": 0.6418,
         "odds": 1.75,
-        "edge_pp": 10.73,
+        "edge_pp": 10.85,
         "ev": 0.1232,
-        "edge_vs_market_pp": 10.62
+        "edge_vs_market_pp": 10.4
        },
        "draw": {
         "p_model": 0.2258,
         "p_final": 0.2258,
-        "odds": 3.75,
-        "edge_pp": -2.36,
-        "ev": -0.1532,
-        "edge_vs_market_pp": -2.49
+        "odds": 3.6,
+        "edge_pp": -3.35,
+        "ev": -0.1871,
+        "edge_vs_market_pp": -2.3
        },
        "away": {
         "p_model": 0.1323,
         "p_final": 0.1323,
-        "odds": 4.33,
-        "edge_pp": -8.37,
-        "ev": -0.4271,
-        "edge_vs_market_pp": -8.14
+        "odds": 4.5,
+        "edge_pp": -7.51,
+        "ev": -0.4046,
+        "edge_vs_market_pp": -8.11
        }
       },
       "best": "home"
@@ -1561,9 +1113,9 @@
      "home": "Newcastle",
      "away": "Hull",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -1575,7 +1127,7 @@
       "home": 1.57,
       "draw": 4.2,
       "away": 5.0,
-      "last_update": "2026-09-16T09:51:40Z"
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
       "home": 0.5924839182936463,
@@ -1583,11 +1135,11 @@
       "away": 0.18603995034420498
      },
      "market_devigged": {
-      "home": 0.5943878420029022,
-      "draw": 0.22216141180415727,
-      "away": 0.18345074619294066
+      "home": 0.5946832138010354,
+      "draw": 0.22155822621664953,
+      "away": 0.18375855998231505
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-19-NEW-HUL-EPL",
       "competition": "EPL",
@@ -1614,23 +1166,16 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbspSTQusnLwYzGLrN'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbrrPkMUMy4UeQA3pQ'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-19-NEW-HUL-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-19-NEW-HUL-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1651,16 +1196,16 @@
       },
       "market": {
        "average": {
-        "home": 1.5814,
-        "draw": 4.231,
-        "away": 5.1238
+        "home": 1.5875,
+        "draw": 4.261,
+        "away": 5.1375
        },
        "devigged": {
-        "home": 0.5944,
-        "draw": 0.2222,
-        "away": 0.1835
+        "home": 0.5947,
+        "draw": 0.2216,
+        "away": 0.1838
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.7781,
@@ -1674,7 +1219,7 @@
         "odds": 1.57,
         "edge_pp": 18.56,
         "ev": 0.2216,
-        "edge_vs_market_pp": 18.37
+        "edge_vs_market_pp": 18.34
        },
        "draw": {
         "p_model": 0.1513,
@@ -1682,7 +1227,7 @@
         "odds": 4.2,
         "edge_pp": -7.02,
         "ev": -0.3645,
-        "edge_vs_market_pp": -7.09
+        "edge_vs_market_pp": -7.03
        },
        "away": {
         "p_model": 0.0707,
@@ -1690,7 +1235,7 @@
         "odds": 5.0,
         "edge_pp": -11.53,
         "ev": -0.6465,
-        "edge_vs_market_pp": -11.28
+        "edge_vs_market_pp": -11.31
        }
       },
       "best": "home"
@@ -1705,9 +1250,9 @@
      "home": "Forest",
      "away": "Coventry",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -1716,22 +1261,22 @@
       "away": 0.102
      },
      "sky_odds": {
-      "home": 1.62,
-      "draw": 3.8,
-      "away": 5.0,
-      "last_update": "2026-09-16T09:51:40Z"
+      "home": 1.57,
+      "draw": 3.9,
+      "away": 5.5,
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.5713254751022372,
-      "draw": 0.24356507096463795,
-      "away": 0.18510945393312486
+      "home": 0.5924105170128148,
+      "draw": 0.23848320813079982,
+      "away": 0.16910627485638532
      },
      "market_devigged": {
-      "home": 0.5741689028913268,
-      "draw": 0.23875955292522708,
-      "away": 0.1870715441834461
+      "home": 0.5952747695403461,
+      "draw": 0.23204387885704097,
+      "away": 0.17268135160261294
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-19-NFO-COV-EPL",
       "competition": "EPL",
@@ -1743,11 +1288,11 @@
       "lane": "none",
       "selection": "home",
       "kind": "cap_kill",
-      "reason": "edge 12.1pp exceeds max_edge_pp 8.0",
+      "reason": "edge 10.0pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
-      "odds_recommended": 1.62,
-      "edge_pp": 12.09,
-      "ev": 0.1214,
+      "odds_recommended": 1.57,
+      "edge_pp": 9.98,
+      "ev": 0.0868,
       "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
@@ -1758,23 +1303,16 @@
        "weekly_cap": true
       },
       "challenge": "not_run",
-      "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbqqsVhHbRcTToTSWE'}",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vUtgqKgHZPqJPdz8MG'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-19-NFO-COV-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-19-NFO-COV-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1783,28 +1321,28 @@
       "sky_priced": true,
       "sky": {
        "odds": {
-        "home": 1.62,
-        "draw": 3.8,
-        "away": 5.0
+        "home": 1.57,
+        "draw": 3.9,
+        "away": 5.5
        },
        "devigged": {
-        "home": 0.5713,
-        "draw": 0.2436,
-        "away": 0.1851
+        "home": 0.5924,
+        "draw": 0.2385,
+        "away": 0.1691
        }
       },
       "market": {
        "average": {
-        "home": 1.6376,
-        "draw": 3.9381,
-        "away": 5.0262
+        "home": 1.5875,
+        "draw": 4.0725,
+        "away": 5.4725
        },
        "devigged": {
-        "home": 0.5742,
-        "draw": 0.2388,
-        "away": 0.1871
+        "home": 0.5953,
+        "draw": 0.232,
+        "away": 0.1727
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.6922,
@@ -1815,26 +1353,26 @@
        "home": {
         "p_model": 0.6922,
         "p_final": 0.6922,
-        "odds": 1.62,
-        "edge_pp": 12.09,
-        "ev": 0.1214,
-        "edge_vs_market_pp": 11.8
+        "odds": 1.57,
+        "edge_pp": 9.98,
+        "ev": 0.0868,
+        "edge_vs_market_pp": 9.69
        },
        "draw": {
         "p_model": 0.2058,
         "p_final": 0.2058,
-        "odds": 3.8,
-        "edge_pp": -3.78,
-        "ev": -0.218,
-        "edge_vs_market_pp": -3.3
+        "odds": 3.9,
+        "edge_pp": -3.27,
+        "ev": -0.1974,
+        "edge_vs_market_pp": -2.62
        },
        "away": {
         "p_model": 0.102,
         "p_final": 0.102,
-        "odds": 5.0,
-        "edge_pp": -8.31,
-        "ev": -0.49,
-        "edge_vs_market_pp": -8.51
+        "odds": 5.5,
+        "edge_pp": -6.71,
+        "ev": -0.439,
+        "edge_vs_market_pp": -7.07
        }
       },
       "best": "home"
@@ -1849,9 +1387,9 @@
      "home": "Bournemouth",
      "away": "Liverpool",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -1861,21 +1399,21 @@
      },
      "sky_odds": {
       "home": 3.1,
-      "draw": 3.6,
+      "draw": 3.75,
       "away": 2.1,
-      "last_update": "2026-09-16T09:51:40Z"
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.29964328180737215,
-      "draw": 0.25802615933412604,
-      "away": 0.4423305588585017
+      "home": 0.3027681660899654,
+      "draw": 0.2502883506343714,
+      "away": 0.4469434832756632
      },
      "market_devigged": {
-      "home": 0.30605040116574633,
-      "draw": 0.2523377764851431,
-      "away": 0.4416118223491106
+      "home": 0.30488256899282273,
+      "draw": 0.25049701789264417,
+      "away": 0.4446204131145331
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-20-BOU-LIV-EPL",
       "competition": "EPL",
@@ -1885,13 +1423,13 @@
       "kickoff_utc": "2026-09-20T13:00:00Z",
       "verdict": "NO_BET",
       "lane": "none",
-      "selection": "home",
+      "selection": "draw",
       "kind": "no_edge",
-      "reason": "best edge 0.8pp on home",
+      "reason": "best edge 0.9pp on draw",
       "stake_gbp": 0.0,
-      "odds_recommended": 3.1,
-      "edge_pp": 0.85,
-      "ev": -0.0449,
+      "odds_recommended": 3.75,
+      "edge_pp": 0.91,
+      "ev": -0.0272,
       "skip_if_sky_below": null,
       "checks": {
        "edge_min": false,
@@ -1901,23 +1439,17 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_required",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbvuUQsXbxmJ77tJGD'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-20-BOU-LIV-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-20-BOU-LIV-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -1927,27 +1459,27 @@
       "sky": {
        "odds": {
         "home": 3.1,
-        "draw": 3.6,
+        "draw": 3.75,
         "away": 2.1
        },
        "devigged": {
-        "home": 0.2996,
-        "draw": 0.258,
-        "away": 0.4423
+        "home": 0.3028,
+        "draw": 0.2503,
+        "away": 0.4469
        }
       },
       "market": {
        "average": {
-        "home": 3.0762,
-        "draw": 3.731,
-        "away": 2.1319
+        "home": 3.0975,
+        "draw": 3.77,
+        "away": 2.124
        },
        "devigged": {
-        "home": 0.3061,
-        "draw": 0.2523,
-        "away": 0.4416
+        "home": 0.3049,
+        "draw": 0.2505,
+        "away": 0.4446
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.3081,
@@ -1959,28 +1491,28 @@
         "p_model": 0.3081,
         "p_final": 0.3081,
         "odds": 3.1,
-        "edge_pp": 0.85,
+        "edge_pp": 0.53,
         "ev": -0.0449,
-        "edge_vs_market_pp": 0.2
+        "edge_vs_market_pp": 0.32
        },
        "draw": {
         "p_model": 0.2594,
         "p_final": 0.2594,
-        "odds": 3.6,
-        "edge_pp": 0.14,
-        "ev": -0.0662,
-        "edge_vs_market_pp": 0.71
+        "odds": 3.75,
+        "edge_pp": 0.91,
+        "ev": -0.0272,
+        "edge_vs_market_pp": 0.89
        },
        "away": {
         "p_model": 0.4324,
         "p_final": 0.4324,
         "odds": 2.1,
-        "edge_pp": -0.99,
+        "edge_pp": -1.45,
         "ev": -0.092,
-        "edge_vs_market_pp": -0.92
+        "edge_vs_market_pp": -1.22
        }
       },
-      "best": "home"
+      "best": "draw"
      },
      "shrinkage": null
     },
@@ -1992,9 +1524,9 @@
      "home": "Leeds",
      "away": "Crystal Palace",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -2005,20 +1537,20 @@
      "sky_odds": {
       "home": 1.75,
       "draw": 3.6,
-      "away": 4.33,
-      "last_update": "2026-09-16T09:51:40Z"
+      "away": 4.5,
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.5290254704654596,
-      "draw": 0.2571651592540429,
-      "away": 0.21380937028049754
+      "home": 0.5333333333333333,
+      "draw": 0.2592592592592593,
+      "away": 0.2074074074074074
      },
      "market_devigged": {
-      "home": 0.5300902417285893,
-      "draw": 0.252304620129908,
-      "away": 0.2176051381415026
+      "home": 0.5336455291986463,
+      "draw": 0.2520487222632699,
+      "away": 0.2143057485380837
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-20-LEE-CRY-EPL",
       "competition": "EPL",
@@ -2029,135 +1561,32 @@
       "verdict": "NO_BET",
       "lane": "none",
       "selection": "away",
-      "kind": "near_miss",
-      "reason": "edge 7.5pp; failed odds_max",
+      "kind": "cap_kill",
+      "reason": "edge 8.1pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
-      "odds_recommended": 4.33,
-      "edge_pp": 7.45,
-      "ev": 0.2483,
+      "odds_recommended": 4.5,
+      "edge_pp": 8.09,
+      "ev": 0.2974,
       "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
-       "edge_max": true,
+       "edge_max": false,
        "odds_max": false,
        "ev_positive": true,
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "kill",
-      "challenge_reason": "Public information explains the market's price against the Palace-away selection: Palace went into their last game without Mateta, Sarr and Riad with Doucoure barely back (Sports Mole, 11 Sep), and Disasi is now suspended after a reckless challenge on Jack Clarke (Sports Mole, 12 Sep), while Leeds' absences (Rodon, Joseph) are already known and Gruev is close to returning (Sports Mole, 13 Sep). The model cannot see a depleted Palace attack and defence, so its 7.5pp edge is unreliable. The verdict was already NO BET under the odds gate; this kill is recorded for the discipline record.",
-      "challenge_cost_usd": 0.0,
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "claude-code-session",
-      "model": "in-session web search",
-      "retrieved_at": "2026-09-16T10:54:50Z",
-      "cutoff": "2026-09-16T10:54:50Z",
-      "items": [
-       {
-        "club": "Crystal Palace",
-        "player": "Jean-Philippe Mateta",
-        "status": "out",
-        "detail": "Thigh injury; out for the Ipswich game, no return date given.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Crystal Palace",
-        "player": "Ismaila Sarr",
-        "status": "doubt",
-        "detail": "Groin; out for Ipswich, expected back in training on the Monday after.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11",
-        "confidence": 0.55,
-        "published_known": true
-       },
-       {
-        "club": "Crystal Palace",
-        "player": "Chadi Riad",
-        "status": "out",
-        "detail": "Knee injury; out for the Ipswich game.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/injury-news/team-news/crystal-palace-vs-ipswich-injury-suspension-list-predicted-xis_604831.html",
-        "published": "2026-09-11",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Crystal Palace",
-        "player": "Axel Disasi",
-        "status": "suspended",
-        "detail": "Facing a ban after a 'reckless' challenge on Jack Clarke against Ipswich; the article lists the games he will miss.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/crystal-palace/news/crystal-palace-games-axel-disasi-will-miss-after-reckless-challenge-on-jack-clarke_605028.html",
-        "published": "2026-09-12",
-        "confidence": 0.5,
-        "published_known": true
-       },
-       {
-        "club": "Leeds",
-        "player": "Joe Rodon",
-        "status": "out",
-        "detail": "Thigh injury, eight to ten weeks.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
-        "published": "2026-09-13",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Leeds",
-        "player": "Mateo Joseph",
-        "status": "out",
-        "detail": "Working back from an ACL injury.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
-        "published": "2026-09-13",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Leeds",
-        "player": "Ilia Gruev",
-        "status": "returning",
-        "detail": "Farke hinted he could be fit to return from a knee problem; no new injuries after the Chelsea cup tie.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/leeds-united/injury-news/team-news/leeds-vs-newcastle-injury-suspension-list-predicted-xis_605014.html",
-        "published": "2026-09-13",
-        "confidence": 0.5,
-        "published_known": true
-       }
-      ],
-      "dropped": [],
-      "summary": "Crystal Palace's freshest list (Sports Mole, 11 Sep, before the Ipswich game) had Chadi Riad, Jean-Philippe Mateta and Ismaila Sarr out, Sarr due back in training on the Monday, and Cheick Doucoure only just back from a long absence; Axel Disasi then picked up a suspension for a reckless challenge on Jack Clarke. Leeds (Sports Mole, 13 Sep, before Newcastle) had Joe Rodon out for eight to ten weeks and Mateo Joseph recovering from an ACL injury, with Ilia Gruev close to a return and no new injuries after the Chelsea cup tie.",
-      "searches_note": null,
-      "status": "ok",
-      "meta": {
-       "searches": 3,
-       "allowed_domains": [
-        "skysports.com",
-        "premierleague.com",
-        "efl.com",
-        "sportsmole.co.uk",
-        "premierinjuries.com",
-        "fourfourtwo.com",
-        "90min.com"
-       ],
-       "cost_usd": 0.0
-      }
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-20-LEE-CRY-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-20-LEE-CRY-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -2168,26 +1597,26 @@
        "odds": {
         "home": 1.75,
         "draw": 3.6,
-        "away": 4.33
+        "away": 4.5
        },
        "devigged": {
-        "home": 0.529,
-        "draw": 0.2572,
-        "away": 0.2138
+        "home": 0.5333,
+        "draw": 0.2593,
+        "away": 0.2074
        }
       },
       "market": {
        "average": {
-        "home": 1.7724,
-        "draw": 3.7238,
-        "away": 4.3176
+        "home": 1.77,
+        "draw": 3.7475,
+        "away": 4.4075
        },
        "devigged": {
-        "home": 0.5301,
-        "draw": 0.2523,
-        "away": 0.2176
+        "home": 0.5336,
+        "draw": 0.252,
+        "away": 0.2143
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.42,
@@ -2199,25 +1628,25 @@
         "p_model": 0.42,
         "p_final": 0.42,
         "odds": 1.75,
-        "edge_pp": -10.9,
+        "edge_pp": -11.33,
         "ev": -0.265,
-        "edge_vs_market_pp": -11.01
+        "edge_vs_market_pp": -11.36
        },
        "draw": {
         "p_model": 0.2916,
         "p_final": 0.2916,
         "odds": 3.6,
-        "edge_pp": 3.44,
+        "edge_pp": 3.23,
         "ev": 0.0498,
-        "edge_vs_market_pp": 3.93
+        "edge_vs_market_pp": 3.96
        },
        "away": {
         "p_model": 0.2883,
         "p_final": 0.2883,
-        "odds": 4.33,
-        "edge_pp": 7.45,
-        "ev": 0.2483,
-        "edge_vs_market_pp": 7.07
+        "odds": 4.5,
+        "edge_pp": 8.09,
+        "ev": 0.2974,
+        "edge_vs_market_pp": 7.4
        }
       },
       "best": "away"
@@ -2232,9 +1661,9 @@
      "home": "Man City",
      "away": "Sunderland",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -2245,20 +1674,20 @@
      "sky_odds": {
       "home": 1.29,
       "draw": 5.5,
-      "away": 9.5,
-      "last_update": "2026-09-16T09:51:40Z"
+      "away": 9.0,
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
-      "home": 0.7297486033519555,
-      "draw": 0.171159217877095,
-      "away": 0.09909217877094974
+      "home": 0.725753243897075,
+      "draw": 0.1702221244776776,
+      "away": 0.10402463162524742
      },
      "market_devigged": {
-      "home": 0.7343356105735014,
-      "draw": 0.1688499734662764,
-      "away": 0.09681441596022233
+      "home": 0.7309241508947587,
+      "draw": 0.1698159657265147,
+      "away": 0.09925988337872656
      },
-     "n_bookmakers": 21,
+     "n_bookmakers": 20,
      "verdict": {
       "fixture_id": "2026-09-20-MCI-SUN-EPL",
       "competition": "EPL",
@@ -2270,10 +1699,10 @@
       "lane": "none",
       "selection": "draw",
       "kind": "near_miss",
-      "reason": "edge 5.1pp; failed edge_min, odds_max",
+      "reason": "edge 5.2pp; failed edge_min, odds_max",
       "stake_gbp": 0.0,
       "odds_recommended": 5.5,
-      "edge_pp": 5.14,
+      "edge_pp": 5.24,
       "ev": 0.2243,
       "skip_if_sky_below": null,
       "checks": {
@@ -2284,23 +1713,17 @@
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_required",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-16 T-48h r8"
+      "run_label": "2026-09-18 T-24h r9"
      },
-     "news": {
-      "agent": "news_extraction",
-      "status": "error",
-      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vc1DS3NiiGqYPaAqZr'}",
-      "items": [],
-      "cutoff": "2026-09-16T09:51:43Z"
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-20-MCI-SUN-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-20-MCI-SUN-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -2311,26 +1734,26 @@
        "odds": {
         "home": 1.29,
         "draw": 5.5,
-        "away": 9.5
+        "away": 9.0
        },
        "devigged": {
-        "home": 0.7297,
-        "draw": 0.1712,
-        "away": 0.0991
+        "home": 0.7258,
+        "draw": 0.1702,
+        "away": 0.104
        }
       },
       "market": {
        "average": {
-        "home": 1.2838,
-        "draw": 5.5833,
-        "away": 9.7376
+        "home": 1.2935,
+        "draw": 5.5675,
+        "away": 9.525
        },
        "devigged": {
-        "home": 0.7343,
-        "draw": 0.1688,
-        "away": 0.0968
+        "home": 0.7309,
+        "draw": 0.1698,
+        "away": 0.0993
        },
-       "n_bookmakers": 21
+       "n_bookmakers": 20
       },
       "final": {
        "home": 0.6701,
@@ -2342,25 +1765,25 @@
         "p_model": 0.6701,
         "p_final": 0.6701,
         "odds": 1.29,
-        "edge_pp": -5.96,
+        "edge_pp": -5.57,
         "ev": -0.1356,
-        "edge_vs_market_pp": -6.42
+        "edge_vs_market_pp": -6.08
        },
        "draw": {
         "p_model": 0.2226,
         "p_final": 0.2226,
         "odds": 5.5,
-        "edge_pp": 5.14,
+        "edge_pp": 5.24,
         "ev": 0.2243,
-        "edge_vs_market_pp": 5.38
+        "edge_vs_market_pp": 5.28
        },
        "away": {
         "p_model": 0.1073,
         "p_final": 0.1073,
-        "odds": 9.5,
-        "edge_pp": 0.82,
-        "ev": 0.0193,
-        "edge_vs_market_pp": 1.05
+        "odds": 9.0,
+        "edge_pp": 0.33,
+        "ev": -0.0343,
+        "edge_vs_market_pp": 0.8
        }
       },
       "best": "draw"
@@ -2375,9 +1798,9 @@
      "home": "Fulham",
      "away": "Man Utd",
      "run": {
-      "number": 8,
-      "stage": "T-48h",
-      "label": "MW5 T-48h run 8",
+      "number": 9,
+      "stage": "T-24h",
+      "label": "MW5 T-24h run 9",
       "note": null
      },
      "model": {
@@ -2389,7 +1812,7 @@
       "home": 3.4,
       "draw": 3.6,
       "away": 2.0,
-      "last_update": "2026-09-16T09:51:40Z"
+      "last_update": "2026-09-18T10:58:55Z"
      },
      "sky_devigged": {
       "home": 0.27439024390243905,
@@ -2397,9 +1820,9 @@
       "away": 0.46646341463414637
      },
      "market_devigged": {
-      "home": 0.2752577081843969,
-      "draw": 0.25164310587367117,
-      "away": 0.4730991859419321
+      "home": 0.27497566509245414,
+      "draw": 0.2528299739440686,
+      "away": 0.4721943609634773
      },
      "n_bookmakers": 20,
      "verdict": {
@@ -2422,118 +1845,17 @@
        "weekly_cap": true
       },
       "bookmaker": "skybet",
-      "challenge": "pass",
+      "challenge": "not_run",
       "shadow": false,
-      "run_label": "MW5 T-48h run 8"
+      "run_label": "MW5 T-24h run 9"
      },
-     "news": {
-      "agent": "claude-code-session",
-      "model": "in-session web search",
-      "retrieved_at": "2026-09-16T10:54:49Z",
-      "cutoff": "2026-09-16T10:54:49Z",
-      "items": [
-       {
-        "club": "Fulham",
-        "player": "Tom Cairney",
-        "status": "out",
-        "detail": "Knee injury; listed as out in the pre-Liverpool round-up, no return date given.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/team-news/liverpool-vs-fulham-injury-suspension-list-predicted-xis_604779.html",
-        "published": "2026-09-12",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Fulham",
-        "player": "Luc De Fougerolles",
-        "status": "out",
-        "detail": "Knee injury; listed as out in the pre-Liverpool round-up.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/team-news/liverpool-vs-fulham-injury-suspension-list-predicted-xis_604779.html",
-        "published": "2026-09-12",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Man Utd",
-        "player": "Carlos Baleba",
-        "status": "out",
-        "detail": "Ankle issue keeps the new signing unavailable; expected back in the near future.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
-        "published": "2026-09-12",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Man Utd",
-        "player": "Amad Diallo",
-        "status": "doubt",
-        "detail": "Missed the Hull and Ipswich games with a training injury; only a slight chance of a return was reported before the derby.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
-        "published": "2026-09-12",
-        "confidence": 0.55,
-        "published_known": true
-       },
-       {
-        "club": "Man Utd",
-        "player": "Matthijs de Ligt",
-        "status": "returning",
-        "detail": "Back in training after a long-term back injury and an operation; targeted for the first half of the season, not yet available.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
-        "published": "2026-09-12",
-        "confidence": 0.6,
-        "published_known": true
-       },
-       {
-        "club": "Man Utd",
-        "player": "Manuel Ugarte",
-        "status": "out",
-        "detail": "Serious knee injury from the 2026 World Cup; out for a significant period.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/manchester-derby/injuries-and-suspensions/baleba-shaw-amad-de-ligt-latest-man-united-injury-suspension-list-vs-man-city_604904.html",
-        "published": "2026-09-12",
-        "confidence": 0.65,
-        "published_known": true
-       },
-       {
-        "club": "Man Utd",
-        "player": "Luke Shaw",
-        "status": "doubt",
-        "detail": "Michael Carrick: 'Luke is not quite ready yet, but he is very close', before the derby.",
-        "source_name": "Sports Mole",
-        "source_url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/how-long-carrick-issues-shaw-injury-update-ahead-of-manchester-derby_605067.html",
-        "published": "2026-09-13",
-        "confidence": 0.55,
-        "published_known": true
-       }
-      ],
-      "dropped": [],
-      "summary": "No fixture-specific Fulham v Man Utd preview had been published before the cutoff. Fulham's freshest list (Sports Mole, 12 Sep, before the Liverpool game) had only Tom Cairney and Luc De Fougerolles out, with a full-strength predicted XI. Man Utd's freshest list (Sports Mole, 13 Sep, before the derby) had Carlos Baleba (ankle) and Manuel Ugarte (knee, long term) out, Amad Diallo a doubt after a training injury, Matthijs de Ligt back in training but not yet available, and Luke Shaw described by Michael Carrick as 'very close' to a return.",
-      "searches_note": null,
-      "status": "ok",
-      "meta": {
-       "searches": 5,
-       "allowed_domains": [
-        "skysports.com",
-        "premierleague.com",
-        "efl.com",
-        "sportsmole.co.uk",
-        "premierinjuries.com",
-        "fourfourtwo.com",
-        "90min.com"
-       ],
-       "cost_usd": 0.0
-      }
-     },
+     "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-16T09:51:42Z",
-      "first_odds_contact": "2026-09-16T09:51:43Z",
-      "snapshot": "2026-09-20-FUL-MUN-EPL-20260916T095143Z.json"
+      "committed": "2026-09-18T10:59:15Z",
+      "first_odds_contact": "2026-09-18T10:59:16Z",
+      "snapshot": "2026-09-20-FUL-MUN-EPL-20260918T105916Z.json"
      },
      "value": {
       "lambda": 0.0,
@@ -2554,14 +1876,14 @@
       },
       "market": {
        "average": {
-        "home": 3.41,
-        "draw": 3.73,
-        "away": 1.984
+        "home": 3.425,
+        "draw": 3.725,
+        "away": 1.9945
        },
        "devigged": {
-        "home": 0.2753,
-        "draw": 0.2516,
-        "away": 0.4731
+        "home": 0.275,
+        "draw": 0.2528,
+        "away": 0.4722
        },
        "n_bookmakers": 20
       },
@@ -2577,7 +1899,7 @@
         "odds": 3.4,
         "edge_pp": 6.32,
         "ev": 0.1478,
-        "edge_vs_market_pp": 6.23
+        "edge_vs_market_pp": 6.26
        },
        "draw": {
         "p_model": 0.2757,
@@ -2585,7 +1907,7 @@
         "odds": 3.6,
         "edge_pp": 1.66,
         "ev": -0.0075,
-        "edge_vs_market_pp": 2.41
+        "edge_vs_market_pp": 2.29
        },
        "away": {
         "p_model": 0.3867,
@@ -2593,7 +1915,7 @@
         "odds": 2.0,
         "edge_pp": -7.98,
         "ev": -0.2266,
-        "edge_vs_market_pp": -8.64
+        "edge_vs_market_pp": -8.55
        }
       },
       "best": "home"
@@ -3082,14 +2404,14 @@
      "week": "MW5",
      "fixtures": 10,
      "week_pp": {
-      "home": 2.7,
-      "draw": 0.11,
-      "away": -2.81
+      "home": 2.21,
+      "draw": 0.09,
+      "away": -2.3
      },
      "cumulative_pp": {
-      "home": 2.7,
-      "draw": 0.11,
-      "away": -2.81
+      "home": 2.21,
+      "draw": 0.09,
+      "away": -2.3
      }
     }
    ]
@@ -4285,14 +3607,14 @@
   }
  },
  "latest_run": {
-  "as_of": "2026-09-16",
+  "as_of": "2026-09-18",
   "run": {
-   "number": 8,
-   "stage": "T-48h",
+   "number": 9,
+   "stage": "T-24h",
    "shadow": false
   },
-  "predictions_committed_at": "2026-09-16T09:51:43Z",
-  "first_odds_contact_at": "2026-09-16T09:51:43Z",
+  "predictions_committed_at": "2026-09-18T10:59:16Z",
+  "first_odds_contact_at": "2026-09-18T10:59:16Z",
   "settled": {
    "EPL": {
     "competition": "EPL",
@@ -4310,55 +3632,17 @@
    }
   },
   "agents": {
-   "status": "claude-code-session",
-   "news": 10,
-   "challenges": 9,
+   "status": "disabled",
+   "news": 0,
+   "news_skipped": 0,
+   "challenges": 0,
    "kills": [],
    "cost": {
     "total_usd": 0.0
    },
-   "manual": [
-    {
-     "fixture_id": "2026-09-20-FUL-MUN-EPL",
-     "verdict": "pass",
-     "at": "2026-09-16T10:54:49Z"
-    },
-    {
-     "fixture_id": "2026-09-20-LEE-CRY-EPL",
-     "verdict": "kill",
-     "at": "2026-09-16T10:54:50Z"
-    }
-   ]
+   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task"
   },
   "strict_bets": [
-   {
-    "fixture_id": "2026-09-18-BRE-CHE-EPL",
-    "competition": "EPL",
-    "matchweek": "MW5",
-    "home": "Brentford",
-    "away": "Chelsea",
-    "kickoff_utc": "2026-09-18T19:00:00Z",
-    "verdict": "STRICT_BET",
-    "lane": "strict",
-    "selection": "home",
-    "kind": "strict_bet",
-    "reason": "edge 6.8pp at Sky Bet 2.8, EV +0.116",
-    "stake_gbp": 2.5,
-    "odds_recommended": 2.8,
-    "edge_pp": 6.78,
-    "ev": 0.1164,
-    "skip_if_sky_below": 2.51,
-    "checks": {
-     "edge_min": true,
-     "edge_max": true,
-     "odds_max": true,
-     "ev_positive": true,
-     "not_prohibited": true,
-     "weekly_cap": true
-    },
-    "challenge": "pass",
-    "challenge_reason": "The freshest fixture-specific reporting (Sports Mole, 15 Sep 2026) is Chelsea-negative rather than Brentford-negative: Caicedo, Henderson and Palestra are only possible returnees subject to medical clearance, Emegha has no return date, and the same preview notes Chelsea arrive on a two-match winless run (2-1 loss to Arsenal, 2-2 draw with Hull) with their defensive frailties under scrutiny, while confirming no Chelsea suspensions. Brentford's four listed absentees (Jensen, Van den Berg, Milambo, Dasilva) come from the older matchday-four Bournemouth list and are squad/rotation-level rather than talismanic, with Kelleher, Thiago, Schade, Damsgaard and Ouattara all available in that predicted XI. There is no managerial change, no midweek cup or European commitment, no congestion angle for a "
-   },
    {
     "fixture_id": "2026-09-20-FUL-MUN-EPL",
     "competition": "EPL",
@@ -4384,8 +3668,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "pass",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbxQGWgyg5M7UxJqSX'}"
+    "challenge": "not_run"
    }
   ],
   "fun_bet": null,
@@ -4397,26 +3680,25 @@
     "home": "Brentford",
     "away": "Chelsea",
     "kickoff_utc": "2026-09-18T19:00:00Z",
-    "verdict": "STRICT_BET",
-    "lane": "strict",
+    "verdict": "NO_BET",
+    "lane": "none",
     "selection": "home",
-    "kind": "strict_bet",
-    "reason": "edge 6.8pp at Sky Bet 2.8, EV +0.116",
-    "stake_gbp": 2.5,
-    "odds_recommended": 2.8,
-    "edge_pp": 6.78,
-    "ev": 0.1164,
-    "skip_if_sky_below": 2.51,
+    "kind": "near_miss",
+    "reason": "edge 3.3pp; failed edge_min",
+    "stake_gbp": 0.0,
+    "odds_recommended": 2.6,
+    "edge_pp": 3.28,
+    "ev": 0.0366,
+    "skip_if_sky_below": null,
     "checks": {
-     "edge_min": true,
+     "edge_min": false,
      "edge_max": true,
      "odds_max": true,
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "pass",
-    "challenge_reason": "The freshest fixture-specific reporting (Sports Mole, 15 Sep 2026) is Chelsea-negative rather than Brentford-negative: Caicedo, Henderson and Palestra are only possible returnees subject to medical clearance, Emegha has no return date, and the same preview notes Chelsea arrive on a two-match winless run (2-1 loss to Arsenal, 2-2 draw with Hull) with their defensive frailties under scrutiny, while confirming no Chelsea suspensions. Brentford's four listed absentees (Jensen, Van den Berg, Milambo, Dasilva) come from the older matchday-four Bournemouth list and are squad/rotation-level rather than talismanic, with Kelleher, Thiago, Schade, Damsgaard and Ouattara all available in that predicted XI. There is no managerial change, no midweek cup or European commitment, no congestion angle for a "
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-BHA-ARS-EPL",
@@ -4429,10 +3711,10 @@
     "lane": "none",
     "selection": "draw",
     "kind": "no_edge",
-    "reason": "best edge 2.7pp on draw",
+    "reason": "best edge 2.6pp on draw",
     "stake_gbp": 0.0,
     "odds_recommended": 3.8,
-    "edge_pp": 2.73,
+    "edge_pp": 2.57,
     "ev": 0.0302,
     "skip_if_sky_below": null,
     "checks": {
@@ -4443,7 +3725,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_required"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-EVE-IPS-EPL",
@@ -4456,10 +3738,10 @@
     "lane": "none",
     "selection": "home",
     "kind": "cap_kill",
-    "reason": "edge 10.7pp exceeds max_edge_pp 8.0",
+    "reason": "edge 10.8pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
     "odds_recommended": 1.75,
-    "edge_pp": 10.73,
+    "edge_pp": 10.85,
     "ev": 0.1232,
     "skip_if_sky_below": null,
     "checks": {
@@ -4470,8 +3752,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "pass",
-    "challenge_reason": "The only public information available before the cutoff points the same way as the model, not against it: Ipswich's 11 September Sports Mole round-up has Philogene-Bidace (ankle), Matusiwa (muscle) and Taylor (knee) out with no doubts or suspensions, and Ipswich played an EFL Cup third-round tie at home to Arsenal in the midweek before this game, a congestion/rotation factor. Everton's freshest dated absence list (Sports Mole, 5 September) named only Christian Norgaard, with no suspensions and no managerial change at either club, and my confirmatory searches surfaced nothing dated before 2026-09-16 that would justify Sky Bet's shorter view of Everton. The one genuine weakness is staleness — the Everton list is two weeks old and pre-dates the Spurs game of 12 September — but a gap in covera"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-NFO-COV-EPL",
@@ -4484,11 +3765,11 @@
     "lane": "none",
     "selection": "home",
     "kind": "cap_kill",
-    "reason": "edge 12.1pp exceeds max_edge_pp 8.0",
+    "reason": "edge 10.0pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
-    "odds_recommended": 1.62,
-    "edge_pp": 12.09,
-    "ev": 0.1214,
+    "odds_recommended": 1.57,
+    "edge_pp": 9.98,
+    "ev": 0.0868,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
@@ -4498,8 +3779,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbqqsVhHbRcTToTSWE'}"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-NEW-HUL-EPL",
@@ -4526,8 +3806,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbspSTQusnLwYzGLrN'}"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-19-TOT-AVL-EPL",
@@ -4540,10 +3819,10 @@
     "lane": "none",
     "selection": "away",
     "kind": "cap_kill",
-    "reason": "edge 11.2pp exceeds max_edge_pp 8.0",
+    "reason": "edge 11.4pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
     "odds_recommended": 3.6,
-    "edge_pp": 11.21,
+    "edge_pp": 11.42,
     "ev": 0.3439,
     "skip_if_sky_below": null,
     "checks": {
@@ -4554,8 +3833,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run",
-    "challenge_reason": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf6vbuuTDHqRTwRoCqiCp'}"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-BOU-LIV-EPL",
@@ -4566,13 +3844,13 @@
     "kickoff_utc": "2026-09-20T13:00:00Z",
     "verdict": "NO_BET",
     "lane": "none",
-    "selection": "home",
+    "selection": "draw",
     "kind": "no_edge",
-    "reason": "best edge 0.8pp on home",
+    "reason": "best edge 0.9pp on draw",
     "stake_gbp": 0.0,
-    "odds_recommended": 3.1,
-    "edge_pp": 0.85,
-    "ev": -0.0449,
+    "odds_recommended": 3.75,
+    "edge_pp": 0.91,
+    "ev": -0.0272,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": false,
@@ -4582,7 +3860,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_required"
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-FUL-MUN-EPL",
@@ -4609,9 +3887,7 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "pass",
-    "challenge_reason": "The only pre-cutoff team news runs against Man Utd, not Fulham: Baleba and Ugarte out, Amad a doubt, de Ligt not yet back and Shaw only close to a return (Sports Mole, 12 to 13 Sep), while Fulham's freshest list (Sports Mole, 12 Sep) had only Cairney and De Fougerolles out with a full-strength XI. No Fulham v Man Utd preview, new Fulham absence, suspension, rotation or managerial change was published on the allowed outlets before the cutoff, so nothing explains the market's shorter view of Man Utd. Confidence is modest because the Fulham list is a week old and search results, not full articles, were available.",
-    "challenge_cost_usd": 0.0
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -4623,24 +3899,22 @@
     "verdict": "NO_BET",
     "lane": "none",
     "selection": "away",
-    "kind": "near_miss",
-    "reason": "edge 7.5pp; failed odds_max",
+    "kind": "cap_kill",
+    "reason": "edge 8.1pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
-    "odds_recommended": 4.33,
-    "edge_pp": 7.45,
-    "ev": 0.2483,
+    "odds_recommended": 4.5,
+    "edge_pp": 8.09,
+    "ev": 0.2974,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
-     "edge_max": true,
+     "edge_max": false,
      "odds_max": false,
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "kill",
-    "challenge_reason": "Public information explains the market's price against the Palace-away selection: Palace went into their last game without Mateta, Sarr and Riad with Doucoure barely back (Sports Mole, 11 Sep), and Disasi is now suspended after a reckless challenge on Jack Clarke (Sports Mole, 12 Sep), while Leeds' absences (Rodon, Joseph) are already known and Gruev is close to returning (Sports Mole, 13 Sep). The model cannot see a depleted Palace attack and defence, so its 7.5pp edge is unreliable. The verdict was already NO BET under the odds gate; this kill is recorded for the discipline record.",
-    "challenge_cost_usd": 0.0
+    "challenge": "not_run"
    },
    {
     "fixture_id": "2026-09-20-MCI-SUN-EPL",
@@ -4653,10 +3927,10 @@
     "lane": "none",
     "selection": "draw",
     "kind": "near_miss",
-    "reason": "edge 5.1pp; failed edge_min, odds_max",
+    "reason": "edge 5.2pp; failed edge_min, odds_max",
     "stake_gbp": 0.0,
     "odds_recommended": 5.5,
-    "edge_pp": 5.14,
+    "edge_pp": 5.24,
     "ev": 0.2243,
     "skip_if_sky_below": null,
     "checks": {
@@ -4667,64 +3941,11 @@
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_required"
+    "challenge": "not_run"
    }
   ]
  },
  "fetch_log": [
-  {
-   "competitions": {
-    "EPL": {
-     "events": 20,
-     "stored": [
-      "2026-09-18-BRE-CHE-EPL",
-      "2026-09-19-TOT-AVL-EPL",
-      "2026-09-19-BHA-ARS-EPL",
-      "2026-09-19-EVE-IPS-EPL",
-      "2026-09-19-NEW-HUL-EPL",
-      "2026-09-19-NFO-COV-EPL",
-      "2026-09-20-BOU-LIV-EPL",
-      "2026-09-20-LEE-CRY-EPL",
-      "2026-09-20-MCI-SUN-EPL",
-      "2026-09-20-FUL-MUN-EPL"
-     ],
-     "skipped_unpriced": [
-      "2026-10-10-ARS-LEE-EPL",
-      "2026-10-10-AVL-BRE-EPL",
-      "2026-10-10-CHE-BOU-EPL",
-      "2026-10-10-SUN-BHA-EPL",
-      "2026-10-10-IPS-FUL-EPL",
-      "2026-10-10-MUN-TOT-EPL",
-      "2026-10-11-CRY-NFO-EPL",
-      "2026-10-11-HUL-EVE-EPL",
-      "2026-10-11-LIV-MCI-EPL",
-      "2026-10-12-COV-NEW-EPL"
-     ],
-     "skybet_priced": 10,
-     "unknown_teams": []
-    },
-    "EFLC": {
-     "events": 5,
-     "stored": [],
-     "skipped_unpriced": [
-      "2026-09-16-EVE-WOL-EFLC",
-      "2026-09-16-FLE-SHU-EFLC",
-      "2026-09-16-COV-AVL-EFLC",
-      "2026-09-16-MUN-BHA-EFLC",
-      "2026-09-17-MCI-NWC-EFLC"
-     ],
-     "skybet_priced": 0,
-     "unknown_teams": []
-    }
-   },
-   "first_odds_contact_at": "2026-09-15T21:42:38Z",
-   "quota": {
-    "remaining": "490",
-    "used": "10",
-    "last_cost": "1"
-   },
-   "predictions_committed_at": "2026-09-15T21:42:38Z"
-  },
   {
    "competitions": {
     "EPL": {
@@ -4940,6 +4161,62 @@
     "last_cost": "1"
    },
    "predictions_committed_at": "2026-09-16T09:51:43Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [
+      "2026-09-18-BRE-CHE-EPL",
+      "2026-09-19-TOT-AVL-EPL",
+      "2026-09-19-BHA-ARS-EPL",
+      "2026-09-19-EVE-IPS-EPL",
+      "2026-09-19-NEW-HUL-EPL",
+      "2026-09-19-NFO-COV-EPL",
+      "2026-09-20-BOU-LIV-EPL",
+      "2026-09-20-LEE-CRY-EPL",
+      "2026-09-20-MCI-SUN-EPL",
+      "2026-09-20-FUL-MUN-EPL"
+     ],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL"
+     ],
+     "skybet_priced": 10,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 8,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-10-28-FLE-ARS-EFLC",
+      "2026-10-28-BOU-AVL-EFLC",
+      "2026-10-28-BRA-PET-EFLC",
+      "2026-10-28-SUN-BRE-EFLC",
+      "2026-10-28-MCI-BHA-EFLC",
+      "2026-10-28-LIV-CHE-EFLC",
+      "2026-10-28-FUL-CRY-EFLC",
+      "2026-10-28-EVE-NEW-EFLC"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    }
+   },
+   "first_odds_contact_at": "2026-09-18T10:59:16Z",
+   "quota": {
+    "remaining": "480",
+    "used": "20",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-18T10:59:16Z"
   }
  ],
  "protocol_audit": {
@@ -4981,8 +4258,8 @@
   "summary": {
    "staked_settled": 10.0,
    "pnl_settled": -10.0,
-   "pending_stake": 10.0,
-   "pending": 4,
+   "pending_stake": 7.5,
+   "pending": 3,
    "fun_record": {
     "bets": 2,
     "won": 0,
@@ -4990,9 +4267,9 @@
    },
    "week": "2026-W38",
    "cap": 10.0,
-   "committed_this_week": 5.0,
+   "committed_this_week": 2.5,
    "discipline_counts": {
-    "cap_kill:pending": 6,
+    "cap_kill:pending": 7,
     "cap_kill:save": 1,
     "cap_kill:would_have_won": 2,
     "challenge_kill:pending": 1,
@@ -5120,26 +4397,6 @@
     "notes": "off-model personal bet by Rogan; Fulham 2-3 Palace; stake and odds unreported after 2 asks, row stays TBD until supplied"
    },
    {
-    "bet_id": "MW5-EPL-STRICT-2026-09-18-BRE-CHE-EPL",
-    "matchweek": "MW5",
-    "competition": "EPL",
-    "lane": "strict",
-    "fixture_id": "2026-09-18-BRE-CHE-EPL",
-    "kickoff_utc": "2026-09-18T19:00:00Z",
-    "selection": "home",
-    "bookmaker": "skybet",
-    "odds_recommended": "2.8",
-    "stake_recommended_gbp": "2.50",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
-    "result": "pending",
-    "pnl_gbp": "",
-    "settled_at": "",
-    "settlement_source": "",
-    "notes": "T-48h r8: edge 6.8pp at Sky Bet 2.8, EV +0.116; challenge pass"
-   },
-   {
     "bet_id": "MW5-EPL-STRICT-2026-09-20-FUL-MUN-EPL",
     "matchweek": "MW5",
     "competition": "EPL",
@@ -5157,7 +4414,7 @@
     "pnl_gbp": "",
     "settled_at": "",
     "settlement_source": "",
-    "notes": "T-48h r8: edge 6.3pp at Sky Bet 3.4, EV +0.148; challenge not_run"
+    "notes": "T-24h r9: edge 6.3pp at Sky Bet 3.4, EV +0.148; challenge not_run"
    }
   ],
   "discipline": [
@@ -5373,14 +4630,27 @@
     "matchweek": "MW5",
     "competition": "EPL",
     "lane": "strict",
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "selection": "home",
+    "edge_pp": "3.28",
+    "odds": "2.6",
+    "kind": "near_miss",
+    "outcome": "pending",
+    "settled_at": "",
+    "notes": "edge 3.3pp; failed edge_min"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
     "fixture_id": "2026-09-19-EVE-IPS-EPL",
     "selection": "home",
-    "edge_pp": "10.73",
+    "edge_pp": "10.85",
     "odds": "1.75",
     "kind": "cap_kill",
     "outcome": "pending",
     "settled_at": "",
-    "notes": "edge 10.7pp exceeds max_edge_pp 8.0"
+    "notes": "edge 10.8pp exceeds max_edge_pp 8.0"
    },
    {
     "matchweek": "MW5",
@@ -5388,12 +4658,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-19-NFO-COV-EPL",
     "selection": "home",
-    "edge_pp": "12.09",
-    "odds": "1.62",
+    "edge_pp": "9.98",
+    "odds": "1.57",
     "kind": "cap_kill",
     "outcome": "pending",
     "settled_at": "",
-    "notes": "edge 12.1pp exceeds max_edge_pp 8.0"
+    "notes": "edge 10.0pp exceeds max_edge_pp 8.0"
    },
    {
     "matchweek": "MW5",
@@ -5414,12 +4684,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-19-TOT-AVL-EPL",
     "selection": "away",
-    "edge_pp": "11.21",
+    "edge_pp": "11.42",
     "odds": "3.6",
     "kind": "cap_kill",
     "outcome": "pending",
     "settled_at": "",
-    "notes": "edge 11.2pp exceeds max_edge_pp 8.0"
+    "notes": "edge 11.4pp exceeds max_edge_pp 8.0"
    },
    {
     "matchweek": "MW5",
@@ -5427,12 +4697,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
     "selection": "away",
-    "edge_pp": "7.45",
-    "odds": "4.33",
-    "kind": "near_miss",
+    "edge_pp": "8.09",
+    "odds": "4.5",
+    "kind": "cap_kill",
     "outcome": "pending",
     "settled_at": "",
-    "notes": "edge 7.5pp; failed odds_max"
+    "notes": "edge 8.1pp exceeds max_edge_pp 8.0"
    },
    {
     "matchweek": "MW5",
@@ -5440,12 +4710,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-20-MCI-SUN-EPL",
     "selection": "draw",
-    "edge_pp": "5.14",
+    "edge_pp": "5.24",
     "odds": "5.5",
     "kind": "near_miss",
     "outcome": "pending",
     "settled_at": "",
-    "notes": "edge 5.1pp; failed edge_min, odds_max"
+    "notes": "edge 5.2pp; failed edge_min, odds_max"
    }
   ]
  }
