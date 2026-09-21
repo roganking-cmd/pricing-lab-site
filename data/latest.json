@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-18T12:46:26Z",
+ "built_at": "2026-09-21T09:49:12Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -87,7 +87,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "outcome": "away",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -130,7 +136,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "outcome": "draw",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -173,7 +185,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "outcome": "draw",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -219,7 +237,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "outcome": "away",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -265,7 +289,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "outcome": "draw",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -330,7 +360,13 @@
       "confidence": null,
       "direction": "supports"
      },
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "outcome": "draw",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -376,7 +412,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "outcome": "away",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -431,7 +473,13 @@
       "run_label": "MW4 - 11 Sep 2026"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 5,
+      "outcome": "away",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -490,7 +538,13 @@
       "confidence": null,
       "direction": "supports"
      },
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "outcome": "away",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -542,7 +596,13 @@
       "confidence": null,
       "direction": "against"
      },
-     "result": null,
+     "result": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "outcome": "home",
+      "source": "openfootball/football.json",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-11T08:06:00Z",
@@ -602,27 +662,33 @@
       "verdict": "NO_BET",
       "lane": "none",
       "selection": "home",
-      "kind": "no_edge",
-      "reason": "best edge 2.4pp on home",
+      "kind": "near_miss",
+      "reason": "edge 3.3pp; failed edge_min",
       "stake_gbp": 0.0,
-      "odds_recommended": 2.5,
-      "edge_pp": 2.37,
-      "ev": -0.0032,
+      "odds_recommended": 2.6,
+      "edge_pp": 3.28,
+      "ev": 0.0366,
       "skip_if_sky_below": null,
       "checks": {
        "edge_min": false,
        "edge_max": true,
        "odds_max": true,
-       "ev_positive": false,
+       "ev_positive": true,
        "not_prohibited": true,
        "weekly_cap": true
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -755,7 +821,14 @@
       "run_label": "MW5 T-24h run 10"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "outcome": "away",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21",
+      "bet": "won"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -889,10 +962,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1010,10 +1089,10 @@
       "lane": "none",
       "selection": "home",
       "kind": "cap_kill",
-      "reason": "edge 11.3pp exceeds max_edge_pp 8.0",
+      "reason": "edge 10.8pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
       "odds_recommended": 1.75,
-      "edge_pp": 11.28,
+      "edge_pp": 10.85,
       "ev": 0.1232,
       "skip_if_sky_below": null,
       "checks": {
@@ -1026,10 +1105,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1163,10 +1248,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1300,10 +1391,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1437,10 +1534,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "outcome": "away",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1558,11 +1661,11 @@
       "lane": "none",
       "selection": "away",
       "kind": "cap_kill",
-      "reason": "edge 8.6pp exceeds max_edge_pp 8.0",
+      "reason": "edge 8.1pp exceeds max_edge_pp 8.0",
       "stake_gbp": 0.0,
-      "odds_recommended": 4.6,
-      "edge_pp": 8.57,
-      "ev": 0.3262,
+      "odds_recommended": 4.5,
+      "edge_pp": 8.09,
+      "ev": 0.2974,
       "skip_if_sky_below": null,
       "checks": {
        "edge_min": true,
@@ -1574,10 +1677,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "outcome": "draw",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1711,10 +1820,16 @@
       },
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 5,
+      "away_goals": 3,
+      "outcome": "home",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -1828,30 +1943,38 @@
       "home": "Fulham",
       "away": "Man Utd",
       "kickoff_utc": "2026-09-20T15:30:00Z",
-      "verdict": "NO_BET",
-      "lane": "none",
+      "verdict": "STRICT_BET",
+      "lane": "strict",
       "selection": "home",
-      "kind": "near_miss",
-      "reason": "edge 5.7pp; failed edge_min",
-      "stake_gbp": 0.0,
-      "odds_recommended": 3.3,
-      "edge_pp": 5.72,
-      "ev": 0.1141,
-      "skip_if_sky_below": null,
+      "kind": "strict_bet",
+      "reason": "edge 6.3pp at Sky Bet 3.4, EV +0.148",
+      "stake_gbp": 2.5,
+      "odds_recommended": 3.4,
+      "edge_pp": 6.32,
+      "ev": 0.1478,
+      "skip_if_sky_below": 2.97,
       "checks": {
-       "edge_min": false,
+       "edge_min": true,
        "edge_max": true,
        "odds_max": true,
        "ev_positive": true,
        "not_prohibited": true,
        "weekly_cap": true
       },
-      "challenge": "not_run",
+      "challenge": "pass",
+      "challenge_reason": "Nothing public explains Sky Bet's shorter view of Man Utd: the pre-cutoff team news runs against the visitors, with Baleba, Ugarte and Amad out, Shaw a doubt and de Ligt only back in training, after a derby defeat and an EFL Cup exit to Brighton on 16 Sep (Sports Mole, 15 and 17 Sep). Fulham's only listed absentee is Cairney (premierleague.com Matchweek 5 preview). Confidence is limited because page fetches were blocked and only search snippets were read, with dates read from the article order.",
+      "challenge_cost_usd": 0.0,
       "shadow": false,
-      "run_label": "2026-09-18 T-24h r10"
+      "run_label": "2026-09-18 T-24h r9"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "outcome": "draw",
+      "source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+      "settled_at": "2026-09-21"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-18T12:46:24Z",
@@ -3610,12 +3733,12 @@
  "latest_run": {
   "as_of": "2026-09-18",
   "run": {
-   "number": 10,
+   "number": 9,
    "stage": "T-24h",
    "shadow": false
   },
-  "predictions_committed_at": "2026-09-18T12:46:26Z",
-  "first_odds_contact_at": "2026-09-18T12:46:26Z",
+  "predictions_committed_at": "2026-09-18T10:59:16Z",
+  "first_odds_contact_at": "2026-09-18T10:59:16Z",
   "settled": {
    "EPL": {
     "competition": "EPL",
@@ -3633,35 +3756,53 @@
    }
   },
   "agents": {
-   "status": "disabled",
+   "status": "claude-code-session",
    "news": 0,
    "news_skipped": 0,
-   "challenges": 0,
+   "challenges": 1,
    "kills": [],
    "cost": {
     "total_usd": 0.0
    },
-   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task"
+   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task",
+   "manual": [
+    {
+     "fixture_id": "2026-09-20-FUL-MUN-EPL",
+     "verdict": "pass",
+     "at": "2026-09-18T11:02:33Z"
+    }
+   ]
   },
-  "strict_bets": [],
-  "fun_bet": {
-   "fixture_id": "2026-09-19-TOT-AVL-EPL",
-   "competition": "EPL",
-   "selection": "away",
-   "home": "Spurs",
-   "away": "Aston Villa",
-   "p_blend": 0.3162,
-   "odds": 3.75,
-   "ev": 0.1858,
-   "sigma": 1.7437,
-   "ev_over_sigma": 0.1065,
-   "verdict": "FUN_BET",
-   "lane": "fun",
-   "stake_gbp": 5.0,
-   "label": "ENTERTAINMENT",
-   "style": "balanced",
-   "bookmaker": "skybet"
-  },
+  "strict_bets": [
+   {
+    "fixture_id": "2026-09-20-FUL-MUN-EPL",
+    "competition": "EPL",
+    "matchweek": "MW5",
+    "home": "Fulham",
+    "away": "Man Utd",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
+    "selection": "home",
+    "kind": "strict_bet",
+    "reason": "edge 6.3pp at Sky Bet 3.4, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 3.4,
+    "edge_pp": 6.32,
+    "ev": 0.1478,
+    "skip_if_sky_below": 2.97,
+    "checks": {
+     "edge_min": true,
+     "edge_max": true,
+     "odds_max": true,
+     "ev_positive": true,
+     "not_prohibited": true,
+     "weekly_cap": true
+    },
+    "challenge": "pass"
+   }
+  ],
+  "fun_bet": null,
   "recommendations": [
    {
     "fixture_id": "2026-09-18-BRE-CHE-EPL",
@@ -3673,18 +3814,18 @@
     "verdict": "NO_BET",
     "lane": "none",
     "selection": "home",
-    "kind": "no_edge",
-    "reason": "best edge 2.4pp on home",
+    "kind": "near_miss",
+    "reason": "edge 3.3pp; failed edge_min",
     "stake_gbp": 0.0,
-    "odds_recommended": 2.5,
-    "edge_pp": 2.37,
-    "ev": -0.0032,
+    "odds_recommended": 2.6,
+    "edge_pp": 3.28,
+    "ev": 0.0366,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": false,
      "edge_max": true,
      "odds_max": true,
-     "ev_positive": false,
+     "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
     },
@@ -3728,10 +3869,10 @@
     "lane": "none",
     "selection": "home",
     "kind": "cap_kill",
-    "reason": "edge 11.3pp exceeds max_edge_pp 8.0",
+    "reason": "edge 10.8pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
     "odds_recommended": 1.75,
-    "edge_pp": 11.28,
+    "edge_pp": 10.85,
     "ev": 0.1232,
     "skip_if_sky_below": null,
     "checks": {
@@ -3809,11 +3950,11 @@
     "lane": "none",
     "selection": "away",
     "kind": "cap_kill",
-    "reason": "edge 12.1pp exceeds max_edge_pp 8.0",
+    "reason": "edge 11.4pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
-    "odds_recommended": 3.75,
-    "edge_pp": 12.11,
-    "ev": 0.3999,
+    "odds_recommended": 3.6,
+    "edge_pp": 11.42,
+    "ev": 0.3439,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
@@ -3859,25 +4000,27 @@
     "home": "Fulham",
     "away": "Man Utd",
     "kickoff_utc": "2026-09-20T15:30:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
+    "verdict": "STRICT_BET",
+    "lane": "strict",
     "selection": "home",
-    "kind": "near_miss",
-    "reason": "edge 5.7pp; failed edge_min",
-    "stake_gbp": 0.0,
-    "odds_recommended": 3.3,
-    "edge_pp": 5.72,
-    "ev": 0.1141,
-    "skip_if_sky_below": null,
+    "kind": "strict_bet",
+    "reason": "edge 6.3pp at Sky Bet 3.4, EV +0.148",
+    "stake_gbp": 2.5,
+    "odds_recommended": 3.4,
+    "edge_pp": 6.32,
+    "ev": 0.1478,
+    "skip_if_sky_below": 2.97,
     "checks": {
-     "edge_min": false,
+     "edge_min": true,
      "edge_max": true,
      "odds_max": true,
      "ev_positive": true,
      "not_prohibited": true,
      "weekly_cap": true
     },
-    "challenge": "not_run"
+    "challenge": "pass",
+    "challenge_reason": "Nothing public explains Sky Bet's shorter view of Man Utd: the pre-cutoff team news runs against the visitors, with Baleba, Ugarte and Amad out, Shaw a doubt and de Ligt only back in training, after a derby defeat and an EFL Cup exit to Brighton on 16 Sep (Sports Mole, 15 and 17 Sep). Fulham's only listed absentee is Cairney (premierleague.com Matchweek 5 preview). Confidence is limited because page fetches were blocked and only search snippets were read, with dates read from the article order.",
+    "challenge_cost_usd": 0.0
    },
    {
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -3890,11 +4033,11 @@
     "lane": "none",
     "selection": "away",
     "kind": "cap_kill",
-    "reason": "edge 8.6pp exceeds max_edge_pp 8.0",
+    "reason": "edge 8.1pp exceeds max_edge_pp 8.0",
     "stake_gbp": 0.0,
-    "odds_recommended": 4.6,
-    "edge_pp": 8.57,
-    "ev": 0.3262,
+    "odds_recommended": 4.5,
+    "edge_pp": 8.09,
+    "ev": 0.2974,
     "skip_if_sky_below": null,
     "checks": {
      "edge_min": true,
@@ -3932,25 +4075,6 @@
      "weekly_cap": true
     },
     "challenge": "not_run"
-   },
-   {
-    "kind": "fun_bet",
-    "fixture_id": "2026-09-19-TOT-AVL-EPL",
-    "competition": "EPL",
-    "selection": "away",
-    "home": "Spurs",
-    "away": "Aston Villa",
-    "p_blend": 0.3162,
-    "odds": 3.75,
-    "ev": 0.1858,
-    "sigma": 1.7437,
-    "ev_over_sigma": 0.1065,
-    "verdict": "FUN_BET",
-    "lane": "fun",
-    "stake_gbp": 5.0,
-    "label": "ENTERTAINMENT",
-    "style": "balanced",
-    "bookmaker": "skybet"
    }
   ]
  },
@@ -4264,28 +4388,35 @@
  },
  "bets": {
   "summary": {
-   "staked_settled": 10.0,
-   "pnl_settled": -10.0,
-   "pending_stake": 10.0,
-   "pending": 3,
+   "staked_settled": 20.0,
+   "pnl_settled": -7.68,
+   "placed": {
+    "bets": 2,
+    "won": 1,
+    "staked": 5.0,
+    "pnl_actual": 7.16,
+    "return_actual": 12.16,
+    "return_full_time": 7.0,
+    "cashed_out": 1
+   },
+   "pending_stake": 0,
+   "pending": 0,
    "fun_record": {
-    "bets": 3,
+    "bets": 2,
     "won": 0,
     "pnl": -10.0
    },
-   "week": "2026-W38",
+   "week": "2026-W39",
    "cap": 10.0,
-   "committed_this_week": 5.0,
+   "committed_this_week": 0,
    "discipline_counts": {
-    "cap_kill:pending": 7,
-    "cap_kill:save": 1,
-    "cap_kill:would_have_won": 2,
-    "challenge_kill:pending": 1,
+    "cap_kill:save": 3,
+    "cap_kill:would_have_won": 7,
+    "challenge_kill:save": 1,
     "ev_reject:correct": 1,
     "informational:pending": 1,
-    "near_miss:pending": 6,
-    "near_miss:save": 3,
-    "near_miss:would_have_won": 1
+    "near_miss:save": 7,
+    "near_miss:would_have_won": 3
    },
    "carry_in": {
     "through": "MW3",
@@ -4320,6 +4451,10 @@
     "stake_placed_gbp": "",
     "result": "lost",
     "pnl_gbp": "-5.00",
+    "cashed_out": "",
+    "return_full_time_gbp": "",
+    "return_actual_gbp": "",
+    "pnl_actual_gbp": "",
     "settled_at": "",
     "settlement_source": "legacy run",
     "notes": "fun bet 1 of 2 this season; fixture, selection and odds not recorded in the 11 Sep build status; matchweek inferred from the 28 Aug lane approval"
@@ -4340,6 +4475,10 @@
     "stake_placed_gbp": "",
     "result": "lost",
     "pnl_gbp": "-5.00",
+    "cashed_out": "",
+    "return_full_time_gbp": "",
+    "return_actual_gbp": "",
+    "pnl_actual_gbp": "",
     "settled_at": "2026-09-11",
     "settlement_source": "openfootball + ESPN cross-check",
     "notes": "Brentford 1-1 Sunderland; the near-miss draw landed at 3.93"
@@ -4358,11 +4497,15 @@
     "placed": "TBD",
     "odds_placed": "",
     "stake_placed_gbp": "",
-    "result": "pending",
-    "pnl_gbp": "",
-    "settled_at": "",
-    "settlement_source": "",
-    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price"
+    "result": "lost",
+    "pnl_gbp": "-2.50",
+    "cashed_out": "",
+    "return_full_time_gbp": "0.00",
+    "return_actual_gbp": "",
+    "pnl_actual_gbp": "",
+    "settled_at": "2026-09-21",
+    "settlement_source": "openfootball/football.json",
+    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Spurs 0-0 Everton; P&L at the recommended price, placement unconfirmed (placed = TBD)"
    },
    {
     "bet_id": "2026-MW4-STRICT-2",
@@ -4378,11 +4521,15 @@
     "placed": "TBD",
     "odds_placed": "",
     "stake_placed_gbp": "",
-    "result": "pending",
-    "pnl_gbp": "",
-    "settled_at": "",
-    "settlement_source": "",
-    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price"
+    "result": "won",
+    "pnl_gbp": "2.82",
+    "cashed_out": "",
+    "return_full_time_gbp": "5.32",
+    "return_actual_gbp": "",
+    "pnl_actual_gbp": "",
+    "settled_at": "2026-09-21",
+    "settlement_source": "openfootball/football.json",
+    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Man Utd 0-1 Man City; P&L at the recommended price, placement unconfirmed (placed = TBD)"
    },
    {
     "bet_id": "2026-MW3-PERSONAL-1",
@@ -4400,29 +4547,61 @@
     "stake_placed_gbp": "TBD",
     "result": "won",
     "pnl_gbp": "TBD",
+    "cashed_out": "",
+    "return_full_time_gbp": "",
+    "return_actual_gbp": "",
+    "pnl_actual_gbp": "",
     "settled_at": "2026-09-11",
     "settlement_source": "openfootball + ESPN cross-check",
     "notes": "off-model personal bet by Rogan; Fulham 2-3 Palace; stake and odds unreported after 2 asks, row stays TBD until supplied"
    },
    {
-    "bet_id": "2026-09-18-EPL-FUN-2026-09-19-TOT-AVL-EPL",
+    "bet_id": "MW5-EPL-STRICT-2026-09-20-FUL-MUN-EPL",
     "matchweek": "MW5",
     "competition": "EPL",
-    "lane": "fun",
-    "fixture_id": "2026-09-19-TOT-AVL-EPL",
-    "kickoff_utc": "2026-09-19T11:30:00Z",
-    "selection": "away",
+    "lane": "strict",
+    "fixture_id": "2026-09-20-FUL-MUN-EPL",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "selection": "home",
     "bookmaker": "skybet",
-    "odds_recommended": "3.75",
-    "stake_recommended_gbp": "5.00",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
-    "result": "pending",
-    "pnl_gbp": "",
-    "settled_at": "",
-    "settlement_source": "",
-    "notes": "ENTERTAINMENT (balanced): p_blend 0.3162, EV 0.1858, EV/sigma 0.1065"
+    "odds_recommended": "3.4",
+    "stake_recommended_gbp": "2.50",
+    "placed": "yes",
+    "odds_placed": "3.4",
+    "stake_placed_gbp": "2.50",
+    "result": "lost",
+    "pnl_gbp": "-2.50",
+    "cashed_out": "yes",
+    "return_full_time_gbp": "0.00",
+    "return_actual_gbp": "5.16",
+    "pnl_actual_gbp": "2.66",
+    "settled_at": "2026-09-21",
+    "settlement_source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+    "notes": "T-24h r9: edge 6.3pp at Sky Bet 3.4, EV +0.148; challenge not_run; r9 challenge pass (Friday task); cashed out while Fulham led; settled Fulham 1-1 Man Utd; P&L at the recommended price, placement confirmed; cashed out for 5.16 against 0.00 held to full time"
+   },
+   {
+    "bet_id": "MW5-EPL-STRICT-2026-09-18-BRE-CHE-EPL",
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "kickoff_utc": "2026-09-18T19:00:00Z",
+    "selection": "home",
+    "bookmaker": "skybet",
+    "odds_recommended": "2.8",
+    "stake_recommended_gbp": "2.50",
+    "placed": "yes",
+    "odds_placed": "2.8",
+    "stake_placed_gbp": "2.50",
+    "result": "won",
+    "pnl_gbp": "4.50",
+    "cashed_out": "no",
+    "return_full_time_gbp": "7.00",
+    "return_actual_gbp": "7.00",
+    "pnl_actual_gbp": "4.50",
+    "settled_at": "2026-09-21",
+    "settlement_source": "skysports.com match reports, cross-checked with sportsmole.co.uk roundups (openfootball not yet published)",
+    "notes": "2026-09-16 T-48h r8: edge 6.8pp at Sky Bet 2.8, EV +0.116; challenge pass; row restored from that run's record; placed on Wednesday's r8 verdict; Friday's r9 re-price moved it to a near miss; settled Brentford 3-0 Chelsea; P&L at the recommended price, placement confirmed"
    }
   ],
   "discipline": [
@@ -4539,9 +4718,9 @@
     "edge_pp": "7.5",
     "odds": "2.84",
     "kind": "challenge_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "killed on news, see prediction file; settle in first new-setup run"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "killed on news, see prediction file; settle in first new-setup run; Leeds 4-1 Newcastle"
    },
    {
     "matchweek": "MW4",
@@ -4552,9 +4731,9 @@
     "edge_pp": "11.0",
     "odds": "1.87",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": ""
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "Crystal Palace 2-3 Ipswich"
    },
    {
     "matchweek": "MW4",
@@ -4565,9 +4744,9 @@
     "edge_pp": "14.1",
     "odds": "1.87",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "Coventry on promoted prior"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "Coventry on promoted prior; Coventry 0-5 Brighton"
    },
    {
     "matchweek": "MW4",
@@ -4578,9 +4757,9 @@
     "edge_pp": "4.2",
     "odds": "6.31",
     "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "odds above 4.0 too"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "odds above 4.0 too; Liverpool 0-0 Fulham"
    },
    {
     "matchweek": "MW4",
@@ -4591,9 +4770,9 @@
     "edge_pp": "3.4",
     "odds": "4.95",
     "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "odds above 4.0 too"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "odds above 4.0 too; Liverpool 0-0 Fulham"
    },
    {
     "matchweek": "MW4",
@@ -4604,9 +4783,9 @@
     "edge_pp": "3.7",
     "odds": "7.13",
     "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "odds above 4.0 too"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "odds above 4.0 too; Sunderland 0-2 Arsenal"
    },
    {
     "matchweek": "MW4",
@@ -4617,9 +4796,9 @@
     "edge_pp": "3.1",
     "odds": "4.20",
     "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "odds above 4.0 too"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "odds above 4.0 too; Sunderland 0-2 Arsenal"
    },
    {
     "matchweek": "MW4-R3",
@@ -4638,14 +4817,27 @@
     "matchweek": "MW5",
     "competition": "EPL",
     "lane": "strict",
+    "fixture_id": "2026-09-18-BRE-CHE-EPL",
+    "selection": "home",
+    "edge_pp": "3.28",
+    "odds": "2.6",
+    "kind": "near_miss",
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "edge 3.3pp; failed edge_min; Brentford 3-0 Chelsea"
+   },
+   {
+    "matchweek": "MW5",
+    "competition": "EPL",
+    "lane": "strict",
     "fixture_id": "2026-09-19-EVE-IPS-EPL",
     "selection": "home",
-    "edge_pp": "11.28",
+    "edge_pp": "10.85",
     "odds": "1.75",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 11.3pp exceeds max_edge_pp 8.0"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "edge 10.8pp exceeds max_edge_pp 8.0; Everton 1-0 Ipswich"
    },
    {
     "matchweek": "MW5",
@@ -4656,9 +4848,9 @@
     "edge_pp": "9.98",
     "odds": "1.57",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 10.0pp exceeds max_edge_pp 8.0"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "edge 10.0pp exceeds max_edge_pp 8.0; Forest 1-0 Coventry"
    },
    {
     "matchweek": "MW5",
@@ -4669,9 +4861,9 @@
     "edge_pp": "18.56",
     "odds": "1.57",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 18.6pp exceeds max_edge_pp 8.0"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "edge 18.6pp exceeds max_edge_pp 8.0; Newcastle 2-1 Hull"
    },
    {
     "matchweek": "MW5",
@@ -4679,25 +4871,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-19-TOT-AVL-EPL",
     "selection": "away",
-    "edge_pp": "12.11",
-    "odds": "3.75",
+    "edge_pp": "11.42",
+    "odds": "3.6",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 12.1pp exceeds max_edge_pp 8.0"
-   },
-   {
-    "matchweek": "MW5",
-    "competition": "EPL",
-    "lane": "strict",
-    "fixture_id": "2026-09-20-FUL-MUN-EPL",
-    "selection": "home",
-    "edge_pp": "5.72",
-    "odds": "3.3",
-    "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 5.7pp; failed edge_min"
+    "outcome": "would_have_won",
+    "settled_at": "2026-09-21",
+    "notes": "edge 11.4pp exceeds max_edge_pp 8.0; Spurs 2-3 Aston Villa"
    },
    {
     "matchweek": "MW5",
@@ -4705,12 +4884,12 @@
     "lane": "strict",
     "fixture_id": "2026-09-20-LEE-CRY-EPL",
     "selection": "away",
-    "edge_pp": "8.57",
-    "odds": "4.6",
+    "edge_pp": "8.09",
+    "odds": "4.5",
     "kind": "cap_kill",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 8.6pp exceeds max_edge_pp 8.0"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "edge 8.1pp exceeds max_edge_pp 8.0; Leeds 0-0 Crystal Palace"
    },
    {
     "matchweek": "MW5",
@@ -4721,9 +4900,9 @@
     "edge_pp": "5.24",
     "odds": "5.5",
     "kind": "near_miss",
-    "outcome": "pending",
-    "settled_at": "",
-    "notes": "edge 5.2pp; failed edge_min, odds_max"
+    "outcome": "save",
+    "settled_at": "2026-09-21",
+    "notes": "edge 5.2pp; failed edge_min, odds_max; Man City 5-3 Sunderland"
    }
   ]
  }
