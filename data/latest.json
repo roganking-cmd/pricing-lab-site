@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-21T09:49:12Z",
+ "built_at": "2026-09-22T19:49:21Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -4389,14 +4389,14 @@
  "bets": {
   "summary": {
    "staked_settled": 20.0,
-   "pnl_settled": -7.68,
+   "pnl_settled": -7.67,
    "placed": {
-    "bets": 2,
-    "won": 1,
-    "staked": 5.0,
-    "pnl_actual": 7.16,
-    "return_actual": 12.16,
-    "return_full_time": 7.0,
+    "bets": 4,
+    "won": 2,
+    "staked": 10.0,
+    "pnl_actual": 7.49,
+    "return_actual": 17.49,
+    "return_full_time": 12.33,
     "cashed_out": 1
    },
    "pending_stake": 0,
@@ -4494,18 +4494,18 @@
     "bookmaker": "skybet",
     "odds_recommended": "3.58",
     "stake_recommended_gbp": "2.50",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
+    "placed": "yes",
+    "odds_placed": "3.58",
+    "stake_placed_gbp": "2.50",
     "result": "lost",
     "pnl_gbp": "-2.50",
-    "cashed_out": "",
+    "cashed_out": "no",
     "return_full_time_gbp": "0.00",
-    "return_actual_gbp": "",
-    "pnl_actual_gbp": "",
+    "return_actual_gbp": "0.00",
+    "pnl_actual_gbp": "-2.50",
     "settled_at": "2026-09-21",
     "settlement_source": "openfootball/football.json",
-    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Spurs 0-0 Everton; P&L at the recommended price, placement unconfirmed (placed = TBD)"
+    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Spurs 0-0 Everton; P&L at the recommended price, placement unconfirmed (placed = TBD); placement reported by Rogan on 22 Sep"
    },
    {
     "bet_id": "2026-MW4-STRICT-2",
@@ -4518,18 +4518,18 @@
     "bookmaker": "skybet",
     "odds_recommended": "2.13",
     "stake_recommended_gbp": "2.50",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
+    "placed": "yes",
+    "odds_placed": "2.13",
+    "stake_placed_gbp": "2.50",
     "result": "won",
-    "pnl_gbp": "2.82",
-    "cashed_out": "",
-    "return_full_time_gbp": "5.32",
-    "return_actual_gbp": "",
-    "pnl_actual_gbp": "",
+    "pnl_gbp": "2.83",
+    "cashed_out": "no",
+    "return_full_time_gbp": "5.33",
+    "return_actual_gbp": "5.33",
+    "pnl_actual_gbp": "2.83",
     "settled_at": "2026-09-21",
     "settlement_source": "openfootball/football.json",
-    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Man Utd 0-1 Man City; P&L at the recommended price, placement unconfirmed (placed = TBD)"
+    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Man Utd 0-1 Man City; P&L at the recommended price, placement unconfirmed (placed = TBD); P&L re-rounded half up (2.825 -> 2.83) on 22 Sep; placement reported by Rogan on 22 Sep, held to full time"
    },
    {
     "bet_id": "2026-MW3-PERSONAL-1",
