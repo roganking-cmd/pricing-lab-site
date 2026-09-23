@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-22T20:18:44Z",
+ "built_at": "2026-09-23T08:58:24Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -105,7 +105,10 @@
       "selection": null
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-BOU-BRE-EPL",
@@ -155,7 +158,10 @@
       "selection": null
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-CHE-HUL-EPL",
@@ -208,7 +214,10 @@
       "away": "promoted_prior",
       "away_n": 3
      },
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-CRY-IPS-EPL",
@@ -261,7 +270,10 @@
       "ev": null
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-LIV-FUL-EPL",
@@ -323,7 +335,10 @@
       ]
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-TOT-EVE-EPL",
@@ -386,7 +401,10 @@
       "ev": 0.195
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-12-SUN-ARS-EPL",
@@ -448,7 +466,10 @@
       ]
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-13-COV-BHA-EPL",
@@ -504,7 +525,10 @@
       "home": "promoted_prior",
       "home_n": 3
      },
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-13-MUN-MCI-EPL",
@@ -567,7 +591,10 @@
       "ev": 0.096
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-14-LEE-NEW-EPL",
@@ -626,7 +653,10 @@
       "ev": null
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "oddsportal.com 1X2 market average (legacy recipe, retired by The Odds API in build step 3)",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-18-BRE-CHE-EPL",
@@ -782,7 +812,10 @@
        "home": 1737.5,
        "away": 1754.3
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-19-TOT-AVL-EPL",
@@ -935,7 +968,10 @@
        "home": 1636.8,
        "away": 1774.4
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-19-BHA-ARS-EPL",
@@ -1091,7 +1127,10 @@
        "home": 1740.8,
        "away": 1935.8
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-19-EVE-IPS-EPL",
@@ -1247,7 +1286,10 @@
        "home": 1714.7,
        "away": 1619.4
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-19-NEW-HUL-EPL",
@@ -1403,7 +1445,10 @@
        "home": 1735.0,
        "away": 1588.1
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-19-NFO-COV-EPL",
@@ -1559,7 +1604,10 @@
        "home": 1697.8,
        "away": 1626.1
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-20-BOU-LIV-EPL",
@@ -1715,7 +1763,10 @@
        "home": 1767.9,
        "away": 1813.8
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-20-LEE-CRY-EPL",
@@ -1871,7 +1922,10 @@
        "home": 1731.8,
        "away": 1696.3
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-20-MCI-SUN-EPL",
@@ -2027,7 +2081,10 @@
        "home": 1914.2,
        "away": 1676.7
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-20-FUL-MUN-EPL",
@@ -2185,7 +2242,10 @@
        "home": 1681.8,
        "away": 1796.9
       }
-     }
+     },
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     }
    ],
    "matchweeks": [
@@ -2772,7 +2832,10 @@
       "selection": null
      },
      "shrinkage": null,
-     "detail": null
+     "detail": null,
+     "markets": null,
+     "odds_source": "the-odds-api.com",
+     "bookmaker_flag": null
     }
    ],
    "matchweeks": [
@@ -4057,7 +4120,10 @@
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
       }
-     }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-25-NOR-NEW-PREM",
@@ -4217,7 +4283,10 @@
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
       }
-     }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-26-EXE-GLO-PREM",
@@ -4377,7 +4446,10 @@
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
       }
-     }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-26-SAL-BRI-PREM",
@@ -4537,7 +4609,10 @@
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
       }
-     }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     },
     {
      "fixture_id": "2026-09-27-LEI-SAR-PREM",
@@ -4697,7 +4772,10 @@
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
       }
-     }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     }
    ],
    "matchweeks": [
@@ -5475,14 +5553,14 @@
  "bets": {
   "summary": {
    "staked_settled": 20.0,
-   "pnl_settled": -7.68,
+   "pnl_settled": -7.67,
    "placed": {
-    "bets": 2,
-    "won": 1,
-    "staked": 5.0,
-    "pnl_actual": 7.16,
-    "return_actual": 12.16,
-    "return_full_time": 7.0,
+    "bets": 4,
+    "won": 2,
+    "staked": 10.0,
+    "pnl_actual": 7.49,
+    "return_actual": 17.49,
+    "return_full_time": 12.33,
     "cashed_out": 1
    },
    "pending_stake": 0,
@@ -5580,18 +5658,18 @@
     "bookmaker": "skybet",
     "odds_recommended": "3.58",
     "stake_recommended_gbp": "2.50",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
+    "placed": "yes",
+    "odds_placed": "3.58",
+    "stake_placed_gbp": "2.50",
     "result": "lost",
     "pnl_gbp": "-2.50",
-    "cashed_out": "",
+    "cashed_out": "no",
     "return_full_time_gbp": "0.00",
-    "return_actual_gbp": "",
-    "pnl_actual_gbp": "",
+    "return_actual_gbp": "0.00",
+    "pnl_actual_gbp": "-2.50",
     "settled_at": "2026-09-21",
     "settlement_source": "openfootball/football.json",
-    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Spurs 0-0 Everton; P&L at the recommended price, placement unconfirmed (placed = TBD)"
+    "notes": "first strict bet ever; skip if Sky below 3.00; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Spurs 0-0 Everton; P&L at the recommended price, placement unconfirmed (placed = TBD); placement reported by Rogan on 22 Sep"
    },
    {
     "bet_id": "2026-MW4-STRICT-2",
@@ -5604,18 +5682,18 @@
     "bookmaker": "skybet",
     "odds_recommended": "2.13",
     "stake_recommended_gbp": "2.50",
-    "placed": "TBD",
-    "odds_placed": "",
-    "stake_placed_gbp": "",
+    "placed": "yes",
+    "odds_placed": "2.13",
+    "stake_placed_gbp": "2.50",
     "result": "won",
-    "pnl_gbp": "2.82",
-    "cashed_out": "",
-    "return_full_time_gbp": "5.32",
-    "return_actual_gbp": "",
-    "pnl_actual_gbp": "",
+    "pnl_gbp": "2.83",
+    "cashed_out": "no",
+    "return_full_time_gbp": "5.33",
+    "return_actual_gbp": "5.33",
+    "pnl_actual_gbp": "2.83",
     "settled_at": "2026-09-21",
     "settlement_source": "openfootball/football.json",
-    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Man Utd 0-1 Man City; P&L at the recommended price, placement unconfirmed (placed = TBD)"
+    "notes": "skip if Sky below 1.95; settle from openfootball in the first new-setup run and record whether placed at the conditional price; settled Man Utd 0-1 Man City; P&L at the recommended price, placement unconfirmed (placed = TBD); P&L re-rounded half up (2.825 -> 2.83) on 22 Sep; placement reported by Rogan on 22 Sep, held to full time"
    },
    {
     "bet_id": "2026-MW3-PERSONAL-1",
