@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-23T08:58:24Z",
+ "built_at": "2026-09-25T08:32:38Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -3970,9 +3970,9 @@
      "home": "Harlequins",
      "away": "Bath",
      "run": {
-      "number": 2,
-      "stage": "T-72h",
-      "label": "Round 1 T-72h run 2",
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 1 T-24h run 3",
       "note": null
      },
      "model": {
@@ -4002,15 +4002,16 @@
       "ev": null,
       "skip_if_sky_below": null,
       "checks": {},
+      "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-22 T-72h r2"
+      "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-22T20:18:42Z",
+      "committed": "2026-09-25T08:32:36Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4019,6 +4020,8 @@
       "rated": true,
       "snapshot": null,
       "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
       "sky": null,
       "market": null,
       "final": {
@@ -4133,9 +4136,9 @@
      "home": "Northampton",
      "away": "Newcastle",
      "run": {
-      "number": 2,
-      "stage": "T-72h",
-      "label": "Round 1 T-72h run 2",
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 1 T-24h run 3",
       "note": null
      },
      "model": {
@@ -4165,15 +4168,16 @@
       "ev": null,
       "skip_if_sky_below": null,
       "checks": {},
+      "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-22 T-72h r2"
+      "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-22T20:18:42Z",
+      "committed": "2026-09-25T08:32:36Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4182,6 +4186,8 @@
       "rated": true,
       "snapshot": null,
       "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
       "sky": null,
       "market": null,
       "final": {
@@ -4296,9 +4302,9 @@
      "home": "Exeter",
      "away": "Gloucester",
      "run": {
-      "number": 2,
-      "stage": "T-72h",
-      "label": "Round 1 T-72h run 2",
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 1 T-24h run 3",
       "note": null
      },
      "model": {
@@ -4328,15 +4334,16 @@
       "ev": null,
       "skip_if_sky_below": null,
       "checks": {},
+      "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-22 T-72h r2"
+      "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-22T20:18:42Z",
+      "committed": "2026-09-25T08:32:36Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4345,6 +4352,8 @@
       "rated": true,
       "snapshot": null,
       "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
       "sky": null,
       "market": null,
       "final": {
@@ -4459,9 +4468,9 @@
      "home": "Sale",
      "away": "Bristol",
      "run": {
-      "number": 2,
-      "stage": "T-72h",
-      "label": "Round 1 T-72h run 2",
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 1 T-24h run 3",
       "note": null
      },
      "model": {
@@ -4491,15 +4500,16 @@
       "ev": null,
       "skip_if_sky_below": null,
       "checks": {},
+      "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-22 T-72h r2"
+      "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-22T20:18:42Z",
+      "committed": "2026-09-25T08:32:36Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4508,6 +4518,8 @@
       "rated": true,
       "snapshot": null,
       "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
       "sky": null,
       "market": null,
       "final": {
@@ -4622,9 +4634,9 @@
      "home": "Leicester",
      "away": "Saracens",
      "run": {
-      "number": 2,
-      "stage": "T-72h",
-      "label": "Round 1 T-72h run 2",
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 1 T-24h run 3",
       "note": null
      },
      "model": {
@@ -4654,15 +4666,16 @@
       "ev": null,
       "skip_if_sky_below": null,
       "checks": {},
+      "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-22 T-72h r2"
+      "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-22T20:18:42Z",
+      "committed": "2026-09-25T08:32:36Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4671,6 +4684,8 @@
       "rated": true,
       "snapshot": null,
       "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
       "sky": null,
       "market": null,
       "final": {
@@ -4776,10 +4791,177 @@
      "markets": null,
      "odds_source": null,
      "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-02-BAT-EXE-PREM",
+     "matchweek": "Round 2",
+     "kickoff_utc": "2026-10-02T18:45:00Z",
+     "kickoff_local": "2026-10-02T19:45:00+01:00",
+     "home": "Bath",
+     "away": "Exeter",
+     "run": {
+      "number": 3,
+      "stage": "T-24h",
+      "label": "Round 2 T-24h run 3",
+      "note": null
+     },
+     "model": {
+      "home": 0.7496,
+      "draw": 0.02,
+      "away": 0.2304
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-02-BAT-EXE-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 2",
+      "home": "Bath",
+      "away": "Exeter",
+      "kickoff_utc": "2026-10-02T18:45:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-09-25 T-24h r3"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-09-25T08:32:36Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.7496,
+       "draw": 0.02,
+       "away": 0.2304
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.7496,
+        "p_final": 0.7496,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.02,
+        "p_final": 0.02,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.2304,
+        "p_final": 0.2304,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1669.13,
+       "away": 1529.49
+      },
+      "raw": {
+       "home": 0.7496,
+       "draw": 0.02,
+       "away": 0.2304
+      },
+      "margin": {
+       "mean": 10.9876,
+       "sigma": 15.579
+      },
+      "total": {
+       "mean": 53.223,
+       "sigma": 15.2899
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": -17.0,
+         "p_home_covers": 0.3498
+        },
+        {
+         "home_line": -14.0,
+         "p_home_covers": 0.4233
+        },
+        {
+         "home_line": -11.0,
+         "p_home_covers": 0.4997
+        },
+        {
+         "home_line": -8.0,
+         "p_home_covers": 0.576
+        },
+        {
+         "home_line": -5.0,
+         "p_home_covers": 0.6496
+        }
+       ],
+       "total": [
+        {
+         "line": 46.5,
+         "p_over": 0.6699
+        },
+        {
+         "line": 49.5,
+         "p_over": 0.5962
+        },
+        {
+         "line": 52.5,
+         "p_over": 0.5189
+        },
+        {
+         "line": 55.5,
+         "p_over": 0.4408
+        },
+        {
+         "line": 58.5,
+         "p_over": 0.365
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
     }
    ],
    "matchweeks": [
-    "Round 1"
+    "Round 1",
+    "Round 2"
    ],
    "ratings": [
     {
@@ -5075,14 +5257,14 @@
   }
  },
  "latest_run": {
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-25",
   "run": {
-   "number": 2,
-   "stage": "T-72h",
+   "number": 3,
+   "stage": "T-24h",
    "shadow": false
   },
-  "predictions_committed_at": "2026-09-22T20:18:44Z",
-  "first_odds_contact_at": "2026-09-22T20:18:44Z",
+  "predictions_committed_at": "2026-09-25T08:32:37Z",
+  "first_odds_contact_at": "2026-09-25T08:32:37Z",
   "settled": {
    "EPL": {
     "competition": "EPL",
@@ -5138,6 +5320,7 @@
     "ev": null,
     "skip_if_sky_below": null,
     "checks": {},
+    "priced_from": null,
     "challenge": "not_run"
    },
    {
@@ -5158,6 +5341,7 @@
     "ev": null,
     "skip_if_sky_below": null,
     "checks": {},
+    "priced_from": null,
     "challenge": "not_run"
    },
    {
@@ -5178,6 +5362,7 @@
     "ev": null,
     "skip_if_sky_below": null,
     "checks": {},
+    "priced_from": null,
     "challenge": "not_run"
    },
    {
@@ -5198,6 +5383,7 @@
     "ev": null,
     "skip_if_sky_below": null,
     "checks": {},
+    "priced_from": null,
     "challenge": "not_run"
    },
    {
@@ -5218,64 +5404,33 @@
     "ev": null,
     "skip_if_sky_below": null,
     "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-02-BAT-EXE-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 2",
+    "home": "Bath",
+    "away": "Exeter",
+    "kickoff_utc": "2026-10-02T18:45:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
     "challenge": "not_run"
    }
   ]
  },
  "fetch_log": [
-  {
-   "competitions": {
-    "EPL": {
-     "events": 20,
-     "stored": [
-      "2026-09-18-BRE-CHE-EPL",
-      "2026-09-19-TOT-AVL-EPL",
-      "2026-09-19-BHA-ARS-EPL",
-      "2026-09-19-EVE-IPS-EPL",
-      "2026-09-19-NEW-HUL-EPL",
-      "2026-09-19-NFO-COV-EPL",
-      "2026-09-20-BOU-LIV-EPL",
-      "2026-09-20-LEE-CRY-EPL",
-      "2026-09-20-MCI-SUN-EPL",
-      "2026-09-20-FUL-MUN-EPL"
-     ],
-     "skipped_unpriced": [
-      "2026-10-10-ARS-LEE-EPL",
-      "2026-10-10-AVL-BRE-EPL",
-      "2026-10-10-CHE-BOU-EPL",
-      "2026-10-10-SUN-BHA-EPL",
-      "2026-10-10-IPS-FUL-EPL",
-      "2026-10-10-MUN-TOT-EPL",
-      "2026-10-11-CRY-NFO-EPL",
-      "2026-10-11-HUL-EVE-EPL",
-      "2026-10-11-LIV-MCI-EPL",
-      "2026-10-12-COV-NEW-EPL"
-     ],
-     "skybet_priced": 10,
-     "unknown_teams": []
-    },
-    "EFLC": {
-     "events": 5,
-     "stored": [],
-     "skipped_unpriced": [
-      "2026-09-16-EVE-WOL-EFLC",
-      "2026-09-16-FLE-SHU-EFLC",
-      "2026-09-16-COV-AVL-EFLC",
-      "2026-09-16-MUN-BHA-EFLC",
-      "2026-09-17-MCI-NWC-EFLC"
-     ],
-     "skybet_priced": 0,
-     "unknown_teams": []
-    }
-   },
-   "first_odds_contact_at": "2026-09-16T09:51:43Z",
-   "quota": {
-    "remaining": "482",
-    "used": "18",
-    "last_cost": "1"
-   },
-   "predictions_committed_at": "2026-09-16T09:51:43Z"
-  },
   {
    "competitions": {
     "EPL": {
@@ -5513,6 +5668,69 @@
     "last_cost": "1"
    },
    "predictions_committed_at": "2026-09-22T20:18:44Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL",
+      "2026-10-17-EVE-CHE-EPL",
+      "2026-10-17-BRE-LIV-EPL",
+      "2026-10-17-FUL-HUL-EPL",
+      "2026-10-17-MCI-IPS-EPL",
+      "2026-10-17-NEW-AVL-EPL",
+      "2026-10-18-BOU-SUN-EPL",
+      "2026-10-18-BHA-CRY-EPL",
+      "2026-10-18-LEE-MUN-EPL",
+      "2026-10-18-NFO-ARS-EPL",
+      "2026-10-19-TOT-COV-EPL"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 8,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-10-27-BRA-PET-EFLC",
+      "2026-10-27-FLE-ARS-EFLC",
+      "2026-10-28-MCI-BHA-EFLC",
+      "2026-10-28-BOU-AVL-EFLC",
+      "2026-10-28-SUN-BRE-EFLC",
+      "2026-10-28-FUL-CRY-EFLC",
+      "2026-10-28-LIV-CHE-EFLC",
+      "2026-10-29-EVE-NEW-EFLC"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    },
+    "PREM": {
+     "events": 0,
+     "stored": [],
+     "skipped_unpriced": [],
+     "skybet_priced": 0,
+     "unknown_teams": [],
+     "note": "no rugby union club competition on The Odds API (only NRL, NRLW, State of Origin, Six Nations); Sky Bet is never scraped"
+    }
+   },
+   "first_odds_contact_at": "2026-09-25T08:32:37Z",
+   "quota": {
+    "remaining": "472",
+    "used": "28",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-09-25T08:32:37Z"
   }
  ],
  "protocol_audit": {
