@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-25T08:34:43Z",
+ "built_at": "2026-10-02T08:49:22Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -2844,909 +2844,909 @@
    "ratings": [
     {
      "team": "Arsenal",
-     "attack": 0.920684,
-     "defence": -1.060134,
-     "strength": 1.981,
+     "attack": 0.920794,
+     "defence": -1.061678,
+     "strength": 1.982,
      "elo": 1927.02,
-     "n": 252,
+     "n": 251,
      "mode": "raw_mle"
     },
     {
      "team": "Man City",
-     "attack": 1.048275,
-     "defence": -0.89282,
-     "strength": 1.941,
+     "attack": 1.048688,
+     "defence": -0.894133,
+     "strength": 1.943,
      "elo": 1925.4,
-     "n": 252,
+     "n": 251,
      "mode": "raw_mle"
     },
     {
      "team": "Liverpool",
-     "attack": 0.931233,
-     "defence": -0.676965,
-     "strength": 1.608,
+     "attack": 0.931226,
+     "defence": -0.677982,
+     "strength": 1.609,
      "elo": 1819.25,
-     "n": 252,
+     "n": 251,
      "mode": "raw_mle"
     },
     {
      "team": "Brighton",
-     "attack": 0.795571,
-     "defence": -0.59027,
-     "strength": 1.386,
+     "attack": 0.795956,
+     "defence": -0.591437,
+     "strength": 1.387,
      "elo": 1762.88,
-     "n": 253,
+     "n": 252,
      "mode": "raw_mle"
     },
     {
      "team": "Man Utd",
-     "attack": 0.762416,
-     "defence": -0.557094,
-     "strength": 1.32,
+     "attack": 0.762314,
+     "defence": -0.558395,
+     "strength": 1.321,
      "elo": 1787.34,
-     "n": 253,
+     "n": 252,
      "mode": "raw_mle"
     },
     {
      "team": "Chelsea",
-     "attack": 0.789008,
-     "defence": -0.524203,
-     "strength": 1.313,
+     "attack": 0.789049,
+     "defence": -0.525265,
+     "strength": 1.314,
      "elo": 1740.09,
-     "n": 252,
+     "n": 251,
      "mode": "raw_mle"
     },
     {
      "team": "Newcastle",
-     "attack": 0.798251,
-     "defence": -0.507444,
-     "strength": 1.306,
+     "attack": 0.798456,
+     "defence": -0.508563,
+     "strength": 1.307,
      "elo": 1731.57,
-     "n": 252,
+     "n": 251,
      "mode": "raw_mle"
     },
     {
      "team": "Brentford",
-     "attack": 0.737633,
-     "defence": -0.557875,
-     "strength": 1.296,
+     "attack": 0.738229,
+     "defence": -0.558774,
+     "strength": 1.297,
      "elo": 1748.54,
-     "n": 265,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Aston Villa",
-     "attack": 0.702281,
-     "defence": -0.550022,
-     "strength": 1.252,
-     "elo": 1768.86,
-     "n": 253,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Bournemouth",
-     "attack": 0.655101,
-     "defence": -0.53647,
-     "strength": 1.192,
-     "elo": 1754.84,
-     "n": 268,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Leeds",
-     "attack": 0.576644,
-     "defence": -0.572238,
-     "strength": 1.149,
-     "elo": 1736.9,
-     "n": 276,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Forest",
-     "attack": 0.529695,
-     "defence": -0.586536,
-     "strength": 1.116,
-     "elo": 1697.33,
-     "n": 276,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Everton",
-     "attack": 0.444504,
-     "defence": -0.6663,
-     "strength": 1.111,
-     "elo": 1720.28,
-     "n": 252,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Fulham",
-     "attack": 0.556213,
-     "defence": -0.539203,
-     "strength": 1.095,
-     "elo": 1688.02,
-     "n": 265,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Spurs",
-     "attack": 0.64449,
-     "defence": -0.41552,
-     "strength": 1.06,
-     "elo": 1629.08,
-     "n": 252,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Crystal Palace",
-     "attack": 0.513404,
-     "defence": -0.510054,
-     "strength": 1.023,
-     "elo": 1685.82,
-     "n": 253,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "West Ham",
-     "attack": 0.644055,
-     "defence": -0.346867,
-     "strength": 0.991,
-     "elo": 1669.2,
-     "n": 255,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Wolves",
-     "attack": 0.387824,
-     "defence": -0.335953,
-     "strength": 0.724,
-     "elo": 1601.72,
-     "n": 255,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Sunderland",
-     "attack": 0.25419,
-     "defence": -0.467443,
-     "strength": 0.722,
-     "elo": 1668.97,
-     "n": 253,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Coventry",
-     "attack": 0.41021,
-     "defence": -0.280733,
-     "strength": 0.691,
-     "elo": 1631.85,
-     "n": 303,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Ipswich",
-     "attack": 0.448244,
-     "defence": -0.204428,
-     "strength": 0.653,
-     "elo": 1626.96,
-     "n": 202,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Southampton",
-     "attack": 0.462984,
-     "defence": -0.173261,
-     "strength": 0.636,
-     "elo": 1609.29,
-     "n": 277,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Burnley",
-     "attack": 0.315176,
-     "defence": -0.305622,
-     "strength": 0.621,
-     "elo": 1545.56,
-     "n": 272,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Middlesbrough",
-     "attack": 0.332707,
-     "defence": -0.239654,
-     "strength": 0.572,
-     "elo": 1583.97,
-     "n": 312,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Hull",
-     "attack": 0.185924,
-     "defence": -0.224944,
-     "strength": 0.411,
-     "elo": 1588.83,
-     "n": 307,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Leicester",
-     "attack": 0.266127,
-     "defence": -0.145318,
-     "strength": 0.411,
-     "elo": 1482.1,
      "n": 263,
      "mode": "raw_mle"
     },
     {
-     "team": "Millwall",
-     "attack": 0.153066,
-     "defence": -0.249745,
-     "strength": 0.403,
-     "elo": 1584.95,
+     "team": "Aston Villa",
+     "attack": 0.702329,
+     "defence": -0.55084,
+     "strength": 1.253,
+     "elo": 1768.86,
+     "n": 252,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Bournemouth",
+     "attack": 0.655182,
+     "defence": -0.537669,
+     "strength": 1.193,
+     "elo": 1754.84,
+     "n": 267,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leeds",
+     "attack": 0.576925,
+     "defence": -0.573201,
+     "strength": 1.15,
+     "elo": 1736.9,
+     "n": 274,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Forest",
+     "attack": 0.529724,
+     "defence": -0.587403,
+     "strength": 1.117,
+     "elo": 1697.33,
+     "n": 274,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Everton",
+     "attack": 0.444866,
+     "defence": -0.667325,
+     "strength": 1.112,
+     "elo": 1720.28,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Fulham",
+     "attack": 0.556171,
+     "defence": -0.540298,
+     "strength": 1.096,
+     "elo": 1688.02,
+     "n": 263,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Spurs",
+     "attack": 0.644257,
+     "defence": -0.416569,
+     "strength": 1.061,
+     "elo": 1629.08,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crystal Palace",
+     "attack": 0.513422,
+     "defence": -0.511148,
+     "strength": 1.025,
+     "elo": 1685.82,
+     "n": 252,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "West Ham",
+     "attack": 0.64407,
+     "defence": -0.348115,
+     "strength": 0.992,
+     "elo": 1669.2,
+     "n": 254,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wolves",
+     "attack": 0.387715,
+     "defence": -0.336812,
+     "strength": 0.725,
+     "elo": 1601.72,
+     "n": 254,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Sunderland",
+     "attack": 0.254448,
+     "defence": -0.468658,
+     "strength": 0.723,
+     "elo": 1668.97,
+     "n": 251,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Coventry",
+     "attack": 0.410357,
+     "defence": -0.281617,
+     "strength": 0.692,
+     "elo": 1631.85,
+     "n": 302,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Ipswich",
+     "attack": 0.448601,
+     "defence": -0.205414,
+     "strength": 0.654,
+     "elo": 1626.96,
+     "n": 200,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Southampton",
+     "attack": 0.462916,
+     "defence": -0.174134,
+     "strength": 0.637,
+     "elo": 1609.29,
+     "n": 276,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Burnley",
+     "attack": 0.314916,
+     "defence": -0.306465,
+     "strength": 0.621,
+     "elo": 1545.56,
+     "n": 271,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Middlesbrough",
+     "attack": 0.332838,
+     "defence": -0.240698,
+     "strength": 0.574,
+     "elo": 1583.97,
      "n": 310,
      "mode": "raw_mle"
     },
     {
-     "team": "Sheff Utd",
-     "attack": 0.252686,
-     "defence": -0.144265,
-     "strength": 0.397,
-     "elo": 1516.73,
-     "n": 292,
+     "team": "Leicester",
+     "attack": 0.265973,
+     "defence": -0.145881,
+     "strength": 0.412,
+     "elo": 1482.1,
+     "n": 262,
      "mode": "raw_mle"
     },
     {
-     "team": "Norwich",
-     "attack": 0.329089,
-     "defence": -0.048533,
-     "strength": 0.378,
-     "elo": 1521.92,
-     "n": 297,
+     "team": "Hull",
+     "attack": 0.185421,
+     "defence": -0.226069,
+     "strength": 0.411,
+     "elo": 1588.83,
+     "n": 305,
      "mode": "raw_mle"
     },
     {
-     "team": "Swansea",
-     "attack": 0.167642,
-     "defence": -0.174307,
-     "strength": 0.342,
-     "elo": 1568.19,
+     "team": "Millwall",
+     "attack": 0.153065,
+     "defence": -0.250842,
+     "strength": 0.404,
+     "elo": 1584.95,
      "n": 308,
      "mode": "raw_mle"
     },
     {
+     "team": "Sheff Utd",
+     "attack": 0.252467,
+     "defence": -0.145398,
+     "strength": 0.398,
+     "elo": 1516.73,
+     "n": 291,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Norwich",
+     "attack": 0.329099,
+     "defence": -0.049309,
+     "strength": 0.378,
+     "elo": 1521.92,
+     "n": 296,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Swansea",
+     "attack": 0.167831,
+     "defence": -0.175457,
+     "strength": 0.343,
+     "elo": 1568.19,
+     "n": 306,
+     "mode": "raw_mle"
+    },
+    {
      "team": "West Brom",
-     "attack": 0.078648,
-     "defence": -0.261423,
-     "strength": 0.34,
+     "attack": 0.0783,
+     "defence": -0.262413,
+     "strength": 0.341,
      "elo": 1516.05,
-     "n": 301,
+     "n": 299,
      "mode": "raw_mle"
     },
     {
      "team": "Birmingham",
-     "attack": 0.139018,
-     "defence": -0.191288,
-     "strength": 0.33,
+     "attack": 0.139282,
+     "defence": -0.192202,
+     "strength": 0.331,
      "elo": 1561.28,
-     "n": 307,
+     "n": 305,
      "mode": "raw_mle"
     },
     {
      "team": "Stockport",
-     "attack": 0.038263,
-     "defence": -0.277874,
-     "strength": 0.316,
+     "attack": 0.038494,
+     "defence": -0.278911,
+     "strength": 0.317,
      "elo": 1598.53,
      "n": 77,
      "mode": "raw_mle"
     },
     {
      "team": "Wrexham",
-     "attack": 0.191313,
-     "defence": -0.101619,
-     "strength": 0.293,
+     "attack": 0.191341,
+     "defence": -0.102649,
+     "strength": 0.294,
      "elo": 1573.22,
      "n": 100,
      "mode": "raw_mle"
     },
     {
      "team": "Bristol City",
-     "attack": 0.131286,
-     "defence": -0.11294,
-     "strength": 0.244,
+     "attack": 0.131295,
+     "defence": -0.114133,
+     "strength": 0.245,
      "elo": 1520.89,
-     "n": 309,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Derby",
-     "attack": 0.126533,
-     "defence": -0.117534,
-     "strength": 0.244,
-     "elo": 1490.85,
-     "n": 215,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Cardiff",
-     "attack": 0.121434,
-     "defence": -0.069943,
-     "strength": 0.191,
-     "elo": 1529.75,
-     "n": 292,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Blackburn",
-     "attack": 0.010345,
-     "defence": -0.169394,
-     "strength": 0.18,
-     "elo": 1480.67,
-     "n": 308,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Luton",
-     "attack": 0.064787,
-     "defence": -0.096379,
-     "strength": 0.161,
-     "elo": 1530.58,
-     "n": 280,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Stoke",
-     "attack": 0.040723,
-     "defence": -0.120746,
-     "strength": 0.161,
-     "elo": 1474.29,
-     "n": 308,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "QPR",
-     "attack": 0.110143,
-     "defence": -0.03109,
-     "strength": 0.141,
-     "elo": 1497.36,
-     "n": 308,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Watford",
-     "attack": 0.029961,
-     "defence": -0.092918,
-     "strength": 0.123,
-     "elo": 1455.81,
-     "n": 296,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Portsmouth",
-     "attack": 0.068145,
-     "defence": -0.002534,
-     "strength": 0.071,
-     "elo": 1486.09,
-     "n": 165,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Wycombe",
-     "attack": -0.045346,
-     "defence": -0.106838,
-     "strength": 0.061,
-     "elo": 1506.56,
-     "n": 139,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Charlton",
-     "attack": -0.089145,
-     "defence": -0.14389,
-     "strength": 0.055,
-     "elo": 1495.76,
-     "n": 170,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Preston",
-     "attack": 0.027187,
-     "defence": -0.021848,
-     "strength": 0.049,
-     "elo": 1441.3,
      "n": 307,
      "mode": "raw_mle"
     },
     {
+     "team": "Derby",
+     "attack": 0.126851,
+     "defence": -0.1186,
+     "strength": 0.245,
+     "elo": 1490.85,
+     "n": 213,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Cardiff",
+     "attack": 0.121384,
+     "defence": -0.070884,
+     "strength": 0.192,
+     "elo": 1529.75,
+     "n": 290,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Blackburn",
+     "attack": 0.010247,
+     "defence": -0.170392,
+     "strength": 0.181,
+     "elo": 1480.67,
+     "n": 306,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Stoke",
+     "attack": 0.040861,
+     "defence": -0.121702,
+     "strength": 0.163,
+     "elo": 1474.29,
+     "n": 306,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Luton",
+     "attack": 0.064194,
+     "defence": -0.097516,
+     "strength": 0.162,
+     "elo": 1530.58,
+     "n": 278,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "QPR",
+     "attack": 0.110146,
+     "defence": -0.032292,
+     "strength": 0.142,
+     "elo": 1497.36,
+     "n": 306,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Watford",
+     "attack": 0.030101,
+     "defence": -0.094075,
+     "strength": 0.124,
+     "elo": 1455.81,
+     "n": 295,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Portsmouth",
+     "attack": 0.06775,
+     "defence": -0.003691,
+     "strength": 0.071,
+     "elo": 1486.09,
+     "n": 163,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Wycombe",
+     "attack": -0.044843,
+     "defence": -0.106658,
+     "strength": 0.062,
+     "elo": 1506.56,
+     "n": 137,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Charlton",
+     "attack": -0.089322,
+     "defence": -0.145251,
+     "strength": 0.056,
+     "elo": 1495.76,
+     "n": 168,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Preston",
+     "attack": 0.027528,
+     "defence": -0.023011,
+     "strength": 0.051,
+     "elo": 1441.3,
+     "n": 305,
+     "mode": "raw_mle"
+    },
+    {
      "team": "Oxford",
-     "attack": -0.069057,
-     "defence": -0.108852,
+     "attack": -0.069554,
+     "defence": -0.109759,
      "strength": 0.04,
      "elo": 1461.84,
-     "n": 157,
+     "n": 156,
      "mode": "raw_mle"
     },
     {
      "team": "Lincoln",
-     "attack": -0.085181,
-     "defence": -0.097968,
-     "strength": 0.013,
+     "attack": -0.085121,
+     "defence": -0.098944,
+     "strength": 0.014,
      "elo": 1475.56,
      "n": 148,
      "mode": "raw_mle"
     },
     {
      "team": "Huddersfield",
-     "attack": -0.052068,
-     "defence": 0.043106,
-     "strength": -0.095,
+     "attack": -0.05213,
+     "defence": 0.042007,
+     "strength": -0.094,
      "elo": 1463.56,
-     "n": 286,
+     "n": 284,
      "mode": "raw_mle"
     },
     {
      "team": "Bolton",
-     "attack": 0.023552,
-     "defence": 0.12715,
-     "strength": -0.104,
+     "attack": 0.023912,
+     "defence": 0.12483,
+     "strength": -0.101,
      "elo": 1521.93,
-     "n": 151,
+     "n": 150,
      "mode": "raw_mle"
     },
     {
      "team": "Wigan",
-     "attack": -0.307237,
-     "defence": -0.104072,
-     "strength": -0.203,
+     "attack": -0.307687,
+     "defence": -0.105662,
+     "strength": -0.202,
      "elo": 1484.6,
-     "n": 192,
+     "n": 190,
      "mode": "raw_mle"
     },
     {
      "team": "Reading",
-     "attack": -0.067873,
-     "defence": 0.13817,
-     "strength": -0.206,
+     "attack": -0.067376,
+     "defence": 0.138083,
+     "strength": -0.205,
      "elo": 1438.85,
-     "n": 239,
+     "n": 237,
      "mode": "raw_mle"
     },
     {
      "team": "Barnsley",
-     "attack": 0.074968,
-     "defence": 0.282741,
-     "strength": -0.208,
+     "attack": 0.075251,
+     "defence": 0.281764,
+     "strength": -0.207,
      "elo": 1453.89,
-     "n": 189,
+     "n": 187,
      "mode": "raw_mle"
     },
     {
      "team": "Notts County",
-     "attack": -0.05102,
-     "defence": 0.172376,
-     "strength": -0.223,
+     "attack": -0.052388,
+     "defence": 0.17276,
+     "strength": -0.225,
      "elo": 1496.52,
      "n": 69,
      "mode": "raw_mle"
     },
     {
      "team": "Bradford",
-     "attack": -0.233567,
-     "defence": 0.02372,
+     "attack": -0.234405,
+     "defence": 0.022993,
      "strength": -0.257,
      "elo": 1502.35,
-     "n": 143,
+     "n": 142,
      "mode": "raw_mle"
     },
     {
      "team": "Blackpool",
-     "attack": -0.087593,
-     "defence": 0.173462,
+     "attack": -0.087787,
+     "defence": 0.172853,
      "strength": -0.261,
      "elo": 1415.93,
-     "n": 232,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Peterborough",
-     "attack": 0.133119,
-     "defence": 0.399127,
-     "strength": -0.266,
-     "elo": 1437.47,
-     "n": 186,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Plymouth",
-     "attack": -0.059107,
-     "defence": 0.212533,
-     "strength": -0.272,
-     "elo": 1409.11,
-     "n": 188,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Leyton Orient",
-     "attack": -0.013223,
-     "defence": 0.263327,
-     "strength": -0.277,
-     "elo": 1400.05,
-     "n": 140,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Rotherham",
-     "attack": -0.187738,
-     "defence": 0.110627,
-     "strength": -0.298,
-     "elo": 1453.11,
      "n": 231,
      "mode": "raw_mle"
     },
     {
+     "team": "Peterborough",
+     "attack": 0.133509,
+     "defence": 0.398293,
+     "strength": -0.265,
+     "elo": 1437.47,
+     "n": 185,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Plymouth",
+     "attack": -0.05919,
+     "defence": 0.211514,
+     "strength": -0.271,
+     "elo": 1409.11,
+     "n": 187,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Leyton Orient",
+     "attack": -0.013218,
+     "defence": 0.261548,
+     "strength": -0.275,
+     "elo": 1400.05,
+     "n": 139,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Rotherham",
+     "attack": -0.188214,
+     "defence": 0.109263,
+     "strength": -0.297,
+     "elo": 1453.11,
+     "n": 229,
+     "mode": "raw_mle"
+    },
+    {
      "team": "AFC Wimbledon",
-     "attack": -0.348578,
-     "defence": -0.022979,
+     "attack": -0.349387,
+     "defence": -0.023269,
      "strength": -0.326,
      "elo": 1458.19,
-     "n": 140,
+     "n": 139,
      "mode": "raw_mle"
     },
     {
      "team": "Sheff Wed",
-     "attack": -0.20238,
-     "defence": 0.14507,
+     "attack": -0.202454,
+     "defence": 0.144186,
      "strength": -0.347,
      "elo": 1337.5,
-     "n": 207,
+     "n": 205,
      "mode": "raw_mle"
     },
     {
      "team": "Salford",
-     "attack": -0.066179,
-     "defence": 0.295713,
-     "strength": -0.362,
+     "attack": -0.06713,
+     "defence": 0.296171,
+     "strength": -0.363,
      "elo": 1527.99,
-     "n": 134,
+     "n": 133,
      "mode": "raw_mle"
     },
     {
      "team": "Walsall",
-     "attack": -0.187162,
-     "defence": 0.206135,
-     "strength": -0.393,
+     "attack": -0.188259,
+     "defence": 0.207182,
+     "strength": -0.395,
      "elo": 1507.72,
-     "n": 133,
+     "n": 132,
      "mode": "raw_mle"
     },
     {
      "team": "Stevenage",
-     "attack": -0.399981,
-     "defence": 0.067918,
-     "strength": -0.468,
+     "attack": -0.399318,
+     "defence": 0.067205,
+     "strength": -0.467,
      "elo": 1426.04,
-     "n": 139,
+     "n": 138,
      "mode": "raw_mle"
     },
     {
      "team": "Gillingham",
-     "attack": -0.484325,
-     "defence": 0.001774,
-     "strength": -0.486,
+     "attack": -0.485549,
+     "defence": 0.001821,
+     "strength": -0.487,
      "elo": 1505.49,
-     "n": 133,
+     "n": 132,
      "mode": "raw_mle"
     },
     {
      "team": "MK Dons",
-     "attack": -0.117132,
-     "defence": 0.380075,
-     "strength": -0.497,
+     "attack": -0.118636,
+     "defence": 0.379903,
+     "strength": -0.499,
      "elo": 1478.53,
-     "n": 133,
+     "n": 132,
      "mode": "raw_mle"
     },
     {
      "team": "Mansfield",
-     "attack": -0.163854,
-     "defence": 0.344328,
-     "strength": -0.508,
+     "attack": -0.163385,
+     "defence": 0.343624,
+     "strength": -0.507,
      "elo": 1365.86,
-     "n": 139,
+     "n": 138,
      "mode": "raw_mle"
     },
     {
      "team": "Exeter",
-     "attack": -0.331696,
-     "defence": 0.181418,
-     "strength": -0.513,
+     "attack": -0.331351,
+     "defence": 0.180793,
+     "strength": -0.512,
      "elo": 1390.53,
-     "n": 141,
+     "n": 140,
      "mode": "raw_mle"
     },
     {
      "team": "Chesterfield",
-     "attack": -0.060266,
-     "defence": 0.469019,
-     "strength": -0.529,
+     "attack": -0.061589,
+     "defence": 0.469413,
+     "strength": -0.531,
      "elo": 1471.25,
      "n": 69,
      "mode": "raw_mle"
     },
     {
      "team": "Rochdale",
-     "attack": -0.101296,
-     "defence": 0.4338,
-     "strength": -0.535,
+     "attack": -0.093235,
+     "defence": 0.438225,
+     "strength": -0.531,
      "elo": 1422.02,
-     "n": 62,
+     "n": 61,
      "mode": "raw_mle"
     },
     {
      "team": "Crewe",
-     "attack": -0.391805,
-     "defence": 0.161343,
-     "strength": -0.553,
+     "attack": -0.394025,
+     "defence": 0.162378,
+     "strength": -0.556,
      "elo": 1472.06,
-     "n": 135,
+     "n": 133,
      "mode": "raw_mle"
     },
     {
      "team": "Bromley",
-     "attack": -0.22572,
-     "defence": 0.343113,
-     "strength": -0.569,
+     "attack": -0.227005,
+     "defence": 0.343428,
+     "strength": -0.57,
      "elo": 1478.96,
      "n": 69,
      "mode": "raw_mle"
     },
     {
      "team": "Port Vale",
-     "attack": -0.405227,
-     "defence": 0.172112,
+     "attack": -0.405978,
+     "defence": 0.171158,
      "strength": -0.577,
      "elo": 1387.46,
-     "n": 140,
+     "n": 139,
      "mode": "raw_mle"
     },
     {
      "team": "Doncaster",
-     "attack": -0.253416,
-     "defence": 0.334505,
+     "attack": -0.253992,
+     "defence": 0.334249,
      "strength": -0.588,
      "elo": 1408.38,
-     "n": 142,
+     "n": 141,
      "mode": "raw_mle"
     },
     {
      "team": "Swindon",
-     "attack": -0.147595,
-     "defence": 0.441855,
-     "strength": -0.589,
+     "attack": -0.148744,
+     "defence": 0.442718,
+     "strength": -0.591,
      "elo": 1458.54,
-     "n": 133,
+     "n": 132,
      "mode": "raw_mle"
     },
     {
      "team": "Fleetwood",
-     "attack": -0.308393,
-     "defence": 0.356165,
-     "strength": -0.665,
+     "attack": -0.309883,
+     "defence": 0.356494,
+     "strength": -0.666,
      "elo": 1449.52,
-     "n": 135,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Burton",
+     "attack": -0.361279,
+     "defence": 0.308884,
+     "strength": -0.67,
+     "elo": 1352.13,
+     "n": 141,
      "mode": "raw_mle"
     },
     {
      "team": "Barrow",
-     "attack": -0.542476,
-     "defence": 0.127248,
-     "strength": -0.67,
+     "attack": -0.543863,
+     "defence": 0.12758,
+     "strength": -0.671,
      "elo": 1439.88,
      "n": 115,
      "mode": "raw_mle"
     },
     {
-     "team": "Burton",
-     "attack": -0.361631,
-     "defence": 0.309114,
-     "strength": -0.671,
-     "elo": 1352.13,
-     "n": 143,
-     "mode": "raw_mle"
-    },
-    {
      "team": "Forest Green",
-     "attack": -0.327611,
-     "defence": 0.360295,
-     "strength": -0.688,
+     "attack": -0.335989,
+     "defence": 0.366177,
+     "strength": -0.702,
      "elo": 1443.43,
-     "n": 65,
+     "n": 63,
      "mode": "raw_mle"
     },
     {
      "team": "Northampton",
-     "attack": -0.505564,
-     "defence": 0.196101,
+     "attack": -0.506441,
+     "defence": 0.195251,
      "strength": -0.702,
      "elo": 1344.88,
-     "n": 141,
+     "n": 140,
      "mode": "raw_mle"
     },
     {
      "team": "Cambridge",
-     "attack": -0.420472,
-     "defence": 0.283445,
+     "attack": -0.420637,
+     "defence": 0.28344,
      "strength": -0.704,
      "elo": 1396.18,
-     "n": 134,
+     "n": 133,
      "mode": "raw_mle"
     },
     {
      "team": "Bristol Rovers",
-     "attack": -0.32901,
-     "defence": 0.397547,
+     "attack": -0.330785,
+     "defence": 0.396575,
      "strength": -0.727,
      "elo": 1413.52,
-     "n": 134,
+     "n": 133,
      "mode": "raw_mle"
     },
     {
      "team": "Colchester",
-     "attack": -0.403484,
-     "defence": 0.372698,
-     "strength": -0.776,
+     "attack": -0.404927,
+     "defence": 0.373052,
+     "strength": -0.778,
      "elo": 1420.39,
-     "n": 135,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Grimsby",
-     "attack": -0.305131,
-     "defence": 0.512004,
-     "strength": -0.817,
-     "elo": 1369.43,
-     "n": 137,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Oldham",
-     "attack": -0.844916,
-     "defence": 0.049519,
-     "strength": -0.894,
-     "elo": 1354.18,
-     "n": 89,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Tranmere",
-     "attack": -0.545783,
-     "defence": 0.400059,
-     "strength": -0.946,
-     "elo": 1370.4,
-     "n": 133,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Crawley",
-     "attack": -0.409313,
-     "defence": 0.540621,
-     "strength": -0.95,
-     "elo": 1288.05,
      "n": 134,
      "mode": "raw_mle"
     },
     {
-     "team": "Accrington",
-     "attack": -0.537265,
-     "defence": 0.418401,
-     "strength": -0.956,
-     "elo": 1370.83,
-     "n": 133,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Shrewsbury",
-     "attack": -0.6077,
-     "defence": 0.419211,
-     "strength": -1.027,
-     "elo": 1324.18,
-     "n": 133,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Newport",
-     "attack": -0.483581,
-     "defence": 0.58401,
-     "strength": -1.068,
-     "elo": 1322.06,
+     "team": "Grimsby",
+     "attack": -0.305612,
+     "defence": 0.512515,
+     "strength": -0.818,
+     "elo": 1369.43,
      "n": 135,
      "mode": "raw_mle"
     },
     {
+     "team": "Oldham",
+     "attack": -0.847021,
+     "defence": 0.052058,
+     "strength": -0.899,
+     "elo": 1354.18,
+     "n": 88,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Tranmere",
+     "attack": -0.54694,
+     "defence": 0.400344,
+     "strength": -0.947,
+     "elo": 1370.4,
+     "n": 132,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Crawley",
+     "attack": -0.409573,
+     "defence": 0.54029,
+     "strength": -0.95,
+     "elo": 1288.05,
+     "n": 133,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Accrington",
+     "attack": -0.54082,
+     "defence": 0.418935,
+     "strength": -0.96,
+     "elo": 1370.83,
+     "n": 132,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Shrewsbury",
+     "attack": -0.60917,
+     "defence": 0.418053,
+     "strength": -1.027,
+     "elo": 1324.18,
+     "n": 132,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Newport",
+     "attack": -0.484624,
+     "defence": 0.584491,
+     "strength": -1.069,
+     "elo": 1322.06,
+     "n": 134,
+     "mode": "raw_mle"
+    },
+    {
      "team": "Carlisle",
-     "attack": -0.548433,
-     "defence": 0.523156,
+     "attack": -0.547819,
+     "defence": 0.524552,
      "strength": -1.072,
      "elo": 1369.69,
-     "n": 111,
+     "n": 110,
      "mode": "raw_mle"
     },
     {
      "team": "Barnet",
-     "attack": -0.546191,
-     "defence": 0.548515,
-     "strength": -1.095,
+     "attack": -0.549773,
+     "defence": 0.549403,
+     "strength": -1.099,
      "elo": 1374.47,
      "n": 23,
      "mode": "raw_mle"
     },
     {
      "team": "Cheltenham",
-     "attack": -0.590748,
-     "defence": 0.553727,
-     "strength": -1.144,
+     "attack": -0.59199,
+     "defence": 0.554645,
+     "strength": -1.147,
      "elo": 1356.83,
-     "n": 135,
+     "n": 133,
      "mode": "raw_mle"
     },
     {
      "team": "Scunthorpe",
-     "attack": -0.647725,
-     "defence": 0.51821,
-     "strength": -1.166,
+     "attack": -0.662682,
+     "defence": 0.519641,
+     "strength": -1.182,
      "elo": 1331.4,
-     "n": 65,
+     "n": 64,
+     "mode": "raw_mle"
+    },
+    {
+     "team": "Macclesfield",
+     "attack": -0.697234,
+     "defence": 0.488804,
+     "strength": -1.186,
+     "elo": 1343.02,
+     "n": 19,
+     "mode": "blend"
+    },
+    {
+     "team": "Morecambe",
+     "attack": -0.653343,
+     "defence": 0.545191,
+     "strength": -1.199,
+     "elo": 1322.47,
+     "n": 110,
      "mode": "raw_mle"
     },
     {
      "team": "Harrogate",
-     "attack": -0.649018,
-     "defence": 0.549761,
-     "strength": -1.199,
+     "attack": -0.651011,
+     "defence": 0.550196,
+     "strength": -1.201,
      "elo": 1324.78,
      "n": 115,
      "mode": "raw_mle"
     },
     {
-     "team": "Morecambe",
-     "attack": -0.654268,
-     "defence": 0.546104,
-     "strength": -1.2,
-     "elo": 1322.47,
-     "n": 111,
-     "mode": "raw_mle"
-    },
-    {
-     "team": "Macclesfield",
-     "attack": -0.775205,
-     "defence": 0.428896,
-     "strength": -1.204,
-     "elo": 1343.02,
-     "n": 20,
-     "mode": "raw_mle"
-    },
-    {
      "team": "Southend",
-     "attack": -0.846063,
-     "defence": 0.41703,
+     "attack": -0.864423,
+     "defence": 0.398293,
      "strength": -1.263,
      "elo": 1351.02,
-     "n": 64,
+     "n": 63,
      "mode": "raw_mle"
     }
    ],
    "odds_note": null,
    "fit": {
-    "as_of": "2026-09-22",
-    "fitted_at": "2026-09-22T20:12:21.908941+00:00",
-    "data_hash": "1c37fffe79f77f3050ffa8f310db5ef3d6d5020d9577efc8bcd3b5bce085c10b",
+    "as_of": "2026-10-02",
+    "fitted_at": "2026-10-02T08:49:18.846158+00:00",
+    "data_hash": "c7ddf48444ec0a368922a5cbc493bd5f04a41f6882336a9a6fc45757ed805647",
     "rows": {
-     "en.1": 2524,
-     "en.2": 3716,
-     "en.3": 1675,
-     "en.4": 1612
+     "en.1": 2514,
+     "en.2": 3692,
+     "en.3": 1661,
+     "en.4": 1598
     },
-    "home_adv": 0.205495,
-    "rho": -0.029183,
+    "home_adv": 0.205531,
+    "rho": -0.029029,
     "scope": {
      "dc_divisions": [
       "en.1",
@@ -3784,8 +3784,8 @@
     "logloss_model": null
    },
    "calibrator": {
-    "as_of": "2026-09-22",
-    "fitted_at": "2026-09-22T20:12:21.908941+00:00",
+    "as_of": "2026-10-02",
+    "fitted_at": "2026-10-02T08:49:18.846158+00:00",
     "form": "logit = a*log_p_dc + b*elo_diff_400*(+1 home, 0 draw, -1 away) + c",
     "features": [
      "log_p_home_dc",
@@ -3798,12 +3798,12 @@
      "draw",
      "away"
     ],
-    "a": 0.96093,
-    "b": 0.00539,
-    "c_home": 0.001375,
-    "c_draw": 0.074819,
+    "a": 0.94043,
+    "b": -0.004001,
+    "c_home": -0.031097,
+    "c_draw": 0.094121,
     "l2": 100.0,
-    "n_rows": 220,
+    "n_rows": 181,
     "metrics": {
      "rows": 7433,
      "logloss_ensemble": 1.0332,
@@ -3826,39 +3826,39 @@
       },
       {
        "bin": "0.1-0.2",
-       "n": 219,
+       "n": 220,
        "predicted": 0.163,
-       "observed": 0.174
+       "observed": 0.173
       },
       {
        "bin": "0.2-0.3",
-       "n": 857,
+       "n": 856,
        "predicted": 0.257,
        "observed": 0.286
       },
       {
        "bin": "0.3-0.4",
-       "n": 2064,
+       "n": 2063,
        "predicted": 0.353,
        "observed": 0.364
       },
       {
        "bin": "0.4-0.5",
-       "n": 2262,
+       "n": 2263,
        "predicted": 0.448,
        "observed": 0.449
       },
       {
        "bin": "0.5-0.6",
-       "n": 1242,
+       "n": 1243,
        "predicted": 0.544,
        "observed": 0.521
       },
       {
        "bin": "0.6-0.7",
-       "n": 517,
+       "n": 516,
        "predicted": 0.641,
-       "observed": 0.658
+       "observed": 0.657
       },
       {
        "bin": "0.7-0.8",
@@ -3914,13 +3914,13 @@
       },
       {
        "bin": "0.2-0.3",
-       "n": 2436,
+       "n": 2434,
        "predicted": 0.254,
        "observed": 0.253
       },
       {
        "bin": "0.3-0.4",
-       "n": 2305,
+       "n": 2307,
        "predicted": 0.347,
        "observed": 0.345
       },
@@ -4008,7 +4008,13 @@
       "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 17,
+      "away_goals": 33,
+      "outcome": "away",
+      "source": "transientlunatic/rugby-data",
+      "settled_at": "2026-10-02"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-25T08:32:36Z",
@@ -4174,7 +4180,13 @@
       "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 59,
+      "away_goals": 26,
+      "outcome": "home",
+      "source": "transientlunatic/rugby-data",
+      "settled_at": "2026-10-02"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-25T08:32:36Z",
@@ -4340,7 +4352,13 @@
       "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 24,
+      "away_goals": 45,
+      "outcome": "away",
+      "source": "transientlunatic/rugby-data",
+      "settled_at": "2026-10-02"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-25T08:32:36Z",
@@ -4506,7 +4524,13 @@
       "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 24,
+      "away_goals": 34,
+      "outcome": "away",
+      "source": "transientlunatic/rugby-data",
+      "settled_at": "2026-10-02"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-25T08:32:36Z",
@@ -4672,7 +4696,13 @@
       "run_label": "2026-09-25 T-24h r3"
      },
      "news": null,
-     "result": null,
+     "result": {
+      "home_goals": 38,
+      "away_goals": 40,
+      "outcome": "away",
+      "source": "transientlunatic/rugby-data",
+      "settled_at": "2026-10-02"
+     },
      "unrated": null,
      "protocol": {
       "committed": "2026-09-25T08:32:36Z",
@@ -4800,15 +4830,15 @@
      "home": "Bath",
      "away": "Exeter",
      "run": {
-      "number": 3,
+      "number": 4,
       "stage": "T-24h",
-      "label": "Round 2 T-24h run 3",
+      "label": "Round 2 T-24h run 4",
       "note": null
      },
      "model": {
-      "home": 0.7496,
-      "draw": 0.02,
-      "away": 0.2304
+      "home": 0.77,
+      "draw": 0.019,
+      "away": 0.211
      },
      "sky_odds": null,
      "sky_devigged": null,
@@ -4835,13 +4865,13 @@
       "priced_from": null,
       "challenge": "not_run",
       "shadow": false,
-      "run_label": "2026-09-25 T-24h r3"
+      "run_label": "2026-10-02 T-24h r4"
      },
      "news": null,
      "result": null,
      "unrated": null,
      "protocol": {
-      "committed": "2026-09-25T08:32:36Z",
+      "committed": "2026-10-02T08:49:20Z",
       "first_odds_contact": null,
       "snapshot": null
      },
@@ -4855,30 +4885,30 @@
       "sky": null,
       "market": null,
       "final": {
-       "home": 0.7496,
-       "draw": 0.02,
-       "away": 0.2304
+       "home": 0.77,
+       "draw": 0.019,
+       "away": 0.211
       },
       "outcomes": {
        "home": {
-        "p_model": 0.7496,
-        "p_final": 0.7496,
+        "p_model": 0.77,
+        "p_final": 0.77,
         "odds": null,
         "edge_pp": null,
         "ev": null,
         "edge_vs_market_pp": null
        },
        "draw": {
-        "p_model": 0.02,
-        "p_final": 0.02,
+        "p_model": 0.019,
+        "p_final": 0.019,
         "odds": null,
         "edge_pp": null,
         "ev": null,
         "edge_vs_market_pp": null
        },
        "away": {
-        "p_model": 0.2304,
-        "p_final": 0.2304,
+        "p_model": 0.211,
+        "p_final": 0.211,
         "odds": null,
         "edge_pp": null,
         "ev": null,
@@ -4890,65 +4920,895 @@
      "shrinkage": null,
      "detail": {
       "elo": {
-       "home": 1669.13,
-       "away": 1529.49
+       "home": 1648.85,
+       "away": 1482.56
       },
       "raw": {
-       "home": 0.7496,
-       "draw": 0.02,
-       "away": 0.2304
+       "home": 0.77,
+       "draw": 0.019,
+       "away": 0.211
       },
       "margin": {
-       "mean": 10.9876,
-       "sigma": 15.579
+       "mean": 12.0126,
+       "sigma": 15.584
       },
       "total": {
-       "mean": 53.223,
-       "sigma": 15.2899
+       "mean": 54.521,
+       "sigma": 15.292
       },
       "lines": {
        "handicap": [
         {
-         "home_line": -17.0,
-         "p_home_covers": 0.3498
+         "home_line": -18.0,
+         "p_home_covers": 0.3504
         },
         {
-         "home_line": -14.0,
-         "p_home_covers": 0.4233
+         "home_line": -15.0,
+         "p_home_covers": 0.424
         },
         {
-         "home_line": -11.0,
-         "p_home_covers": 0.4997
+         "home_line": -12.0,
+         "p_home_covers": 0.5003
         },
         {
-         "home_line": -8.0,
-         "p_home_covers": 0.576
+         "home_line": -9.0,
+         "p_home_covers": 0.5766
         },
         {
-         "home_line": -5.0,
-         "p_home_covers": 0.6496
+         "home_line": -6.0,
+         "p_home_covers": 0.6502
         }
        ],
        "total": [
         {
-         "line": 46.5,
-         "p_over": 0.6699
+         "line": 48.5,
+         "p_over": 0.6531
         },
         {
-         "line": 49.5,
-         "p_over": 0.5962
+         "line": 51.5,
+         "p_over": 0.5783
         },
+        {
+         "line": 54.5,
+         "p_over": 0.5005
+        },
+        {
+         "line": 57.5,
+         "p_over": 0.4228
+        },
+        {
+         "line": 60.5,
+         "p_over": 0.3479
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-03-BRI-NOR-PREM",
+     "matchweek": "Round 2",
+     "kickoff_utc": "2026-10-03T14:05:00Z",
+     "kickoff_local": "2026-10-03T15:05:00+01:00",
+     "home": "Bristol",
+     "away": "Northampton",
+     "run": {
+      "number": 4,
+      "stage": "T-24h",
+      "label": "Round 2 T-24h run 4",
+      "note": null
+     },
+     "model": {
+      "home": 0.6116,
+      "draw": 0.0244,
+      "away": 0.3641
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-03-BRI-NOR-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 2",
+      "home": "Bristol",
+      "away": "Northampton",
+      "kickoff_utc": "2026-10-03T14:05:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-10-02 T-24h r4"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-10-02T08:49:20Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.6116,
+       "draw": 0.0244,
+       "away": 0.3641
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.6116,
+        "p_final": 0.6116,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.0244,
+        "p_final": 0.0244,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.3641,
+        "p_final": 0.3641,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1566.65,
+       "away": 1577.74
+      },
+      "raw": {
+       "home": 0.6116,
+       "draw": 0.0244,
+       "away": 0.3641
+      },
+      "margin": {
+       "mean": 4.9174,
+       "sigma": 15.584
+      },
+      "total": {
+       "mean": 68.967,
+       "sigma": 15.292
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": -11.0,
+         "p_home_covers": 0.3482
+        },
+        {
+         "home_line": -8.0,
+         "p_home_covers": 0.4216
+        },
+        {
+         "home_line": -5.0,
+         "p_home_covers": 0.4979
+        },
+        {
+         "home_line": -2.0,
+         "p_home_covers": 0.5742
+        },
+        {
+         "home_line": 1.0,
+         "p_home_covers": 0.6479
+        }
+       ],
+       "total": [
+        {
+         "line": 62.5,
+         "p_over": 0.6638
+        },
+        {
+         "line": 65.5,
+         "p_over": 0.5897
+        },
+        {
+         "line": 68.5,
+         "p_over": 0.5122
+        },
+        {
+         "line": 71.5,
+         "p_over": 0.4342
+        },
+        {
+         "line": 74.5,
+         "p_over": 0.3587
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-03-GLO-HAR-PREM",
+     "matchweek": "Round 2",
+     "kickoff_utc": "2026-10-03T16:30:00Z",
+     "kickoff_local": "2026-10-03T17:30:00+01:00",
+     "home": "Gloucester",
+     "away": "Harlequins",
+     "run": {
+      "number": 4,
+      "stage": "T-24h",
+      "label": "Round 2 T-24h run 4",
+      "note": null
+     },
+     "model": {
+      "home": 0.7259,
+      "draw": 0.021,
+      "away": 0.2532
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-03-GLO-HAR-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 2",
+      "home": "Gloucester",
+      "away": "Harlequins",
+      "kickoff_utc": "2026-10-03T16:30:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-10-02 T-24h r4"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-10-02T08:49:20Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.7259,
+       "draw": 0.021,
+       "away": 0.2532
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.7259,
+        "p_final": 0.7259,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.021,
+        "p_final": 0.021,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.2532,
+        "p_final": 0.2532,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1408.17,
+       "away": 1295.8
+      },
+      "raw": {
+       "home": 0.7259,
+       "draw": 0.021,
+       "away": 0.2532
+      },
+      "margin": {
+       "mean": 9.8558,
+       "sigma": 15.584
+      },
+      "total": {
+       "mean": 59.068,
+       "sigma": 15.292
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": -16.0,
+         "p_home_covers": 0.3467
+        },
+        {
+         "home_line": -13.0,
+         "p_home_covers": 0.4201
+        },
+        {
+         "home_line": -10.0,
+         "p_home_covers": 0.4963
+        },
+        {
+         "home_line": -7.0,
+         "p_home_covers": 0.5727
+        },
+        {
+         "home_line": -4.0,
+         "p_home_covers": 0.6465
+        }
+       ],
+       "total": [
         {
          "line": 52.5,
-         "p_over": 0.5189
+         "p_over": 0.6662
         },
         {
          "line": 55.5,
-         "p_over": 0.4408
+         "p_over": 0.5922
         },
         {
          "line": 58.5,
-         "p_over": 0.365
+         "p_over": 0.5148
+        },
+        {
+         "line": 61.5,
+         "p_over": 0.4368
+        },
+        {
+         "line": 64.5,
+         "p_over": 0.3612
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-03-NEW-LEI-PREM",
+     "matchweek": "Round 2",
+     "kickoff_utc": "2026-10-03T18:45:00Z",
+     "kickoff_local": "2026-10-03T19:45:00+01:00",
+     "home": "Newcastle",
+     "away": "Leicester",
+     "run": {
+      "number": 4,
+      "stage": "T-24h",
+      "label": "Round 2 T-24h run 4",
+      "note": null
+     },
+     "model": {
+      "home": 0.1667,
+      "draw": 0.0165,
+      "away": 0.8168
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-03-NEW-LEI-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 2",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "kickoff_utc": "2026-10-03T18:45:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-10-02 T-24h r4"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-10-02T08:49:20Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.1667,
+       "draw": 0.0165,
+       "away": 0.8168
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.1667,
+        "p_final": 0.1667,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.0165,
+        "p_final": 0.0165,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.8168,
+        "p_final": 0.8168,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1057.83,
+       "away": 1556.28
+      },
+      "raw": {
+       "home": 0.1667,
+       "draw": 0.0165,
+       "away": 0.8168
+      },
+      "margin": {
+       "mean": -14.577,
+       "sigma": 15.584
+      },
+      "total": {
+       "mean": 56.041,
+       "sigma": 15.292
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": 8.5,
+         "p_home_covers": 0.3483
+        },
+        {
+         "home_line": 11.5,
+         "p_home_covers": 0.4217
+        },
+        {
+         "home_line": 14.5,
+         "p_home_covers": 0.498
+        },
+        {
+         "home_line": 17.5,
+         "p_home_covers": 0.5744
+        },
+        {
+         "home_line": 20.5,
+         "p_home_covers": 0.6481
+        }
+       ],
+       "total": [
+        {
+         "line": 49.5,
+         "p_over": 0.6656
+        },
+        {
+         "line": 52.5,
+         "p_over": 0.5916
+        },
+        {
+         "line": 55.5,
+         "p_over": 0.5141
+        },
+        {
+         "line": 58.5,
+         "p_over": 0.4361
+        },
+        {
+         "line": 61.5,
+         "p_over": 0.3606
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-04-SAR-SAL-PREM",
+     "matchweek": "Round 2",
+     "kickoff_utc": "2026-10-04T14:00:00Z",
+     "kickoff_local": "2026-10-04T15:00:00+01:00",
+     "home": "Saracens",
+     "away": "Sale",
+     "run": {
+      "number": 4,
+      "stage": "T-24h",
+      "label": "Round 2 T-24h run 4",
+      "note": null
+     },
+     "model": {
+      "home": 0.7298,
+      "draw": 0.0208,
+      "away": 0.2494
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-04-SAR-SAL-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 2",
+      "home": "Saracens",
+      "away": "Sale",
+      "kickoff_utc": "2026-10-04T14:00:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-10-02 T-24h r4"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-10-02T08:49:20Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.7298,
+       "draw": 0.0208,
+       "away": 0.2494
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.7298,
+        "p_final": 0.7298,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.0208,
+        "p_final": 0.0208,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.2494,
+        "p_final": 0.2494,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1605.54,
+       "away": 1488.51
+      },
+      "raw": {
+       "home": 0.7298,
+       "draw": 0.0208,
+       "away": 0.2494
+      },
+      "margin": {
+       "mean": 10.0422,
+       "sigma": 15.584
+      },
+      "total": {
+       "mean": 58.19,
+       "sigma": 15.292
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": -16.0,
+         "p_home_covers": 0.3511
+        },
+        {
+         "home_line": -13.0,
+         "p_home_covers": 0.4247
+        },
+        {
+         "home_line": -10.0,
+         "p_home_covers": 0.5011
+        },
+        {
+         "home_line": -7.0,
+         "p_home_covers": 0.5774
+        },
+        {
+         "home_line": -4.0,
+         "p_home_covers": 0.6509
+        }
+       ],
+       "total": [
+        {
+         "line": 51.5,
+         "p_over": 0.6691
+        },
+        {
+         "line": 54.5,
+         "p_over": 0.5953
+        },
+        {
+         "line": 57.5,
+         "p_over": 0.518
+        },
+        {
+         "line": 60.5,
+         "p_over": 0.44
+        },
+        {
+         "line": 63.5,
+         "p_over": 0.3642
+        }
+       ],
+       "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
+      }
+     },
+     "markets": null,
+     "odds_source": null,
+     "bookmaker_flag": null
+    },
+    {
+     "fixture_id": "2026-10-09-LEI-GLO-PREM",
+     "matchweek": "Round 3",
+     "kickoff_utc": "2026-10-09T18:45:00Z",
+     "kickoff_local": "2026-10-09T19:45:00+01:00",
+     "home": "Leicester",
+     "away": "Gloucester",
+     "run": {
+      "number": 4,
+      "stage": "T-24h",
+      "label": "Round 3 T-24h run 4",
+      "note": null
+     },
+     "model": {
+      "home": 0.7556,
+      "draw": 0.0197,
+      "away": 0.2247
+     },
+     "sky_odds": null,
+     "sky_devigged": null,
+     "market_devigged": null,
+     "n_bookmakers": null,
+     "verdict": {
+      "fixture_id": "2026-10-09-LEI-GLO-PREM",
+      "competition": "PREM",
+      "matchweek": "Round 3",
+      "home": "Leicester",
+      "away": "Gloucester",
+      "kickoff_utc": "2026-10-09T18:45:00Z",
+      "verdict": "NO_BET",
+      "lane": "none",
+      "selection": null,
+      "kind": "unpriced",
+      "reason": "Sky Bet has not priced this fixture",
+      "stake_gbp": 0.0,
+      "odds_recommended": null,
+      "edge_pp": null,
+      "ev": null,
+      "skip_if_sky_below": null,
+      "checks": {},
+      "priced_from": null,
+      "challenge": "not_run",
+      "shadow": false,
+      "run_label": "2026-10-02 T-24h r4"
+     },
+     "news": null,
+     "result": null,
+     "unrated": null,
+     "protocol": {
+      "committed": "2026-10-02T08:49:20Z",
+      "first_odds_contact": null,
+      "snapshot": null
+     },
+     "value": {
+      "lambda": 0.0,
+      "rated": true,
+      "snapshot": null,
+      "sky_priced": false,
+      "priced_from": null,
+      "markets": null,
+      "sky": null,
+      "market": null,
+      "final": {
+       "home": 0.7556,
+       "draw": 0.0197,
+       "away": 0.2247
+      },
+      "outcomes": {
+       "home": {
+        "p_model": 0.7556,
+        "p_final": 0.7556,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "draw": {
+        "p_model": 0.0197,
+        "p_final": 0.0197,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       },
+       "away": {
+        "p_model": 0.2247,
+        "p_final": 0.2247,
+        "odds": null,
+        "edge_pp": null,
+        "ev": null,
+        "edge_vs_market_pp": null
+       }
+      },
+      "best": null
+     },
+     "shrinkage": null,
+     "detail": {
+      "elo": {
+       "home": 1556.28,
+       "away": 1408.17
+      },
+      "raw": {
+       "home": 0.7556,
+       "draw": 0.0197,
+       "away": 0.2247
+      },
+      "margin": {
+       "mean": 11.2854,
+       "sigma": 15.584
+      },
+      "total": {
+       "mean": 56.867,
+       "sigma": 15.292
+      },
+      "lines": {
+       "handicap": [
+        {
+         "home_line": -17.5,
+         "p_home_covers": 0.345
+        },
+        {
+         "home_line": -14.5,
+         "p_home_covers": 0.4183
+        },
+        {
+         "home_line": -11.5,
+         "p_home_covers": 0.4945
+        },
+        {
+         "home_line": -8.5,
+         "p_home_covers": 0.5709
+        },
+        {
+         "home_line": -5.5,
+         "p_home_covers": 0.6448
+        }
+       ],
+       "total": [
+        {
+         "line": 50.5,
+         "p_over": 0.6614
+        },
+        {
+         "line": 53.5,
+         "p_over": 0.5871
+        },
+        {
+         "line": 56.5,
+         "p_over": 0.5096
+        },
+        {
+         "line": 59.5,
+         "p_over": 0.4316
+        },
+        {
+         "line": 62.5,
+         "p_over": 0.3563
         }
        ],
        "note": "from the fitted margin and total distributions; informational until the API supplies these markets"
@@ -4961,134 +5821,135 @@
    ],
    "matchweeks": [
     "Round 1",
-    "Round 2"
+    "Round 2",
+    "Round 3"
    ],
    "ratings": [
     {
      "team": "Bath",
-     "rating": 1669.13,
-     "margin_vs_avg": 6.8,
-     "total_offset": 1.233,
-     "n": 253
+     "rating": 1648.85,
+     "margin_vs_avg": 6.0,
+     "total_offset": 1.009,
+     "n": 254
     },
     {
      "team": "Saracens",
-     "rating": 1621.74,
-     "margin_vs_avg": 4.9,
-     "total_offset": 2.248,
-     "n": 261
+     "rating": 1605.54,
+     "margin_vs_avg": 4.2,
+     "total_offset": 2.848,
+     "n": 262
     },
     {
      "team": "Northampton",
-     "rating": 1586.24,
-     "margin_vs_avg": 3.4,
-     "total_offset": 5.965,
-     "n": 253
-    },
-    {
-     "team": "Leicester",
-     "rating": 1584.94,
-     "margin_vs_avg": 3.4,
-     "total_offset": -3.113,
-     "n": 255
+     "rating": 1577.74,
+     "margin_vs_avg": 3.1,
+     "total_offset": 6.591,
+     "n": 254
     },
     {
      "team": "Bristol",
-     "rating": 1563.83,
-     "margin_vs_avg": 2.6,
-     "total_offset": 4.517,
-     "n": 183
+     "rating": 1566.65,
+     "margin_vs_avg": 2.7,
+     "total_offset": 4.475,
+     "n": 184
     },
     {
-     "team": "Exeter",
-     "rating": 1529.49,
-     "margin_vs_avg": 1.2,
-     "total_offset": -4.825,
+     "team": "Leicester",
+     "rating": 1556.28,
+     "margin_vs_avg": 2.3,
+     "total_offset": -2.513,
      "n": 256
     },
     {
-     "team": "Sale",
-     "rating": 1517.37,
-     "margin_vs_avg": 0.7,
-     "total_offset": -2.517,
-     "n": 248
-    },
-    {
      "team": "London Irish",
-     "rating": 1505.78,
-     "margin_vs_avg": 0.2,
+     "rating": 1498.06,
+     "margin_vs_avg": -0.1,
      "total_offset": 1.688,
      "n": 156
     },
     {
+     "team": "Sale",
+     "rating": 1488.51,
+     "margin_vs_avg": -0.5,
+     "total_offset": -2.559,
+     "n": 249
+    },
+    {
+     "team": "Exeter",
+     "rating": 1482.56,
+     "margin_vs_avg": -0.7,
+     "total_offset": -4.389,
+     "n": 257
+    },
+    {
      "team": "Wasps",
-     "rating": 1462.91,
+     "rating": 1461.52,
      "margin_vs_avg": -1.5,
      "total_offset": 1.661,
      "n": 189
     },
     {
+     "team": "Gloucester",
+     "rating": 1408.17,
+     "margin_vs_avg": -3.7,
+     "total_offset": 1.479,
+     "n": 247
+    },
+    {
      "team": "London Welsh",
-     "rating": 1363.6,
-     "margin_vs_avg": -5.5,
+     "rating": 1377.15,
+     "margin_vs_avg": -4.9,
      "total_offset": 4.672,
      "n": 22
     },
     {
-     "team": "Gloucester",
-     "rating": 1358.22,
-     "margin_vs_avg": -5.7,
-     "total_offset": 1.043,
-     "n": 246
-    },
-    {
      "team": "Worcester",
-     "rating": 1311.29,
-     "margin_vs_avg": -7.5,
+     "rating": 1332.74,
+     "margin_vs_avg": -6.7,
      "total_offset": 2.192,
      "n": 158
     },
     {
      "team": "Harlequins",
-     "rating": 1282.0,
-     "margin_vs_avg": -8.7,
-     "total_offset": -0.089,
-     "n": 246
+     "rating": 1295.8,
+     "margin_vs_avg": -8.2,
+     "total_offset": -0.312,
+     "n": 247
     },
     {
      "team": "Newcastle",
-     "rating": 1001.25,
-     "margin_vs_avg": -19.9,
-     "total_offset": 0.026,
-     "n": 224
+     "rating": 1057.83,
+     "margin_vs_avg": -17.7,
+     "total_offset": 0.653,
+     "n": 225
     }
    ],
    "odds_note": "no rugby union club competition on The Odds API (only NRL, NRLW, State of Origin, Six Nations); Sky Bet is never scraped",
    "fit": {
-    "as_of": "2026-09-22",
-    "fitted_at": "2026-09-22T20:12:23.183869+00:00",
-    "data_hash": "52a192e6f963bb85f6802ba8fcbf2f526c737e770e9c7501878891a081a2cca9",
-    "rows": 1475,
-    "home_adv": 5.402,
+    "as_of": "2026-10-02",
+    "fitted_at": "2026-10-02T08:49:20.377203+00:00",
+    "data_hash": "290d30ff7fc540395ced153ae0d1c945bd7ec14ac930c4cafab3020cd237f873",
+    "rows": 1480,
+    "home_adv": 5.361,
     "rho": null,
     "scope": null,
     "calibration": {
      "rows": 951,
-     "logloss_ensemble": 0.6798,
-     "logloss_dc": 0.6817,
+     "logloss_ensemble": 0.6799,
+     "logloss_dc": 0.6818,
      "refit_window_days": 150,
      "l2": 100.0,
      "first_row": "2017-02-10",
      "last_row": "2026-01-24",
      "note": "logloss_dc is the margin-Elo model itself; logloss_ensemble the calibrated layer"
     },
-    "sigma": 15.579,
-    "total_sigma": 15.2899,
+    "sigma": 15.584,
+    "total_sigma": 15.292,
     "K": 1.5,
     "carry": 0.85,
     "k": 25.0,
     "mov_cap": 30.0,
-    "draw_rate": 0.0249,
+    "draw_rate": 0.0248,
     "seasons": [
      "2014-15",
      "2015-16",
@@ -5101,13 +5962,14 @@
      "2022-23",
      "2023-24",
      "2024-25",
-     "2025-26"
+     "2025-26",
+     "2026-27"
     ],
-    "logloss_model": 0.6825
+    "logloss_model": 0.6829
    },
    "calibrator": {
-    "as_of": "2026-09-22",
-    "fitted_at": "2026-09-22T20:12:23.183869+00:00",
+    "as_of": "2026-10-02",
+    "fitted_at": "2026-10-02T08:49:20.377203+00:00",
     "form": "logit = a*log_p_dc + b*elo_diff_400*(+1 home, 0 draw, -1 away) + c",
     "features": [
      "log_p_home_dc",
@@ -5128,8 +5990,8 @@
     "n_rows": 0,
     "metrics": {
      "rows": 951,
-     "logloss_ensemble": 0.6798,
-     "logloss_dc": 0.6817,
+     "logloss_ensemble": 0.6799,
+     "logloss_dc": 0.6818,
      "refit_window_days": 150,
      "l2": 100.0,
      "first_row": "2017-02-10",
@@ -5144,50 +6006,50 @@
      "home": [
       {
        "bin": "0.2-0.3",
-       "n": 30,
-       "predicted": 0.254,
-       "observed": 0.233
+       "n": 31,
+       "predicted": 0.255,
+       "observed": 0.258
       },
       {
        "bin": "0.3-0.4",
-       "n": 64,
-       "predicted": 0.351,
-       "observed": 0.359
+       "n": 65,
+       "predicted": 0.352,
+       "observed": 0.338
       },
       {
        "bin": "0.4-0.5",
        "n": 120,
-       "predicted": 0.455,
-       "observed": 0.458
+       "predicted": 0.456,
+       "observed": 0.475
       },
       {
        "bin": "0.5-0.6",
-       "n": 196,
+       "n": 195,
        "predicted": 0.553,
-       "observed": 0.556
+       "observed": 0.549
       },
       {
        "bin": "0.6-0.7",
-       "n": 227,
+       "n": 228,
        "predicted": 0.647,
-       "observed": 0.731
+       "observed": 0.737
       },
       {
        "bin": "0.7-0.8",
-       "n": 170,
+       "n": 169,
        "predicted": 0.751,
-       "observed": 0.735
+       "observed": 0.734
       },
       {
        "bin": "0.8-0.9",
-       "n": 109,
+       "n": 108,
        "predicted": 0.842,
-       "observed": 0.835
+       "observed": 0.833
       },
       {
        "bin": "0.9-1.0",
        "n": 25,
-       "predicted": 0.931,
+       "predicted": 0.93,
        "observed": 0.92
       }
      ],
@@ -5208,44 +6070,44 @@
       },
       {
        "bin": "0.1-0.2",
-       "n": 129,
+       "n": 127,
        "predicted": 0.158,
-       "observed": 0.171
+       "observed": 0.165
       },
       {
        "bin": "0.2-0.3",
-       "n": 183,
+       "n": 184,
        "predicted": 0.25,
-       "observed": 0.219
+       "observed": 0.223
       },
       {
        "bin": "0.3-0.4",
        "n": 238,
-       "predicted": 0.349,
+       "predicted": 0.35,
        "observed": 0.332
       },
       {
        "bin": "0.4-0.5",
-       "n": 184,
+       "n": 183,
        "predicted": 0.447,
-       "observed": 0.413
+       "observed": 0.404
       },
       {
        "bin": "0.5-0.6",
-       "n": 93,
-       "predicted": 0.544,
-       "observed": 0.527
+       "n": 92,
+       "predicted": 0.542,
+       "observed": 0.543
       },
       {
        "bin": "0.6-0.7",
-       "n": 56,
-       "predicted": 0.643,
-       "observed": 0.625
+       "n": 59,
+       "predicted": 0.642,
+       "observed": 0.61
       },
       {
        "bin": "0.7-0.8",
        "n": 25,
-       "predicted": 0.745,
+       "predicted": 0.746,
        "observed": 0.8
       }
      ]
@@ -5257,14 +6119,14 @@
   }
  },
  "latest_run": {
-  "as_of": "2026-09-25",
+  "as_of": "2026-10-02",
   "run": {
-   "number": 3,
+   "number": 4,
    "stage": "T-24h",
    "shadow": false
   },
-  "predictions_committed_at": "2026-09-25T08:32:37Z",
-  "first_odds_contact_at": "2026-09-25T08:32:37Z",
+  "predictions_committed_at": "2026-10-02T08:49:22Z",
+  "first_odds_contact_at": "2026-10-02T08:49:22Z",
   "settled": {
    "EPL": {
     "competition": "EPL",
@@ -5284,8 +6146,46 @@
     "competition": "PREM",
     "ledger": [],
     "discipline": [],
-    "predictions": [],
-    "results": {}
+    "predictions": [
+     "2026-09-25-HAR-BAT-PREM",
+     "2026-09-25-HAR-BAT-PREM",
+     "2026-09-25-HAR-BAT-PREM",
+     "2026-09-25-NOR-NEW-PREM",
+     "2026-09-25-NOR-NEW-PREM",
+     "2026-09-25-NOR-NEW-PREM",
+     "2026-09-26-EXE-GLO-PREM",
+     "2026-09-26-EXE-GLO-PREM",
+     "2026-09-26-EXE-GLO-PREM",
+     "2026-09-26-SAL-BRI-PREM",
+     "2026-09-26-SAL-BRI-PREM",
+     "2026-09-26-SAL-BRI-PREM",
+     "2026-09-27-LEI-SAR-PREM",
+     "2026-09-27-LEI-SAR-PREM",
+     "2026-09-27-LEI-SAR-PREM"
+    ],
+    "results": {
+     "2026-09-25-HAR-BAT-PREM": [
+      17,
+      33
+     ],
+     "2026-09-25-NOR-NEW-PREM": [
+      59,
+      26
+     ],
+     "2026-09-26-EXE-GLO-PREM": [
+      24,
+      45
+     ],
+     "2026-09-26-SAL-BRI-PREM": [
+      24,
+      34
+     ],
+     "2026-09-27-LEI-SAR-PREM": [
+      38,
+      40
+     ]
+    },
+    "settlement_file": "2026-10-02-Round 1-PREM.json"
    }
   },
   "agents": {
@@ -5302,111 +6202,6 @@
   "strict_bets": [],
   "fun_bet": null,
   "recommendations": [
-   {
-    "fixture_id": "2026-09-25-HAR-BAT-PREM",
-    "competition": "PREM",
-    "matchweek": "Round 1",
-    "home": "Harlequins",
-    "away": "Bath",
-    "kickoff_utc": "2026-09-25T18:45:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": null,
-    "kind": "unpriced",
-    "reason": "Sky Bet has not priced this fixture",
-    "stake_gbp": 0.0,
-    "odds_recommended": null,
-    "edge_pp": null,
-    "ev": null,
-    "skip_if_sky_below": null,
-    "checks": {},
-    "priced_from": null,
-    "challenge": "not_run"
-   },
-   {
-    "fixture_id": "2026-09-25-NOR-NEW-PREM",
-    "competition": "PREM",
-    "matchweek": "Round 1",
-    "home": "Northampton",
-    "away": "Newcastle",
-    "kickoff_utc": "2026-09-25T18:45:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": null,
-    "kind": "unpriced",
-    "reason": "Sky Bet has not priced this fixture",
-    "stake_gbp": 0.0,
-    "odds_recommended": null,
-    "edge_pp": null,
-    "ev": null,
-    "skip_if_sky_below": null,
-    "checks": {},
-    "priced_from": null,
-    "challenge": "not_run"
-   },
-   {
-    "fixture_id": "2026-09-26-EXE-GLO-PREM",
-    "competition": "PREM",
-    "matchweek": "Round 1",
-    "home": "Exeter",
-    "away": "Gloucester",
-    "kickoff_utc": "2026-09-26T14:05:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": null,
-    "kind": "unpriced",
-    "reason": "Sky Bet has not priced this fixture",
-    "stake_gbp": 0.0,
-    "odds_recommended": null,
-    "edge_pp": null,
-    "ev": null,
-    "skip_if_sky_below": null,
-    "checks": {},
-    "priced_from": null,
-    "challenge": "not_run"
-   },
-   {
-    "fixture_id": "2026-09-26-SAL-BRI-PREM",
-    "competition": "PREM",
-    "matchweek": "Round 1",
-    "home": "Sale",
-    "away": "Bristol",
-    "kickoff_utc": "2026-09-26T16:30:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": null,
-    "kind": "unpriced",
-    "reason": "Sky Bet has not priced this fixture",
-    "stake_gbp": 0.0,
-    "odds_recommended": null,
-    "edge_pp": null,
-    "ev": null,
-    "skip_if_sky_below": null,
-    "checks": {},
-    "priced_from": null,
-    "challenge": "not_run"
-   },
-   {
-    "fixture_id": "2026-09-27-LEI-SAR-PREM",
-    "competition": "PREM",
-    "matchweek": "Round 1",
-    "home": "Leicester",
-    "away": "Saracens",
-    "kickoff_utc": "2026-09-27T14:00:00Z",
-    "verdict": "NO_BET",
-    "lane": "none",
-    "selection": null,
-    "kind": "unpriced",
-    "reason": "Sky Bet has not priced this fixture",
-    "stake_gbp": 0.0,
-    "odds_recommended": null,
-    "edge_pp": null,
-    "ev": null,
-    "skip_if_sky_below": null,
-    "checks": {},
-    "priced_from": null,
-    "challenge": "not_run"
-   },
    {
     "fixture_id": "2026-10-02-BAT-EXE-PREM",
     "competition": "PREM",
@@ -5427,66 +6222,115 @@
     "checks": {},
     "priced_from": null,
     "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-03-BRI-NOR-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 2",
+    "home": "Bristol",
+    "away": "Northampton",
+    "kickoff_utc": "2026-10-03T14:05:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-03-GLO-HAR-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 2",
+    "home": "Gloucester",
+    "away": "Harlequins",
+    "kickoff_utc": "2026-10-03T16:30:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-03-NEW-LEI-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 2",
+    "home": "Newcastle",
+    "away": "Leicester",
+    "kickoff_utc": "2026-10-03T18:45:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-04-SAR-SAL-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 2",
+    "home": "Saracens",
+    "away": "Sale",
+    "kickoff_utc": "2026-10-04T14:00:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
+   },
+   {
+    "fixture_id": "2026-10-09-LEI-GLO-PREM",
+    "competition": "PREM",
+    "matchweek": "Round 3",
+    "home": "Leicester",
+    "away": "Gloucester",
+    "kickoff_utc": "2026-10-09T18:45:00Z",
+    "verdict": "NO_BET",
+    "lane": "none",
+    "selection": null,
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "stake_gbp": 0.0,
+    "odds_recommended": null,
+    "edge_pp": null,
+    "ev": null,
+    "skip_if_sky_below": null,
+    "checks": {},
+    "priced_from": null,
+    "challenge": "not_run"
    }
   ]
  },
  "fetch_log": [
-  {
-   "competitions": {
-    "EPL": {
-     "events": 20,
-     "stored": [
-      "2026-09-18-BRE-CHE-EPL",
-      "2026-09-19-TOT-AVL-EPL",
-      "2026-09-19-BHA-ARS-EPL",
-      "2026-09-19-EVE-IPS-EPL",
-      "2026-09-19-NEW-HUL-EPL",
-      "2026-09-19-NFO-COV-EPL",
-      "2026-09-20-BOU-LIV-EPL",
-      "2026-09-20-LEE-CRY-EPL",
-      "2026-09-20-MCI-SUN-EPL",
-      "2026-09-20-FUL-MUN-EPL"
-     ],
-     "skipped_unpriced": [
-      "2026-10-10-ARS-LEE-EPL",
-      "2026-10-10-AVL-BRE-EPL",
-      "2026-10-10-CHE-BOU-EPL",
-      "2026-10-10-SUN-BHA-EPL",
-      "2026-10-10-IPS-FUL-EPL",
-      "2026-10-10-MUN-TOT-EPL",
-      "2026-10-11-CRY-NFO-EPL",
-      "2026-10-11-HUL-EVE-EPL",
-      "2026-10-11-LIV-MCI-EPL",
-      "2026-10-12-COV-NEW-EPL"
-     ],
-     "skybet_priced": 10,
-     "unknown_teams": []
-    },
-    "EFLC": {
-     "events": 8,
-     "stored": [],
-     "skipped_unpriced": [
-      "2026-10-28-FLE-ARS-EFLC",
-      "2026-10-28-BOU-AVL-EFLC",
-      "2026-10-28-BRA-PET-EFLC",
-      "2026-10-28-SUN-BRE-EFLC",
-      "2026-10-28-MCI-BHA-EFLC",
-      "2026-10-28-LIV-CHE-EFLC",
-      "2026-10-28-FUL-CRY-EFLC",
-      "2026-10-28-EVE-NEW-EFLC"
-     ],
-     "skybet_priced": 0,
-     "unknown_teams": []
-    }
-   },
-   "first_odds_contact_at": "2026-09-18T10:59:16Z",
-   "quota": {
-    "remaining": "480",
-    "used": "20",
-    "last_cost": "1"
-   },
-   "predictions_committed_at": "2026-09-18T10:59:16Z"
-  },
   {
    "competitions": {
     "EPL": {
@@ -5731,6 +6575,69 @@
     "last_cost": "1"
    },
    "predictions_committed_at": "2026-09-25T08:32:37Z"
+  },
+  {
+   "competitions": {
+    "EPL": {
+     "events": 20,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-10-10-ARS-LEE-EPL",
+      "2026-10-10-AVL-BRE-EPL",
+      "2026-10-10-CHE-BOU-EPL",
+      "2026-10-10-SUN-BHA-EPL",
+      "2026-10-10-IPS-FUL-EPL",
+      "2026-10-10-MUN-TOT-EPL",
+      "2026-10-11-CRY-NFO-EPL",
+      "2026-10-11-HUL-EVE-EPL",
+      "2026-10-11-LIV-MCI-EPL",
+      "2026-10-12-COV-NEW-EPL",
+      "2026-10-17-EVE-CHE-EPL",
+      "2026-10-17-BRE-LIV-EPL",
+      "2026-10-17-FUL-HUL-EPL",
+      "2026-10-17-MCI-IPS-EPL",
+      "2026-10-17-NEW-AVL-EPL",
+      "2026-10-18-BOU-SUN-EPL",
+      "2026-10-18-BHA-CRY-EPL",
+      "2026-10-18-LEE-MUN-EPL",
+      "2026-10-18-NFO-ARS-EPL",
+      "2026-10-19-TOT-COV-EPL"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    },
+    "EFLC": {
+     "events": 8,
+     "stored": [],
+     "skipped_unpriced": [
+      "2026-10-27-BRA-PET-EFLC",
+      "2026-10-27-FLE-ARS-EFLC",
+      "2026-10-28-MCI-BHA-EFLC",
+      "2026-10-28-BOU-AVL-EFLC",
+      "2026-10-28-SUN-BRE-EFLC",
+      "2026-10-28-FUL-CRY-EFLC",
+      "2026-10-28-LIV-CHE-EFLC",
+      "2026-10-29-EVE-NEW-EFLC"
+     ],
+     "skybet_priced": 0,
+     "unknown_teams": []
+    },
+    "PREM": {
+     "events": 0,
+     "stored": [],
+     "skipped_unpriced": [],
+     "skybet_priced": 0,
+     "unknown_teams": [],
+     "note": "no rugby union club competition on The Odds API (only NRL, NRLW, State of Origin, Six Nations); Sky Bet is never scraped"
+    }
+   },
+   "first_odds_contact_at": "2026-10-02T08:49:22Z",
+   "quota": {
+    "remaining": "498",
+    "used": "2",
+    "last_cost": "1"
+   },
+   "predictions_committed_at": "2026-10-02T08:49:22Z"
   }
  ],
  "protocol_audit": {
@@ -5788,7 +6695,7 @@
     "won": 0,
     "pnl": -10.0
    },
-   "week": "2026-W39",
+   "week": "2026-W40",
    "cap": 10.0,
    "committed_this_week": 0,
    "discipline_counts": {
