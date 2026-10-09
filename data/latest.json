@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-09T08:48:28Z",
+ "built_at": "2026-10-09T08:54:23Z",
  "season": "2026-27",
  "model_version": "ensemble-0.3.2-rebuild-goalsonly",
  "watch_items": [
@@ -2620,11 +2620,147 @@
        "weekly_cap": true
       },
       "priced_from": "skybet",
-      "challenge": "not_run",
+      "challenge": "kill",
+      "challenge_reason": "Bournemouth are winless under new manager Marco Rose and lose Alex Scott for four to five weeks (Sky Sports), with Kroupi, Araujo and Kluivert also out (Sports Mole): a change the ratings cannot see and enough to explain why Sky Bet prices Bournemouth at 21% against the model's 28%. Chelsea's doubts over Caicedo, Palmer, Joao Pedro and James cut the other way but are unresolved before Friday's press conference. The fixture was already NO BET on the odds cap; the kill is informational.",
+      "challenge_cost_usd": 0.0,
       "shadow": false,
       "run_label": "2026-10-09 T-24h r5"
      },
-     "news": null,
+     "news": {
+      "agent": "claude-code-session",
+      "model": "in-session web search",
+      "retrieved_at": "2026-10-09T08:52:28Z",
+      "cutoff": "2026-10-09T08:52:28Z",
+      "items": [
+       {
+        "club": "Bournemouth",
+        "player": "Alex Scott",
+        "status": "out",
+        "detail": "Marco Rose says the midfielder will miss four to five weeks with a tendon injury picked up on England duty; set to miss October and November.",
+        "source_name": "Sky Sports",
+        "source_url": "https://www.skysports.com/football/news/13595264/alex-scott-bournemouth-midfielder-withdraws-from-england-duty-and-could-miss-several-weeks-with-tendon-injury",
+        "published": null,
+        "confidence": 0.85,
+        "published_known": false
+       },
+       {
+        "club": "Bournemouth",
+        "player": "Eli Junior Kroupi",
+        "status": "out",
+        "detail": "Recovering from a metatarsal problem; targeting the trip to Manchester United on 25 October.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/preview/chelsea-vs-bournemouth-prediction-team-news-lineups_606416.html",
+        "published": null,
+        "confidence": 0.7,
+        "published_known": false
+       },
+       {
+        "club": "Bournemouth",
+        "player": "Julian Araujo",
+        "status": "out",
+        "detail": "Thigh injury, listed among the absentees for the Chelsea match.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/preview/chelsea-vs-bournemouth-prediction-team-news-lineups_606416.html",
+        "published": null,
+        "confidence": 0.7,
+        "published_known": false
+       },
+       {
+        "club": "Bournemouth",
+        "player": "Justin Kluivert",
+        "status": "out",
+        "detail": "Muscle injury, listed among the absentees for the Chelsea match.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/preview/chelsea-vs-bournemouth-prediction-team-news-lineups_606416.html",
+        "published": null,
+        "confidence": 0.7,
+        "published_known": false
+       },
+       {
+        "club": "Bournemouth",
+        "player": null,
+        "status": "other",
+        "detail": "Bournemouth are still looking for their first win under new manager Marco Rose; Lewis Cook tipped to replace Scott.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/bournemouth/predicted-lineups/who-replaces-scott-predicted-bournemouth-xi-vs-chelsea_606514.html",
+        "published": null,
+        "confidence": 0.7,
+        "published_known": false
+       },
+       {
+        "club": "Chelsea",
+        "player": "Moises Caicedo",
+        "status": "doubt",
+        "detail": "Calf; played in a behind-closed-doors friendly during the break, still a major doubt pending Xabi Alonso's Friday press conference.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/palmer-caicedo-pedro-latest-chelsea-injury-suspension-list-vs-bournemouth_606368.html",
+        "published": null,
+        "confidence": 0.7,
+        "published_known": false
+       },
+       {
+        "club": "Chelsea",
+        "player": "Cole Palmer",
+        "status": "doubt",
+        "detail": "Withdrew from England's Nations League squad; reason unclear (load management or minor fitness issue); Premier Injuries rates him 75%.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/palmer-caicedo-pedro-latest-chelsea-injury-suspension-list-vs-bournemouth_606368.html",
+        "published": null,
+        "confidence": 0.65,
+        "published_known": false
+       },
+       {
+        "club": "Chelsea",
+        "player": "Joao Pedro",
+        "status": "doubt",
+        "detail": "Knee; pulled out of the Brazil squad, this weekend may come too soon.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/preview/chelsea-vs-bournemouth-prediction-team-news-lineups_606416.html",
+        "published": null,
+        "confidence": 0.65,
+        "published_known": false
+       },
+       {
+        "club": "Chelsea",
+        "player": "Reece James",
+        "status": "doubt",
+        "detail": "Missed England selection through injury; listed a major doubt.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/injuries-and-suspensions/palmer-caicedo-pedro-latest-chelsea-injury-suspension-list-vs-bournemouth_606368.html",
+        "published": null,
+        "confidence": 0.6,
+        "published_known": false
+       },
+       {
+        "club": "Chelsea",
+        "player": "Marco Palestra",
+        "status": "returning",
+        "detail": "Quad; seen training this week, could return in some capacity.",
+        "source_name": "Sports Mole",
+        "source_url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/news/xabi-alonso-receives-encouraging-chelsea-injury-update-ahead-of-bournemouth-clash_606522.html",
+        "published": null,
+        "confidence": 0.6,
+        "published_known": false
+       }
+      ],
+      "dropped": [],
+      "summary": "Bournemouth travel without Alex Scott (four to five weeks), Kroupi, Araujo and Kluivert and are winless under new manager Marco Rose. Chelsea have doubts over Caicedo, Palmer, Joao Pedro and Reece James, with no suspensions; lineups unconfirmed before Friday's press conference.",
+      "searches_note": null,
+      "status": "ok",
+      "meta": {
+       "searches": 2,
+       "allowed_domains": [
+        "skysports.com",
+        "premierleague.com",
+        "efl.com",
+        "sportsmole.co.uk",
+        "premierinjuries.com",
+        "fourfourtwo.com",
+        "90min.com"
+       ],
+       "cost_usd": 0.0
+      }
+     },
      "result": null,
      "unrated": null,
      "protocol": {
@@ -8445,15 +8581,22 @@
    }
   },
   "agents": {
-   "status": "disabled",
+   "status": "claude-code-session",
    "news": 0,
    "news_skipped": 0,
-   "challenges": 0,
+   "challenges": 1,
    "kills": [],
    "cost": {
     "total_usd": 0.0
    },
-   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task"
+   "note": "API agents disabled in config; the news and market challenge run in the Friday Claude Code task",
+   "manual": [
+    {
+     "fixture_id": "2026-10-10-CHE-BOU-EPL",
+     "verdict": "kill",
+     "at": "2026-10-09T08:52:28Z"
+    }
+   ]
   },
   "strict_bets": [],
   "fun_bet": {
@@ -8557,7 +8700,9 @@
      "weekly_cap": true
     },
     "priced_from": "skybet",
-    "challenge": "not_run"
+    "challenge": "kill",
+    "challenge_reason": "Bournemouth are winless under new manager Marco Rose and lose Alex Scott for four to five weeks (Sky Sports), with Kroupi, Araujo and Kluivert also out (Sports Mole): a change the ratings cannot see and enough to explain why Sky Bet prices Bournemouth at 21% against the model's 28%. Chelsea's doubts over Caicedo, Palmer, Joao Pedro and James cut the other way but are unresolved before Friday's press conference. The fixture was already NO BET on the odds cap; the kill is informational.",
+    "challenge_cost_usd": 0.0
    },
    {
     "fixture_id": "2026-10-10-IPS-FUL-EPL",
