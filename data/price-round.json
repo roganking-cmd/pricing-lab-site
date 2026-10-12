@@ -1,0 +1,467 @@
+{
+ "built_at": "2026-10-12T20:04:18Z",
+ "run": {
+  "as_of": "2026-10-12",
+  "stage": "build",
+  "number": 1
+ },
+ "fixtures": [
+  {
+   "fixture_id": "2026-10-16-GLO-BOR-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Gloucester",
+   "away": "Bordeaux",
+   "kickoff_utc": "2026-10-16T19:00:00Z",
+   "kickoff_label": "Fri 16 Oct 20:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.4288,
+    "draw": 0.0276,
+    "away": 0.5436
+   },
+   "unrated": null,
+   "margin": {
+    "mean": -2.307,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 60.345,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-BUL-SFP-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Bulls",
+   "away": "Stade Francais",
+   "kickoff_utc": "2026-10-17T12:00:00Z",
+   "kickoff_label": "Sat 17 Oct 13:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.7388,
+    "draw": 0.0222,
+    "away": 0.2391
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 10.861,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 57.401,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-SAL-GLA-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Sale",
+   "away": "Glasgow",
+   "kickoff_utc": "2026-10-17T12:00:00Z",
+   "kickoff_label": "Sat 17 Oct 13:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.4669,
+    "draw": 0.0278,
+    "away": 0.5053
+   },
+   "unrated": null,
+   "margin": {
+    "mean": -0.7586,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 47.411,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-CLE-LNS-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Clermont",
+   "away": "Leinster",
+   "kickoff_utc": "2026-10-17T14:15:00Z",
+   "kickoff_label": "Sat 17 Oct 15:15",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.4102,
+    "draw": 0.0273,
+    "away": 0.5625
+   },
+   "unrated": null,
+   "margin": {
+    "mean": -3.0762,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 52.1,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-STO-BRI-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Stormers",
+   "away": "Bristol",
+   "kickoff_utc": "2026-10-17T14:15:00Z",
+   "kickoff_label": "Sat 17 Oct 15:15",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.6581,
+    "draw": 0.0252,
+    "away": 0.3167
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 7.1286,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 56.693,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-CON-SAR-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Connacht",
+   "away": "Saracens",
+   "kickoff_utc": "2026-10-17T16:30:00Z",
+   "kickoff_label": "Sat 17 Oct 17:30",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.5147,
+    "draw": 0.0278,
+    "away": 0.4575
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 1.1726,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 57.873,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-LAR-LIO-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "La Rochelle",
+   "away": "Lions",
+   "kickoff_utc": "2026-10-17T16:30:00Z",
+   "kickoff_label": "Sat 17 Oct 17:30",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.7872,
+    "draw": 0.0197,
+    "away": 0.1931
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 13.3818,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 52.229,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-BAT-MTP-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Bath",
+   "away": "Montpellier",
+   "kickoff_utc": "2026-10-17T19:00:00Z",
+   "kickoff_label": "Sat 17 Oct 20:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.7059,
+    "draw": 0.0236,
+    "away": 0.2705
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 9.2866,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 57.187,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-17-MUN-RAC-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Munster",
+   "away": "Racing 92",
+   "kickoff_utc": "2026-10-17T19:00:00Z",
+   "kickoff_label": "Sat 17 Oct 20:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.789,
+    "draw": 0.0196,
+    "away": 0.1914
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 13.4822,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 51.381,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-18-PAU-LEI-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Pau",
+   "away": "Leicester",
+   "kickoff_utc": "2026-10-18T12:00:00Z",
+   "kickoff_label": "Sun 18 Oct 13:00",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.6576,
+    "draw": 0.0253,
+    "away": 0.3171
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 7.1078,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 61.14,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-18-TLS-EXE-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Toulouse",
+   "away": "Exeter",
+   "kickoff_utc": "2026-10-18T14:15:00Z",
+   "kickoff_label": "Sun 18 Oct 15:15",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.8774,
+    "draw": 0.0136,
+    "away": 0.1091
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 19.2334,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 58.825,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  },
+  {
+   "fixture_id": "2026-10-18-NOR-CDF-ECC",
+   "competition": "ECC",
+   "competition_name": "Investec Champions Cup",
+   "home": "Northampton",
+   "away": "Cardiff",
+   "kickoff_utc": "2026-10-18T16:30:00Z",
+   "kickoff_label": "Sun 18 Oct 17:30",
+   "matchweek": "Round 1",
+   "run": 1,
+   "model": {
+    "home": 0.8574,
+    "draw": 0.0151,
+    "away": 0.1275
+   },
+   "unrated": null,
+   "margin": {
+    "mean": 17.7426,
+    "sigma": 15.759
+   },
+   "total": {
+    "mean": 59.772,
+    "sigma": 15.3168
+   },
+   "home_adv": 7.089,
+   "stored": {
+    "sky": null,
+    "markets": null,
+    "flag": null,
+    "verdict": "NO_BET",
+    "kind": "unpriced",
+    "reason": "Sky Bet has not priced this fixture",
+    "selection": null
+   },
+   "blend_lambda": 0.0
+  }
+ ],
+ "committed_by_week": {
+  "2026-W36": 5.0,
+  "2026-W37": 5.0,
+  "2026-W38": 5.0,
+  "2026-W42": 5.0
+ },
+ "staking": {
+  "cap_weekly": 10.0,
+  "cap_single": 2.5,
+  "edge_min_pp": 6.0,
+  "max_edge_pp": 8.0,
+  "max_odds": 4.0,
+  "min_ev": 0.0,
+  "stake": 2.5,
+  "never_bet_against": [
+   "Springboks"
+  ],
+  "bookmaker": "skybet"
+ },
+ "issue": {
+  "repo": "roganking-cmd/premier-league-pricing-lab",
+  "title_prefix": "Rugby prices",
+  "label": "rugby prices",
+  "url": "https://skybet.com/rugby-union"
+ }
+}

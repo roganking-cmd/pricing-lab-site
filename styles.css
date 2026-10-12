@@ -52,3 +52,12 @@ svg.chart{width:100%;height:auto;max-width:720px}
 @media (max-width:520px){.front-pick{font-size:24px}.nobet-big{font-size:32px}}
 footer{margin-top:36px;color:var(--silver-dim);font-size:12px}
 @media (max-width:520px){.fixture{grid-template-columns:1fr auto 1fr}.crest,.badge{width:44px;height:44px}}
+.pr-btn{font:inherit;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--silver);cursor:pointer;text-decoration:none;display:inline-block}
+.pr-btn.pr-primary{background:var(--silver);color:#0b1a12;border-color:var(--silver);font-weight:600}
+.pr-btn.pr-disabled{opacity:.45;cursor:not-allowed}
+.pr-fx .pr-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}.pr-teams{font-family:var(--serif);font-size:18px}
+.pr-view{text-align:center;font-size:12px;margin-top:4px}
+.pr-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-top:8px}.pr-row label{grid-column:1/-1;font-size:11px;color:var(--silver-dim);text-transform:uppercase;letter-spacing:.4px}
+.pr-row input{width:100%;min-width:0;font:inherit;font-variant-numeric:tabular-nums;padding:8px 8px;border-radius:8px;border:1px solid var(--line);background:rgba(20,28,24,.9);color:var(--ink)}
+.pr-row input:focus{outline:none;border-color:var(--green)}.pr-opt input{opacity:.85}.pr-lines{font-size:12px;margin-top:8px;line-height:1.45}
+code{background:rgba(201,207,203,.12);padding:1px 5px;border-radius:5px}
