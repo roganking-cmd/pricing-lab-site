@@ -61,3 +61,6 @@ footer{margin-top:36px;color:var(--silver-dim);font-size:12px}
 .pr-row input{width:100%;min-width:0;font:inherit;font-variant-numeric:tabular-nums;padding:8px 8px;border-radius:8px;border:1px solid var(--line);background:rgba(20,28,24,.9);color:var(--ink)}
 .pr-row input:focus{outline:none;border-color:var(--green)}.pr-opt input{opacity:.85}.pr-lines{font-size:12px;margin-top:8px;line-height:1.45}
 code{background:rgba(201,207,203,.12);padding:1px 5px;border-radius:5px}
+.pr-label{display:block;font-size:12px;color:var(--silver-dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+#pr-paste{width:100%;font:inherit;font-variant-numeric:tabular-nums;padding:10px;border-radius:10px;border:1px solid var(--line);background:rgba(20,28,24,.9);color:var(--ink);resize:vertical;min-height:90px}
+#pr-paste:focus{outline:none;border-color:var(--green)}

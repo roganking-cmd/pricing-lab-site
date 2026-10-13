@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-12T20:04:18Z",
+ "built_at": "2026-10-13T20:03:50Z",
  "run": {
   "as_of": "2026-10-12",
   "stage": "build",
@@ -40,7 +40,18 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "gloucester",
+    "gloucester rugby"
+   ],
+   "away_names": [
+    "bordeaux",
+    "union bordeaux-begles",
+    "bordeaux begles",
+    "bordeaux-begles",
+    "ubb"
+   ]
   },
   {
    "fixture_id": "2026-10-17-BUL-SFP-ECC",
@@ -76,7 +87,17 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "bulls",
+    "vodacom bulls",
+    "blue bulls"
+   ],
+   "away_names": [
+    "stade francais",
+    "stade francais paris",
+    "stade français"
+   ]
   },
   {
    "fixture_id": "2026-10-17-SAL-GLA-ECC",
@@ -112,7 +133,15 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "sale",
+    "sale sharks"
+   ],
+   "away_names": [
+    "glasgow",
+    "glasgow warriors"
+   ]
   },
   {
    "fixture_id": "2026-10-17-CLE-LNS-ECC",
@@ -148,7 +177,16 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "clermont",
+    "clermont auvergne",
+    "asm clermont"
+   ],
+   "away_names": [
+    "leinster",
+    "leinster rugby"
+   ]
   },
   {
    "fixture_id": "2026-10-17-STO-BRI-ECC",
@@ -184,7 +222,16 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "stormers",
+    "dhl stormers"
+   ],
+   "away_names": [
+    "bristol",
+    "bristol rugby",
+    "bristol bears"
+   ]
   },
   {
    "fixture_id": "2026-10-17-CON-SAR-ECC",
@@ -220,7 +267,15 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "connacht",
+    "connacht rugby"
+   ],
+   "away_names": [
+    "saracens",
+    "sarries"
+   ]
   },
   {
    "fixture_id": "2026-10-17-LAR-LIO-ECC",
@@ -256,7 +311,17 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "la rochelle",
+    "stade rochelais"
+   ],
+   "away_names": [
+    "lions",
+    "emirates lions",
+    "golden lions",
+    "10bet lions"
+   ]
   },
   {
    "fixture_id": "2026-10-17-BAT-MTP-ECC",
@@ -292,7 +357,15 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "bath",
+    "bath rugby"
+   ],
+   "away_names": [
+    "montpellier",
+    "montpellier herault"
+   ]
   },
   {
    "fixture_id": "2026-10-17-MUN-RAC-ECC",
@@ -328,7 +401,16 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "munster",
+    "munster rugby"
+   ],
+   "away_names": [
+    "racing 92",
+    "racing metro 92",
+    "racing metro"
+   ]
   },
   {
    "fixture_id": "2026-10-18-PAU-LEI-ECC",
@@ -364,7 +446,15 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "pau",
+    "section paloise"
+   ],
+   "away_names": [
+    "leicester",
+    "leicester tigers"
+   ]
   },
   {
    "fixture_id": "2026-10-18-TLS-EXE-ECC",
@@ -400,7 +490,15 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "toulouse",
+    "stade toulousain"
+   ],
+   "away_names": [
+    "exeter",
+    "exeter chiefs"
+   ]
   },
   {
    "fixture_id": "2026-10-18-NOR-CDF-ECC",
@@ -436,7 +534,17 @@
     "reason": "Sky Bet has not priced this fixture",
     "selection": null
    },
-   "blend_lambda": 0.0
+   "blend_lambda": 0.0,
+   "home_names": [
+    "northampton",
+    "northampton saints",
+    "saints"
+   ],
+   "away_names": [
+    "cardiff",
+    "cardiff blues",
+    "cardiff rugby"
+   ]
   }
  ],
  "committed_by_week": {

@@ -116,13 +116,16 @@
   if (typeof window !== 'undefined') window.PriceRound = PR;
 })();
 
-/* ---- the page ---- */
+/* ---- the page: one competition's odds box, the cap shared across the rugby pages ---- */
 (function () {
   if (typeof document === 'undefined' || !document.getElementById('pr-data')) return;
   var PR = window.PriceRound, data = JSON.parse(document.getElementById('pr-data').textContent);
+  var host = document.getElementById('pr-fixtures'); if (!host) return;
   var KEY = 'pll-price-round-' + (data.run.as_of || '') + '-r' + (data.run.number || '');
-  var saved = {}; try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { saved = {}; }
-  var host = document.getElementById('pr-fixtures');
+  function load() { try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return {}; } }
+  var saved = load();
+  var mine = data.fixtures.filter(function (f) { return f.competition === data.show; });
+  var mineIds = {}; mine.forEach(function (f) { mineIds[f.fixture_id] = true; });
   function esc(s) { return String(s === null || s === undefined ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function pct(v) { return v === null || v === undefined ? '–' : (100 * v).toFixed(1) + '%'; }
   function fair(v) { return v ? (1 / v).toFixed(2) : '–'; }
@@ -135,29 +138,49 @@
       tl: (fx.stored.markets && fx.stored.markets.total || {}).line, to: (fx.stored.markets && fx.stored.markets.total || {}).over_price, tu: (fx.stored.markets && fx.stored.markets.total || {}).under_price };
     return s;
   }
-  var byComp = {};
-  data.fixtures.forEach(function (fx) { (byComp[fx.competition] = byComp[fx.competition] || { name: fx.competition_name, rows: [] }).rows.push(fx); });
-  var html = '';
-  Object.keys(byComp).forEach(function (k) {
-    html += '<h2>' + esc(byComp[k].name) + '</h2><div class="grid">';
-    byComp[k].rows.forEach(function (fx) {
-      var s = prefill(fx), m = fx.model || {}, mg = fx.margin || {}, tt = fx.total || {};
-      var who = (mg.mean || 0) >= 0 ? fx.home : fx.away;
-      var view = mg.mean !== undefined ? esc(who) + ' by ' + Math.abs(mg.mean || 0).toFixed(1) + ' · total ' + (tt.mean || 0).toFixed(0) : '';
-      html += '<div class="card pr-fx" id="fx-' + esc(fx.fixture_id) + '"><div class="pr-head"><span class="pr-teams">' + esc(fx.home) + ' <span class="dim">v</span> ' + esc(fx.away) + '</span><span class="ko">' + esc(fx.kickoff_label) + '</span></div>';
-      html += '<div class="probs"><div><div class="lbl">Home</div><div class="v">' + pct(m.home) + '</div><div class="o">fair ' + fair(m.home) + '</div></div>' +
-        '<div><div class="lbl">Draw</div><div class="v">' + pct(m.draw) + '</div><div class="o">fair ' + fair(m.draw) + '</div></div>' +
-        '<div><div class="lbl">Away</div><div class="v">' + pct(m.away) + '</div><div class="o">fair ' + fair(m.away) + '</div></div></div>';
-      html += '<div class="dim pr-view">' + view + '</div>';
-      if (fx.unrated) { html += '<div class="verdict">NO BET <span class="dim">unrated: ' + esc(fx.unrated) + '</span></div></div>'; return; }
-      html += '<div class="pr-row"><label>Sky Bet match result</label>' + inp(fx.fixture_id, 'home', 'home', s.home) + inp(fx.fixture_id, 'draw', 'draw', s.draw) + inp(fx.fixture_id, 'away', 'away', s.away) + '</div>';
-      html += '<div class="pr-row pr-opt"><label>Handicap (home line, price · away line, price)</label>' + inp(fx.fixture_id, 'hl', '-4', s.hl) + inp(fx.fixture_id, 'hp', '10/11', s.hp) + inp(fx.fixture_id, 'al', '+4', s.al) + inp(fx.fixture_id, 'ap', '10/11', s.ap) + '</div>';
-      html += '<div class="pr-row pr-opt"><label>Total points (line, over, under)</label>' + inp(fx.fixture_id, 'tl', '46.5', s.tl) + inp(fx.fixture_id, 'to', '10/11', s.to) + inp(fx.fixture_id, 'tu', '10/11', s.tu) + '</div>';
-      html += '<div class="pr-lines dim"></div><div class="verdict pr-verdict">NO BET <span class="dim">enter the three match-result prices</span></div></div>';
-    });
-    html += '</div>';
+  var html = '<div class="grid">';
+  mine.forEach(function (fx) {
+    var s = prefill(fx), m = fx.model || {}, mg = fx.margin || {}, tt = fx.total || {};
+    var who = (mg.mean || 0) >= 0 ? fx.home : fx.away;
+    var view = mg.mean !== undefined ? esc(who) + ' by ' + Math.abs(mg.mean || 0).toFixed(1) + ' · total ' + (tt.mean || 0).toFixed(0) : '';
+    html += '<div class="card pr-fx" id="fx-' + esc(fx.fixture_id) + '"><div class="pr-head"><span class="pr-teams">' + esc(fx.home) + ' <span class="dim">v</span> ' + esc(fx.away) + '</span><span class="ko">' + esc(fx.kickoff_label) + '</span></div>';
+    html += '<div class="probs"><div><div class="lbl">Home</div><div class="v">' + pct(m.home) + '</div><div class="o">fair ' + fair(m.home) + '</div></div>' +
+      '<div><div class="lbl">Draw</div><div class="v">' + pct(m.draw) + '</div><div class="o">fair ' + fair(m.draw) + '</div></div>' +
+      '<div><div class="lbl">Away</div><div class="v">' + pct(m.away) + '</div><div class="o">fair ' + fair(m.away) + '</div></div></div>';
+    html += '<div class="dim pr-view">' + view + '</div>';
+    if (fx.unrated) { html += '<div class="verdict">NO BET <span class="dim">unrated: ' + esc(fx.unrated) + '</span></div></div>'; return; }
+    html += '<div class="pr-row"><label>Sky Bet match result</label>' + inp(fx.fixture_id, 'home', 'home', s.home) + inp(fx.fixture_id, 'draw', 'draw', s.draw) + inp(fx.fixture_id, 'away', 'away', s.away) + '</div>';
+    html += '<div class="pr-row pr-opt"><label>Handicap (home line, price · away line, price)</label>' + inp(fx.fixture_id, 'hl', '-4', s.hl) + inp(fx.fixture_id, 'hp', '10/11', s.hp) + inp(fx.fixture_id, 'al', '+4', s.al) + inp(fx.fixture_id, 'ap', '10/11', s.ap) + '</div>';
+    html += '<div class="pr-row pr-opt"><label>Total points (line, over, under)</label>' + inp(fx.fixture_id, 'tl', '46.5', s.tl) + inp(fx.fixture_id, 'to', '10/11', s.to) + inp(fx.fixture_id, 'tu', '10/11', s.tu) + '</div>';
+    html += '<div class="pr-lines dim"></div><div class="verdict pr-verdict">NO BET <span class="dim">enter the three match-result prices</span></div></div>';
   });
-  host.innerHTML = html || '<div class="card">No rugby fixtures in the latest run.</div>';
+  host.innerHTML = html + '</div>';
+  var PRICE = /^(\d+(?:\.\d+)?\/\d+(?:\.\d+)?|EVS|EVENS|\d+\.\d+|\d{1,3})$/i;
+  /* the paste box: a line names both sides (any known spelling) followed by three prices, or is one of the lab's own snapshot lines */
+  function applyPaste(text) {
+    var filled = 0, unmatched = [];
+    String(text || '').split(/\r?\n/).forEach(function (raw) {
+      var line = raw.trim(); if (!line) return;
+      var low = line.toLowerCase(), fx = null, rest = null;
+      var snap = line.match(/^(\S+-(?:PREM|URC|ECC))\s+h2h\s+(\S+)\s+(\S+)\s+(\S+)/);
+      if (snap) { fx = mine.filter(function (f) { return f.fixture_id === snap[1]; })[0]; rest = [snap[2], snap[3], snap[4]]; }
+      else {
+        var find = function (names) { return names.slice().sort(function (x, y) { return y.length - x.length; }).filter(function (n) { return low.indexOf(n) >= 0; })[0]; };
+        var firstWord = function (names) { var w = names[0].split(' ')[0]; return w.length >= 4 && low.indexOf(w) >= 0 ? w : null; };   /* the canonical name's first word: "Racing" for Racing 92 */
+        mine.forEach(function (f) {
+          if (fx) return;
+          var h = find(f.home_names), a = find(f.away_names);
+          if (h && !a) a = firstWord(f.away_names);
+          if (a && !h) h = firstWord(f.home_names);
+          if (h && a) { var tail = low.slice(Math.max(low.indexOf(h) + h.length, low.indexOf(a) + a.length)); fx = f; rest = tail.split(/[\s,;|]+/).filter(function (t) { return PRICE.test(t); }); }
+        });
+      }
+      if (!fx || !rest || rest.length < 3) { unmatched.push(line.slice(0, 40)); return; }
+      ['home', 'draw', 'away'].forEach(function (k, i) { var el = host.querySelector('input[data-fid="' + fx.fixture_id + '"][data-k="' + k + '"]'); if (el) el.value = rest[i].toUpperCase().replace('EVENS', 'EVS'); });
+      filled += 1;
+    });
+    return { filled: filled, unmatched: unmatched };
+  }
   function read() {
     var vals = {};
     host.querySelectorAll('input[data-fid]').forEach(function (i) { (vals[i.dataset.fid] = vals[i.dataset.fid] || {})[i.dataset.k] = i.value.trim(); });
@@ -166,19 +189,19 @@
   function toPrices(vals) {
     var prices = {}, problems = [];
     Object.keys(vals).forEach(function (fid) {
-      var v = vals[fid], h = PR.fractionalToDecimal(v.home), d = PR.fractionalToDecimal(v.draw), a = PR.fractionalToDecimal(v.away);
+      var v = vals[fid] || {}, h = PR.fractionalToDecimal(v.home), d = PR.fractionalToDecimal(v.draw), a = PR.fractionalToDecimal(v.away);
       if (!v.home && !v.draw && !v.away) return;
-      if (!(h && d && a)) { problems.push(fid + ': needs all three match-result prices'); return; }
+      if (!(h && d && a)) { if (mineIds[fid]) problems.push(fid + ': needs all three match-result prices'); return; }
       var p = { h2h: { home: h, draw: d, away: a }, handicap: null, total: null };
       if (v.hl || v.hp || v.al || v.ap) {
         var hp = PR.fractionalToDecimal(v.hp), ap = PR.fractionalToDecimal(v.ap);
         if (v.hl && hp && v.al && ap && /^[+-]?\d+(\.\d+)?$/.test(v.hl) && /^[+-]?\d+(\.\d+)?$/.test(v.al)) p.handicap = { home_line: v.hl, home_price: hp, away_line: v.al, away_price: ap };
-        else problems.push(fid + ': handicap needs both lines and both prices (left out)');
+        else if (mineIds[fid]) problems.push(fid + ': handicap needs both lines and both prices (left out)');
       }
       if (v.tl || v.to || v.tu) {
         var to = PR.fractionalToDecimal(v.to), tu = PR.fractionalToDecimal(v.tu);
         if (v.tl && to && tu && /^\d+(\.\d+)?$/.test(v.tl)) p.total = { line: v.tl, over_price: to, under_price: tu };
-        else problems.push(fid + ': total needs the line and both prices (left out)');
+        else if (mineIds[fid]) problems.push(fid + ': total needs the line and both prices (left out)');
       }
       prices[fid] = p;
     });
@@ -200,14 +223,19 @@
     var detail = v.edge_pp !== undefined ? ' <span class="tag">' + PR.LABEL[v.selection] + ' ' + (v.edge_pp >= 0 ? '+' : '') + v.edge_pp.toFixed(1) + 'pp @ ' + v.odds + '</span>' : '';
     return '<div class="verdict"><b>NO BET</b> <span class="dim">' + esc(v.reason) + '</span>' + detail + '</div>';
   }
-  var issueA = document.getElementById('pr-issue'), note = document.getElementById('pr-note');
+  var issueA = document.getElementById('pr-issue'), note = document.getElementById('pr-note'), paste = document.getElementById('pr-paste');
   function run(persist) {
-    var vals = read(); try { if (persist) localStorage.setItem(KEY, JSON.stringify(vals)); } catch (e) {}
-    var tp = toPrices(vals), now = new Date();
+    var here = read();
+    var all = load();                                  // prices typed on the other rugby pages, same browser
+    Object.keys(all).forEach(function (fid) { if (mineIds[fid]) delete all[fid]; });
+    Object.keys(here).forEach(function (fid) { all[fid] = here[fid]; });
+    try { if (persist) localStorage.setItem(KEY, JSON.stringify(all)); } catch (e) {}
+    var tp = toPrices(all), now = new Date();
     var res = PR.priceRound(data, tp.prices, now);
-    var bets = [], priced = 0;
+    var bets = [], others = 0, priced = 0;
     res.results.forEach(function (r) {
       var fx = data.fixtures.filter(function (f) { return f.fixture_id === r.fixture_id; })[0];
+      if (!mineIds[r.fixture_id]) { if (r.verdict.verdict === 'STRICT_BET') others += 1; return; }
       var card = document.getElementById('fx-' + r.fixture_id); if (!card) return;
       var vb = card.querySelector('.pr-verdict'), lb = card.querySelector('.pr-lines');
       if (!tp.prices[r.fixture_id]) { if (vb) vb.innerHTML = 'NO BET <span class="dim">' + (r.verdict.kind === 'kicked_off' ? 'kicked off' : 'no prices entered') + '</span>'; if (lb) lb.innerHTML = ''; card.classList.remove('betcard'); return; }
@@ -218,23 +246,32 @@
       if (r.verdict.verdict === 'STRICT_BET') bets.push({ fx: fx, v: r.verdict, week: r.week });
     });
     var sm = document.getElementById('pr-summary');
+    var roundWeeks = {}; data.fixtures.forEach(function (f) { roundWeeks[PR.isoWeek(f.kickoff_utc || now)] = true; });
+    var capLine = 'Weekly cap: ' + Object.keys(res.committed_by_week).filter(function (w) { return roundWeeks[w]; }).sort().map(function (w) { return w + ' £' + res.committed_by_week[w].toFixed(2) + ' of £' + data.staking.cap_weekly.toFixed(2); }).join(', ') + (others ? ' (includes ' + others + ' bet' + (others > 1 ? 's' : '') + ' priced on the other rugby pages)' : '') + '.';
     if (bets.length) {
       sm.className = 'card'; sm.innerHTML = '<h3 style="margin-top:0">Bets to place (' + bets.length + ')</h3>' + bets.map(function (b) {
-        return '<div class="verdict strict"><b>£' + b.v.stake.toFixed(2) + '</b> ' + esc(b.v.selection === 'draw' ? 'Draw' : (b.v.selection === 'home' ? b.fx.home : b.fx.away)) + (b.v.selection === 'draw' ? '' : ' to win') + ' · ' + esc(b.fx.home) + ' v ' + esc(b.fx.away) + ' (' + esc(b.fx.competition_name) + ', ' + esc(b.fx.kickoff_label) + ') @ ' + b.v.odds + ' · skip if Sky is below ' + b.v.skip_if_sky_below.toFixed(2) + ' · edge ' + b.v.edge_pp.toFixed(1) + 'pp</div>'; }).join('') +
-        '<p class="dim">Weekly cap after these: ' + Object.keys(res.committed_by_week).map(function (w) { return w + ' £' + res.committed_by_week[w].toFixed(2) + ' of £' + data.staking.cap_weekly.toFixed(2); }).join(', ') + '. Place bets manually; skip any whose live Sky price is below its skip price.</p>';
+        return '<div class="verdict strict"><b>£' + b.v.stake.toFixed(2) + '</b> ' + esc(b.v.selection === 'draw' ? 'Draw' : (b.v.selection === 'home' ? b.fx.home : b.fx.away)) + (b.v.selection === 'draw' ? '' : ' to win') + ' · ' + esc(b.fx.home) + ' v ' + esc(b.fx.away) + ' (' + esc(b.fx.kickoff_label) + ') @ ' + b.v.odds + ' · skip if Sky is below ' + b.v.skip_if_sky_below.toFixed(2) + ' · edge ' + b.v.edge_pp.toFixed(1) + 'pp</div>'; }).join('') +
+        '<p class="dim">' + capLine + ' Place bets manually; skip any whose live Sky price is below its skip price.</p>';
     } else {
-      sm.className = 'card nobet'; sm.innerHTML = '<div class="nobet-big">NO BET</div><div class="nobet-sub">' + (priced ? priced + ' fixture' + (priced > 1 ? 's' : '') + ' priced, none clears the strict rule' : 'no prices entered yet') + '</div>';
+      sm.className = 'card nobet'; sm.innerHTML = '<div class="nobet-big">NO BET</div><div class="nobet-sub">' + (priced ? priced + ' fixture' + (priced > 1 ? 's' : '') + ' priced, none clears the strict rule' : 'no prices entered yet') + '</div><p class="dim" style="margin:12px 0 0">' + capLine + '</p>';
     }
     note.textContent = tp.problems.length ? tp.problems.join(' · ') : '';
     var when = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
     var text = PR.formatLines(when, tp.prices, data.issue.url, 'skybet');
     var title = data.issue.title_prefix + ' ' + when.slice(0, 10);
-    var body = 'Sky Bet prices typed on the Price a round page at ' + when + '. One line per fixture; the lab records a snapshot per line and runs the engine.\n\n```\n' + text + '\n```\n';
+    var body = 'Sky Bet prices typed on the rugby pages at ' + when + '. One line per fixture; the lab records a snapshot per line and runs the engine.\n\n```\n' + text + '\n```\n';
     issueA.href = 'https://github.com/' + data.issue.repo + '/issues/new?title=' + encodeURIComponent(title) + '&labels=' + encodeURIComponent(data.issue.label) + '&body=' + encodeURIComponent(body);
-    issueA.classList.toggle('pr-disabled', !priced);
+    var any = Object.keys(tp.prices).length > 0;
+    issueA.classList.toggle('pr-disabled', !any);
     return text;
   }
-  document.getElementById('pr-run').addEventListener('click', function () { run(true); });
+  function generate() {
+    var r = applyPaste(paste.value);
+    run(true);
+    if (r.filled || r.unmatched.length) note.textContent = (r.filled ? r.filled + ' fixture' + (r.filled > 1 ? 's' : '') + ' filled from the box' : '') + (r.unmatched.length ? (r.filled ? '; ' : '') + 'not matched: ' + r.unmatched.join(' | ') : '') + (note.textContent ? ' · ' + note.textContent : '');
+  }
+  document.getElementById('pr-run').addEventListener('click', generate);
+  paste.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' && (ev.ctrlKey || ev.metaKey)) generate(); });
   document.getElementById('pr-copy').addEventListener('click', function () {
     var text = run(true);
     var done = function () { note.textContent = 'snapshot copied'; };
@@ -242,7 +279,7 @@
     else window.prompt('Copy the snapshot', text);
   });
   document.getElementById('pr-clear').addEventListener('click', function () {
-    host.querySelectorAll('input[data-fid]').forEach(function (i) { i.value = ''; }); try { localStorage.removeItem(KEY); } catch (e) {} run(false);
+    host.querySelectorAll('input[data-fid]').forEach(function (i) { i.value = ''; }); paste.value = ''; run(true);
   });
   issueA.addEventListener('click', function (ev) { if (issueA.classList.contains('pr-disabled')) { ev.preventDefault(); note.textContent = 'enter at least one fixture\'s prices first'; } else run(true); });
   host.addEventListener('input', function () { run(true); });
